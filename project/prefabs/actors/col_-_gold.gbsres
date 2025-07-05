@@ -1,0 +1,87 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "d0ffb349-de7f-4aa2-af24-5f47b52df718",
+  "name": "COL - Gold",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b0cbe560-de8c-4dad-bf0a-f5b3df2db1b0",
+  "moveSpeed": 1,
+  "animSpeed": 3,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "3",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "expression",
+          "value": "$03$+3*$05$"
+        },
+        "__collapse": true
+      },
+      "id": "cb1695b6-a4af-4e07-85d2-4bae17bf4203"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "6c997e52-4f78-4d92-9543-63c5ef81b63a"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "881f4989-36c3-4901-89f6-565055adde89",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "b4d11421-81a1-4198-8443-2e3ae371ccfb",
+        "__collapse": true
+      },
+      "id": "f390e128-904d-483c-9ac9-43f646915142"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "df54d24b-d566-4d7d-873b-a36c2d853e7b"
+          }
+        ],
+        "false": []
+      },
+      "id": "079daa0e-97cc-46dd-838d-cd376a51b755"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

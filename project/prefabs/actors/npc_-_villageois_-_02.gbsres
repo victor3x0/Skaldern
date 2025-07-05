@@ -1,0 +1,171 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "e2f15c4c-e996-4861-9e04-69aa19f69ae6",
+  "name": "NPC - Villageois - 02",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "457d906d-ad91-487f-b9cf-0005e2e50c18",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+        "__collapse": true
+      },
+      "id": "be894dae-0632-4142-8703-04f7d9ab601e"
+    },
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b"
+        ],
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "",
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "0348996a-c669-49e3-95d2-0b15b241a872"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "",
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f48835ef-7f33-40ed-9ec9-910023a42672"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "",
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "25181fee-0b2f-4ccc-b372-b4f5a5ed1f63"
+          }
+        ],
+        "false": []
+      },
+      "id": "ab6d1c33-6826-4a56-8bcd-5b1191f3d5ed"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "e95312f0-79e4-4c16-9d27-c8f63a5259e2"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "4a8a1b9b-cbec-4880-bbda-00327a6396f6"
+          }
+        ]
+      },
+      "id": "17d9c0cf-612c-4789-9380-68ab72012093"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "00c396ff-a75d-46a9-8a8b-40d2fe0bda17",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
+      },
+      "id": "a5aed437-5b04-45e0-8c93-3c697ecbc091",
+      "children": {}
+    }
+  ]
+}

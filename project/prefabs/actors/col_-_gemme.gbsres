@@ -1,0 +1,95 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "bbbcf09f-71ae-4077-b5f6-37d429e4adea",
+  "name": "COL - Gemme",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "542fe397-b450-4818-99a4-c83e83464e68",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "3",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "expression",
+          "value": "$03$+10*$05$"
+        }
+      },
+      "id": "d58cb40d-9df6-4348-ad74-25e3457eecb4"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "fa87dc9a-2499-40ac-8d4a-3deb2fad1c3c"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "54cc8564-b1b6-4f96-bc65-3d50a35c136e",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "__collapse": true,
+        "customEventId": "b4d11421-81a1-4198-8443-2e3ae371ccfb",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 0
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "12"
+        }
+      },
+      "id": "7f66140e-062b-4264-a012-703e1100c534"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "67bbf612-7a76-44bd-9cfd-6731b025e322"
+          }
+        ],
+        "false": []
+      },
+      "id": "e147825e-82d1-4a8d-97e0-c342a1d80bbf"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

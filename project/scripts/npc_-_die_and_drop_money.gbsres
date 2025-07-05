@@ -1,0 +1,103 @@
+{
+  "_resourceType": "script",
+  "id": "00c396ff-a75d-46a9-8a8b-40d2fe0bda17",
+  "name": "NPC - Die and drop money",
+  "description": "Drop money after dying",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "5ceb0d24-3e7a-47ef-a67a-281e8c1d6c32"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_CANCEL",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "4d518ea7-b2e0-4d58-9046-89af8b3b15bc"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "c2c5a983-eabf-4911-b82b-dbc5969f75d3"
+    },
+    {
+      "command": "EVENT_PLAYER_BOUNCE",
+      "args": {
+        "height": "low",
+        "__collapse": true
+      },
+      "id": "7cd71992-d6f4-4789-80d0-ddb61afd983f"
+    },
+    {
+      "command": "EVENT_IDLE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "7630e94a-bed5-4af6-803c-3ac2fe179e47"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__section": "presets",
+        "spriteSheetId": "542fe397-b450-4818-99a4-c83e83464e68",
+        "spriteStateId": "",
+        "actorId": "0",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "up",
+        "angle": 0,
+        "angleVariable": "0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 0.25,
+        "animSpeed": 7,
+        "lifeTime": 1.5,
+        "loopAnim": true,
+        "destroyOnHit": false,
+        "collisionGroup": "3",
+        "collisionMask": [],
+        "__collapse": true,
+        "__presetId": "d9f615da-6c60-4ecc-b8c9-e3cab2ebe303"
+      },
+      "id": "bec4cd12-d70e-41d8-8bf1-46607cad1ced"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "expression",
+          "value": "$03$+10"
+        },
+        "__collapse": true
+      },
+      "id": "ec13eac9-b957-47f3-9eaf-c9a7790d5fcb"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "582ec2df-f710-4f0e-8035-122565624c7b"
+    }
+  ]
+}

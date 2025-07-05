@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "c4ee804b-f2d1-47a9-88cd-0c1e41d9a865",
+  "name": "Waves",
+  "symbol": "tileset_waves",
+  "width": 4,
+  "height": 2,
+  "imageWidth": 32,
+  "imageHeight": 16,
+  "filename": "Waves.png"
+}

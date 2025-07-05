@@ -1,0 +1,21 @@
+{
+  "_resourceType": "font",
+  "id": "a85a25bb-9253-454a-850f-4dfa2e4fb572",
+  "name": "Cookie",
+  "symbol": "font_cookie",
+  "width": 128,
+  "height": 112,
+  "filename": "Cookie alphanumeric.png",
+  "mapping": {
+    "﹩": 36,
+    "＄": 36,
+    "﹪": 37,
+    "％": 37,
+    "€": 128,
+    "‰": 137,
+    "Œ": 140,
+    "œ": 156,
+    "￡": 163,
+    "￥": 165
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_resourceType": "actor",
+  "id": "d88afd04-425f-471a-9459-dc01f94d9667",
+  "name": "Sun_Forme 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d9673c76-e802-4759-8c58-28a78c5de8c7",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_57",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "white",
+        "x": 8,
+        "y": 14,
+        "__collapse": true
+      },
+      "id": "21c2051e-8a62-4ced-8ae1-f180848acd0b"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_OVERLAY_SET_SUBMAP 00, 00, 06, 04, 07, 06\nVM_SET_CONST_UINT8 _show_actors_on_overlay, 1",
+        "__collapse": false
+      },
+      "id": "cbaa6bb8-dc33-4add-ba97-c9c4e576ec00"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 9,
+        "y": 6,
+        "speed": 3,
+        "__collapse": true
+      },
+      "id": "91345cbc-cccf-474c-b3e3-245f02afab38"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 14,
+        "y": 6,
+        "speed": 3,
+        "__collapse": true
+      },
+      "id": "79cc6fc7-639e-4733-bfba-f30f9b60f79b"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 8,
+  "_index": 0
+}

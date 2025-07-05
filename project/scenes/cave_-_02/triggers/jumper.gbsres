@@ -1,0 +1,30 @@
+{
+  "_resourceType": "trigger",
+  "id": "bb48451c-7e6b-4e71-a9f3-4f0fc0b7f4a4",
+  "name": "Jumper",
+  "prefabId": "9f36fefa-fe33-48a9-99bf-91a0f569860e",
+  "x": 21,
+  "y": 31,
+  "symbol": "trigger_101",
+  "prefabScriptOverrides": {
+    "67ecc278-f86a-4bbb-af23-0fee08a09fa6": {
+      "id": "67ecc278-f86a-4bbb-af23-0fee08a09fa6",
+      "args": {
+        "height": "medium"
+      }
+    }
+  },
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_PLAYER_BOUNCE",
+      "args": {
+        "height": "high"
+      },
+      "id": "41a5813f-ae28-447d-a5e7-d1a59f0e849b"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

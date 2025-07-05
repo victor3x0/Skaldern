@@ -1,0 +1,53 @@
+{
+  "_resourceType": "scene",
+  "id": "a4c011fa-3979-445a-bcdf-43459330d643",
+  "_index": 20,
+  "name": "Sky - 01",
+  "backgroundId": "f0aab0bd-4111-4a6b-869c-d8119455958c",
+  "tilesetId": "c62e9437-0cb4-4ca0-a87c-2e55d8b9084a",
+  "width": 30,
+  "height": 30,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f9b+0019+0f5+0019+0f5+0019+0f5+0019+0f5+0019+0f5+0019+0f5+00c+0f12+00c+0f12+00c+0f12+00c+0f12+00e+0f10+00e+0f10+00e+0f10+00e+0f10+0019+0f5+0019+0f5+0019+0f5+0019+0f5+0019+0f16+018+0f16+008+0f16+008+0f16+008+0f16+008+0f16+008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_23",
+  "x": 1960,
+  "y": 1632,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "c37b942d-7763-40e1-9dc9-ae88baf5d064"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "da76937c-3b02-452f-9cd7-5f405358c543",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "id": "d547b9d8-1d94-4232-b487-d4b7896b3c79"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "10f391e7-d65e-479a-a7ba-ad59face2e0a",
+  "autoFadeEventCollapse": true,
+  "labelColor": "blue"
+}

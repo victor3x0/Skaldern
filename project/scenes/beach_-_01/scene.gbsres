@@ -1,0 +1,108 @@
+{
+  "_resourceType": "scene",
+  "id": "47da794e-6079-4e75-b7f7-e743523c7677",
+  "_index": 6,
+  "name": "Beach - 01",
+  "backgroundId": "7bdca15f-de13-4e4e-901b-776b99507f5f",
+  "tilesetId": "c62e9437-0cb4-4ca0-a87c-2e55d8b9084a",
+  "width": 32,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00e0+01!0f2+012+001c+0f2+001e+0f2+001e+0f2+001e+0f2+001e+0f2+00!102+006+0f2+00a+0f2+007+0f2+00!102+006+0f2+00a+0f2+006+0f4+112+0f1a+004+102+005a+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 2464,
+  "y": 480,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "DRAW HUD",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "number",
+                "value": 16
+              },
+              "__collapse": true
+            },
+            "id": "cbe6f739-93d0-4920-b86d-0b63c840a422"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0422bec1-7df6-422e-aa69-51642379336a",
+              "__collapse": true
+            },
+            "id": "95bce431-c684-4976-8fc6-153c57861cff"
+          }
+        ]
+      },
+      "id": "351430e7-b9b4-41fd-a869-ed176c179bb1"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "CheckPoint",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_RESET_STATE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "811adbee-cfb2-49e7-933a-4bf4bce22940"
+          },
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "9a94d0f0-39b6-45e2-bdcc-adc7fe9f604d"
+          },
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "13",
+              "vectorY": "14",
+              "__collapse": true
+            },
+            "id": "40fa3d74-9f4d-4a38-a327-ec9d279d95f2"
+          }
+        ]
+      },
+      "id": "32d13e21-ceee-4f1c-9e80-84d3b984a617"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "",
+  "autoFadeEventCollapse": true,
+  "parallax": [
+    {
+      "height": 3,
+      "speed": 2
+    },
+    {
+      "height": 4,
+      "speed": 1
+    },
+    {
+      "height": 0,
+      "speed": 0
+    }
+  ],
+  "labelColor": "yellow"
+}

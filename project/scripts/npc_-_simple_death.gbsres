@@ -1,0 +1,121 @@
+{
+  "_resourceType": "script",
+  "id": "85bd6c20-a87b-4198-8597-6e1149ab06b9",
+  "name": "NPC - Simple Death",
+  "description": "Common scrip for ennemy to take damage and die",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "7879c86a-632a-4181-ad3e-faa35308629d"
+    },
+    {
+      "command": "FO_EVENT_CUSTOM_PROJECTILE",
+      "args": {
+        "tabs": "default",
+        "lifetime": false,
+        "bounds": false,
+        "ignore": false,
+        "gravity": 0,
+        "collision": 0,
+        "bounce": 1,
+        "death": 0,
+        "varX": "V0",
+        "varY": "V0",
+        "projectile": 0,
+        "arc_height": 50,
+        "distance": 2,
+        "amplitude": 30,
+        "frequency": 10,
+        "phase": 64,
+        "actor": "$self$",
+        "orbit_x_offset": 0,
+        "orbit_y_offset": 0,
+        "orbit_amplitude": 100,
+        "orbit_frequency": 20,
+        "orbit_phase": 64,
+        "launch": false,
+        "hookshot_chain": 0,
+        "anchor_ignore": true,
+        "dir_offset": 0,
+        "customX": "V0",
+        "customY": "V0",
+        "__collapse": true
+      },
+      "children": {
+        "script": []
+      },
+      "id": "152aaf3e-e309-46b7-bf91-0561ad42b3af"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__presetId": "fe0babea-579d-4b75-9b3f-fe30ff7fbab3",
+        "__section": "source",
+        "spriteSheetId": "071755e9-3540-4b20-b2ef-e2920c8243ce",
+        "spriteStateId": "",
+        "actorId": "0",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "right",
+        "angle": 0,
+        "angleVariable": "V0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 0,
+        "animSpeed": 15,
+        "lifeTime": 0.5,
+        "loopAnim": false,
+        "destroyOnHit": false,
+        "collisionGroup": "3",
+        "collisionMask": [],
+        "__collapse": true
+      },
+      "id": "83fa8333-c4a3-40c5-a8a0-c91bcc6dffa4"
+    },
+    {
+      "command": "EVENT_IDLE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "c2e919c5-72c3-428a-ad9c-a9ec9931f432"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "b8b81753-3d58-4e4a-868c-473bbd57aecf"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "5",
+        "__collapse": true
+      },
+      "id": "875aa7e2-9e9b-4d3d-81c0-aab4a207d4bb"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "24c93b02-42b4-4075-b916-0fa8b468c4dd",
+        "__collapse": true
+      },
+      "id": "94b39ef0-9ac2-4886-a427-f74a902864b5"
+    }
+  ]
+}

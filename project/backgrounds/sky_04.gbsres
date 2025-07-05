@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7c0d9991-87d8-4c49-befa-3588fa28a058",
+  "name": "Sky_04",
+  "symbol": "bg_sky_04",
+  "width": 60,
+  "height": 30,
+  "imageWidth": 480,
+  "imageHeight": 240,
+  "filename": "Sky_04.png",
+  "tileColors": "",
+  "autoColor": false
+}

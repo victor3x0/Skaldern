@@ -1,0 +1,17 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "9f36fefa-fe33-48a9-99bf-91a0f569860e",
+  "name": "Jumper",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_PLAYER_BOUNCE",
+      "args": {
+        "height": "medium"
+      },
+      "id": "67ecc278-f86a-4bbb-af23-0fee08a09fa6",
+      "children": {}
+    }
+  ],
+  "leaveScript": []
+}

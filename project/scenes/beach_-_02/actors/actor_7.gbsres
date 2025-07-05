@@ -1,0 +1,56 @@
+{
+  "_resourceType": "actor",
+  "id": "21caadc4-4cc7-4044-8779-6c82a23e2128",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d9673c76-e802-4759-8c58-28a78c5de8c7",
+  "prefabId": "48c56806-29d1-4435-99ca-89f4629ad26d",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "8e44970f-1a4c-4422-ad7e-63dbacb8fd0e": {
+      "id": "8e44970f-1a4c-4422-ad7e-63dbacb8fd0e",
+      "args": {
+        "spriteSheetId": "423c6845-e57f-4721-a1e1-825503456df1",
+        "lifeTime": 2,
+        "__section": "presets",
+        "y": 0,
+        "direction": "up",
+        "spriteStateId": "",
+        "speed": 2,
+        "animSpeed": 15,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "3",
+        "collisionMask": [
+          "player"
+        ],
+        "actorId": "$self$",
+        "x": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "__presetId": ""
+      }
+    }
+  },
+  "symbol": "actor_1",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 30,
+  "y": 16,
+  "_index": 7
+}

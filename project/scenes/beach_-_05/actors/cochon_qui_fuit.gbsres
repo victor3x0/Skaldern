@@ -1,0 +1,130 @@
+{
+  "_resourceType": "actor",
+  "id": "716651cd-5c1a-4d00-b176-9b339dbde5a0",
+  "name": "Cochon qui fuit",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d9eb5f20-1311-40ff-b92e-68947b0e5cfa",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_35",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCRIPT_LOCK",
+            "args": {
+              "__collapse": true
+            },
+            "id": "a00a7c2b-155d-49d3-828b-d383422d512c"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "5ca047b5-708f-4941-9122-d198682cce6a"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapse": true
+            },
+            "id": "9588e9b1-6675-44ba-9b6d-3d3e683c2508"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 30
+              },
+              "y": {
+                "type": "number",
+                "value": 33
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "26865a4a-5e55-479f-ac84-5f823e36d06f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "36d8d833-2ac6-4d3f-9f1a-f651e62e1de0"
+          },
+          {
+            "command": "EVENT_SCRIPT_UNLOCK",
+            "args": {
+              "__collapse": true
+            },
+            "id": "4425d7a9-07f1-43de-8acd-1bc46ae2192f"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "7eb80542-f283-473e-afa7-f5583aa46688"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "1149eec2-ef99-4734-881e-0cda3bbc032e"
+          }
+        ]
+      },
+      "id": "60dfbff2-2805-4bde-b792-8ff9ecd949b9"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 13,
+  "y": 33,
+  "notes": "Micro_cutscene",
+  "_index": 8
+}

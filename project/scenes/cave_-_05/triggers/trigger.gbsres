@@ -1,0 +1,29 @@
+{
+  "_resourceType": "trigger",
+  "id": "07bcf506-468c-4328-9f60-4297ff3abce3",
+  "name": "",
+  "prefabId": "8968e77c-a962-40de-bc63-2e5d42e8f705",
+  "x": 9,
+  "y": 16,
+  "symbol": "trigger_104",
+  "prefabScriptOverrides": {
+    "fb3872e0-0fc4-4449-9606-7bacfa2cd25c": {
+      "id": "fb3872e0-0fc4-4449-9606-7bacfa2cd25c",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 7
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        }
+      }
+    }
+  },
+  "width": 13,
+  "height": 1,
+  "script": [],
+  "leaveScript": [],
+  "_index": 0
+}

@@ -1,0 +1,23 @@
+{
+  "_resourceType": "script",
+  "id": "b4d11421-81a1-4198-8443-2e3ae371ccfb",
+  "name": "HUD_Update_Score",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "SCORE : %D5$03$",
+        "x": 9,
+        "y": 1,
+        "location": "overlay",
+        "__collapse": false,
+        "__label": "DRAW SCORE"
+      },
+      "id": "be35c498-fb10-4773-9acb-17dabece1f00"
+    }
+  ]
+}

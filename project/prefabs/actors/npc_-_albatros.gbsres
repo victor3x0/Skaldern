@@ -1,0 +1,157 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "c2f928ab-4ee6-429a-9983-f15cf33bab7d",
+  "name": "NPC - Albatros",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a2c39d9a-5111-4f2e-9caf-a2cf23c7fa52",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Attack Loop",
+        "__collapse": true
+      },
+      "id": "c78aa11e-6986-45ff-a24b-bdb0da20d89e"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "44f964ed-d651-40f8-9010-6fc98139607d",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Attack",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "4f69889a-c5f1-4d21-84fe-a35f84689bd5",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "f9b801a2-2e79-4223-8d58-34e85b42accc",
+      "children": {}
+    },
+    {
+      "command": "FO_EVENT_CUSTOM_PROJECTILE",
+      "args": {
+        "tabs": "default",
+        "lifetime": false,
+        "bounds": false,
+        "ignore": false,
+        "gravity": 1,
+        "collision": 2,
+        "bounce": 1,
+        "death": 0,
+        "varX": "0",
+        "varY": "0",
+        "projectile": 0,
+        "arc_height": 50,
+        "distance": 2,
+        "amplitude": 30,
+        "frequency": 10,
+        "phase": 64,
+        "actor": "$self$",
+        "orbit_x_offset": 0,
+        "orbit_y_offset": 0,
+        "orbit_amplitude": 100,
+        "orbit_frequency": 20,
+        "orbit_phase": 64,
+        "launch": false,
+        "hookshot_chain": 0,
+        "anchor_ignore": true,
+        "dir_offset": 0,
+        "customX": "L0",
+        "customY": "L1",
+        "__collapse": true
+      },
+      "children": {
+        "script": []
+      },
+      "id": "03d4183a-b97c-450e-9226-54682660fa62"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__section": "projectile",
+        "spriteSheetId": "b57b2836-fbd5-4b5b-9930-1671802554e0",
+        "spriteStateId": "",
+        "actorId": "$self$",
+        "x": 4,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "down",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 16,
+        "speed": 1,
+        "animSpeed": 15,
+        "lifeTime": 3,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "3",
+        "collisionMask": [
+          "player"
+        ],
+        "__collapse": false
+      },
+      "id": "90d3d630-5ebb-4338-b618-69c4bdefb62e",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "46179e98-c096-4644-84d1-ab1a678502f9",
+      "children": {}
+    },
+    {
+      "command": "EVENT_IDLE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "eaa66675-cd98-4154-bcfd-426ae1bd1790"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "85bd6c20-a87b-4198-8597-6e1149ab06b9",
+        "__collapse": true
+      },
+      "id": "28dd92f4-b9ef-42c4-b811-23476c43fb4e"
+    }
+  ],
+  "notes": "Only Vertical Attacking"
+}

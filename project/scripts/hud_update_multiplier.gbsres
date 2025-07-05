@@ -1,0 +1,23 @@
+{
+  "_resourceType": "script",
+  "id": "24c93b02-42b4-4075-b916-0fa8b468c4dd",
+  "name": "HUD_Update_Multiplier",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "CHAIN X %D1$05$-1",
+        "x": 8,
+        "y": 0,
+        "location": "overlay",
+        "__collapse": false,
+        "__label": "DRAW MULTIPLIER"
+      },
+      "id": "898cc785-2903-40a2-afcf-961d5a5e093a"
+    }
+  ]
+}

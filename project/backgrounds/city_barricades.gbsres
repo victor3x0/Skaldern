@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4502d65f-0643-40b0-8819-cd0a31ad2618",
+  "name": "City_Barricades",
+  "symbol": "bg_city_barricades",
+  "width": 30,
+  "height": 24,
+  "imageWidth": 240,
+  "imageHeight": 192,
+  "filename": "City_Barricades.png",
+  "tileColors": "002d0+",
+  "autoColor": false
+}

@@ -1,0 +1,42 @@
+{
+  "_resourceType": "scene",
+  "id": "3398cb48-2fd6-45fa-af95-80d5b3796858",
+  "_index": 18,
+  "name": "Sky - BOSS",
+  "backgroundId": "1c1f0c65-526b-407f-8266-adc01637a91a",
+  "tilesetId": "c62e9437-0cb4-4ca0-a87c-2e55d8b9084a",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0014+0f3+00e+0f6+00e+0f6+00e+0f6+00e+0f3+008c+0f3+0011+0f3+0011+0f3+0011+0f3+0039+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 1664,
+  "y": 1568,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "da76937c-3b02-452f-9cd7-5f405358c543",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "id": "9b51e87d-3729-47dd-8734-9fab491aa4f9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "9c06af54-61db-466a-ad30-db37e0168120",
+  "autoFadeEventCollapse": true,
+  "labelColor": "red"
+}

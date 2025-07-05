@@ -1,0 +1,87 @@
+{
+  "_resourceType": "actor",
+  "id": "7319c8b3-69a2-4987-bd51-865796c424bd",
+  "name": "Bac",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d9673c76-e802-4759-8c58-28a78c5de8c7",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": true,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_117",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "9a0099dc-e850-41dd-825a-faabbb8232cd"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "tilesetId": "c4ee804b-f2d1-47a9-88cd-0c1e41d9a865",
+        "tileIndex": {
+          "type": "number",
+          "value": 0
+        },
+        "frames": {
+          "type": "number",
+          "value": 4
+        },
+        "variable": "T0",
+        "__collapse": true
+      },
+      "id": "1f4d66bb-01b8-4fa3-9f40-2c4141eab7d0"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 14
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "tilesetId": "c4ee804b-f2d1-47a9-88cd-0c1e41d9a865",
+        "tileIndex": {
+          "type": "number",
+          "value": 4
+        },
+        "frames": {
+          "type": "number",
+          "value": 4
+        },
+        "variable": "T1",
+        "__collapse": true
+      },
+      "id": "115ab288-d801-4bce-9a1c-df1972ba26d8"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 0,
+  "y": 17,
+  "_index": 0
+}

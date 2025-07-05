@@ -1,0 +1,23 @@
+{
+  "_resourceType": "trigger",
+  "id": "828484d0-35b4-41af-9dc3-4678c6939d61",
+  "name": "Jumper",
+  "prefabId": "9f36fefa-fe33-48a9-99bf-91a0f569860e",
+  "x": 8,
+  "y": 25,
+  "symbol": "trigger_102",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_PLAYER_BOUNCE",
+      "args": {
+        "height": "high"
+      },
+      "id": "adbe8b39-4272-4658-a637-d761b5ad6948"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

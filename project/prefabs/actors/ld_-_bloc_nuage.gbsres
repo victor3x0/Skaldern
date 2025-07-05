@@ -1,0 +1,30 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "6b4c9fd1-a771-4bea-bfb7-f0d1129b79c8",
+  "name": "LD - Bloc Nuage",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9c5e9115-b01d-4e59-a802-15f040c8ca72",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "__collapse": true,
+        "customEventId": "85bd6c20-a87b-4198-8597-6e1149ab06b9"
+      },
+      "id": "1ff7950c-3585-4475-aa88-fc7890269bb4",
+      "children": {}
+    }
+  ]
+}

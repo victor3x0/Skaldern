@@ -1,0 +1,152 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "26832040-2591-4b6d-96b2-13ab8d0349b7",
+  "name": "LD - Falling Platform",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "da871161-4723-4214-84a4-7296a0e5d1ab",
+  "moveSpeed": 2,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operation": "up",
+        "otherActorId": "$self$",
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.3,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "eb2bc29c-a51e-4a94-8449-a6ee50f7da17"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "c68c53ec-fea4-4521-9da6-da5633feb8f4"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "moveType": "horizontal",
+              "useCollisions": true,
+              "__collapse": true
+            },
+            "id": "bc028b9b-4030-40b8-b8cf-041ac001a6cf"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "4d53ba8a-56b9-4195-919c-26c1c0f8791f"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "38190540-9a0c-4087-a963-2b0ef549e3ce"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 5,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "93856bd1-ad16-4548-8b18-c23abc1e625d"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "y": {
+                "type": "variable",
+                "value": "L1"
+              },
+              "__collapse": true
+            },
+            "id": "abe583a5-06d2-48d1-a641-74e8b06abac7"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "f58ee146-c3db-4e82-9ab7-98a0b8dfb4f9"
+          },
+          {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "flicker",
+              "actorId": "$self$",
+              "distance": 20,
+              "speed": 2,
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "87a3219b-574d-42b6-8cb5-2d99a1f787e1"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "26207f32-70de-4ab6-8d2b-1855fcb30be0"
+          }
+        ],
+        "false": []
+      },
+      "id": "7605686e-6d6a-4b24-b91e-0aaaa223a8bc"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "L0",
+        "vectorY": "L1",
+        "__collapse": false
+      },
+      "id": "60f6e633-5bd1-4b30-917f-58006ead2307"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

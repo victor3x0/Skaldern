@@ -1,0 +1,157 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "dcac325d-cba3-4234-b7d6-122563e375cc",
+  "name": "NPC - Villageois - 01",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2f19a479-e4a9-4a29-9eea-f5d8bfb396d5",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "3",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "up"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Skaldern ?\nNon, je ne connais pas."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "4227f6e1-9975-4986-ae5f-d2c793f09be9"
+          }
+        ],
+        "false": []
+      },
+      "id": "f1124d92-284c-4e46-bc16-1efc1fbe3a77"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "d8528afc-8ac9-4578-acff-6e1eb5a26bdf"
+          }
+        ],
+        "false": []
+      },
+      "id": "1b37e2a2-fb51-4b09-abd9-d8dfe4a1e792"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 24
+        },
+        "y": {
+          "type": "number",
+          "value": 18
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "6384331e-5750-460d-b102-c5e2780e4718",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "59db68d0-fe54-43fd-8a81-4e4481575ef6",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 16
+        },
+        "y": {
+          "type": "number",
+          "value": 18
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "b1379d15-c6b8-4a98-a019-2be136a19237",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "70073d90-e15e-48e4-802e-6425b1a77cce",
+      "children": {}
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "__collapse": false,
+        "customEventId": "7d100a16-8ae1-4a25-9fa0-c56561b4c19e",
+        "$actor[0]$": "$self$"
+      },
+      "id": "4029c8d4-68db-495e-a0c0-614335d546ae"
+    }
+  ]
+}

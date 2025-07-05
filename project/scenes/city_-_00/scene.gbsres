@@ -1,0 +1,130 @@
+{
+  "_resourceType": "scene",
+  "id": "e37c2099-aef4-4cc0-9da0-cb1ae41f1a19",
+  "_index": 15,
+  "name": "City - 00",
+  "backgroundId": "86e2bd18-633e-4b60-ac4f-628b76603109",
+  "tilesetId": "",
+  "width": 80,
+  "height": 20,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00271+01a+005f+016+004+016+004+0114+007+018+00a2+016+00b2+0f4+0011+0f4+008+0f2+0017+0f2+0014+0f4+0011+0f4+008+0f2+0017+0f2+009+0f2f+00c+0f44+00c+0f44+00c+0f44+00c+0f15+",
+  "autoFadeSpeed": 4,
+  "symbol": "scene_16",
+  "x": 4024,
+  "y": 872,
+  "script": [
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "1",
+        "flag1": true,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "475132e7-421b-4e53-932f-26a04a5b0f73"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 53
+        },
+        "__collapse": true
+      },
+      "id": "b29773d3-c50e-46db-8d6c-aec405f590ef"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "505aa537-2ca9-4385-82a0-11c6829d1b26"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "7b435468-708f-4217-abe9-4c4c0f221a7b"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "da76937c-3b02-452f-9cd7-5f405358c543",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "2"
+        },
+        "__comment": false
+      },
+      "id": "6cb93d61-fd2f-4888-9ef8-528ddf6d5318"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "9fac6653-b039-48be-a2d1-438396bcb894",
+        "text": [
+          "The Pirate City"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 3,
+        "maxHeight": 3,
+        "textX": 7,
+        "textY": 1,
+        "textHeight": 3,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": 3,
+        "speedOut": 3,
+        "closeWhen": "notModal",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "46cd32b8-dc39-47b6-ad1d-a613f8d662ee"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "10f391e7-d65e-479a-a7ba-ad59face2e0a",
+  "autoFadeEventCollapse": false,
+  "labelColor": "blue"
+}

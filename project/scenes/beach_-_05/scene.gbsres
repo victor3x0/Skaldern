@@ -1,0 +1,57 @@
+{
+  "_resourceType": "scene",
+  "id": "1468b209-200b-47ee-a61c-2e447603d596",
+  "_index": 10,
+  "name": "Beach - 05",
+  "backgroundId": "6fdf3995-8661-4303-b099-fe5a31abba28",
+  "tilesetId": "c62e9437-0cb4-4ca0-a87c-2e55d8b9084a",
+  "width": 38,
+  "height": 45,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f18+102+0f24+102+0f19+00b+102+004+0f15+00b+102+004+0f15+00b+102+004+0fd+0013+102+004+0fd+0013+102+004+0fd+0013+102+004+0f8+0018+102+004+0f8+0018+102+002+0fa+0018+102+002+0fa+0018+102+0fc+0018+102+0fc+0015+0f11+0015+0f11+0015+0f11+0015+0f11+0019+0fd+0019+0fd+0019+0fd+002c+013+0095+013+0093+016+007+017+006f+0f4+0022+0f4+001a+0f19+00d+0f19+00d+0f19+009+0f1d+009+0f101+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 4424,
+  "y": 240,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "DRAW HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "number",
+                "value": 43
+              },
+              "__collapse": false
+            },
+            "id": "956df737-2095-4605-a5c0-6e0055d040bd"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0422bec1-7df6-422e-aa69-51642379336a",
+              "__collapse": true
+            },
+            "id": "700976bf-29f6-4acf-9c50-38cdbaa593e7"
+          }
+        ]
+      },
+      "id": "4eca3b9c-92b1-494e-8e02-539466379b8c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "",
+  "autoFadeEventCollapse": true,
+  "labelColor": "yellow"
+}

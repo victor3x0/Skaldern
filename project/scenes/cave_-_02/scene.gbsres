@@ -1,0 +1,57 @@
+{
+  "_resourceType": "scene",
+  "id": "8c167283-e3ba-4977-802e-34184a3c8362",
+  "_index": 1,
+  "name": "Cave - 02",
+  "backgroundId": "16bc0603-82a7-4aa3-bf08-c89541b889d3",
+  "tilesetId": "c8211ae9-fa3b-4844-971d-a985d3a7e0e5",
+  "width": 45,
+  "height": 36,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0fe7+001c+0f11+001c+0f11+001c+0f11+001c+0f11+0027+0f6+0027+0f6+0027+0fe+014+001b+0fe+008+016+0011+0fe+001f+0fe+003d+016+006e+102+0019+0f7+00b+102+0019+0f12+112+0f6+01a+005+014+0f12+102+0f6+0013+0f12+102+0f6+0013+0f12+102+0f6+0013+0f12+102+0f6+0013+0f12+102+0f6+0013+0f12+102+00a+0f5+006+0f16+102+00a+0f5+006+0f16+102+00a+0f5+006+0f16+102+00a+0f21+102+00a+0fca+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 1064,
+  "y": 592,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "DRAW HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "number",
+                "value": 34
+              },
+              "__collapse": false
+            },
+            "id": "a5c816cb-d88f-4bb7-b3fb-f034b3bd4e50"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0422bec1-7df6-422e-aa69-51642379336a",
+              "__collapse": true
+            },
+            "id": "ccacd238-209c-4d4d-9fb1-746ebca5b815"
+          }
+        ]
+      },
+      "id": "4163febc-f0e7-48ea-9b44-a174710b3be8"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "",
+  "autoFadeEventCollapse": true,
+  "labelColor": "purple"
+}

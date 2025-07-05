@@ -1,0 +1,67 @@
+{
+  "_resourceType": "actor",
+  "id": "687c1a49-1ece-46e9-a32b-62e9e176b3e4",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d9673c76-e802-4759-8c58-28a78c5de8c7",
+  "prefabId": "9c4395ad-72a0-40fe-b419-5c12ecdb3fb2",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "557fa166-3979-4556-9bfa-a566285c2730": {
+      "id": "557fa166-3979-4556-9bfa-a566285c2730",
+      "args": {
+        "tabs": "default",
+        "projectile": 1,
+        "distance": 2,
+        "gravity": 3,
+        "collision": 0,
+        "death": 0,
+        "arc_height": 24
+      }
+    },
+    "9090a008-735b-4ec3-a696-930e6082a3c9": {
+      "id": "9090a008-735b-4ec3-a696-930e6082a3c9",
+      "args": {
+        "__section": "source",
+        "lifeTime": 1.5,
+        "speed": 3,
+        "directionType": "target",
+        "direction": "right",
+        "angle": 0,
+        "collisionMask": [
+          "player"
+        ],
+        "collisionGroup": "3"
+      }
+    },
+    "11f1a42e-0040-4892-946c-33885bccad20": {
+      "id": "11f1a42e-0040-4892-946c-33885bccad20",
+      "args": {
+        "loopAnim": false
+      }
+    },
+    "d6e40820-8e24-45b3-abaf-75fd3cd131f9": {
+      "id": "d6e40820-8e24-45b3-abaf-75fd3cd131f9",
+      "args": {
+        "customEventId": "7d100a16-8ae1-4a25-9fa0-c56561b4c19e"
+      }
+    }
+  },
+  "symbol": "actor_181",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 19,
+  "y": 4,
+  "_index": 2
+}

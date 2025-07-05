@@ -1,0 +1,147 @@
+{
+  "_resourceType": "scene",
+  "id": "8d1c5394-5fe0-4581-83c2-0cd956bfb074",
+  "_index": 29,
+  "name": " Boss - Beach - Poisson",
+  "backgroundId": "d0d67bff-1924-4ad3-b3de-3aabcdcddfa1",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_32",
+  "x": 5848,
+  "y": 1136,
+  "script": [
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "1",
+        "flag1": true,
+        "flag2": true,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "53d39059-20f2-4450-95cf-2af3a538b403"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 53
+        },
+        "__collapse": true
+      },
+      "id": "4e521723-c4b5-4fe8-9405-08f91654e0a0"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "1620cbf4-9f9e-4564-8e82-eab40ea3c782"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "2343c6ff-0047-49a5-9213-19eac2ff7f7b"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "da76937c-3b02-452f-9cd7-5f405358c543",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "id": "a60576ce-2929-48c9-9f79-ae961142519f"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 14
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "speed": 0,
+        "__collapse": true
+      },
+      "id": "9d0d68ab-fee3-4f01-9128-8ac4eeac0596"
+    },
+    {
+      "command": "EVENT_CAMERA_LOCK",
+      "args": {
+        "speed": 0.5,
+        "axis": [
+          "x",
+          "y"
+        ],
+        "__collapse": true
+      },
+      "id": "b357f55d-9bf4-4f37-b663-18746a768fff"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "14c06601-0073-49a9-9a8d-6d3ffa042dd6"
+    },
+    {
+      "command": "EVENT_ACTOR_START_UPDATE",
+      "args": {
+        "actorId": "78479ef9-1d85-47d5-a7d0-68ac6544fe98",
+        "__collapse": true
+      },
+      "id": "4e04e675-3231-47ac-82e9-06a69b2f0511"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "10f391e7-d65e-479a-a7ba-ad59face2e0a",
+  "autoFadeEventCollapse": true,
+  "labelColor": "blue"
+}

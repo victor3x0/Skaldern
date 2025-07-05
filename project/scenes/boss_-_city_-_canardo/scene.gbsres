@@ -1,0 +1,169 @@
+{
+  "_resourceType": "scene",
+  "id": "16ae6473-967f-48a7-a82b-477ca2103916",
+  "_index": 27,
+  "name": "Boss - City - Canardo",
+  "backgroundId": "4502d65f-0643-40b0-8819-cd0a31ad2618",
+  "tilesetId": "",
+  "width": 30,
+  "height": 24,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "004b+0f2+001c+0f2+001c+0f4+001a+0f4+0011+102+007+0f4+0011+102+007+0f4+00b+016+112+017+0f2+0013+102+007+0f2+0013+102+007+0f4+0011+102+007+0f4+001a+0f4+0011+102+007+0f4+00b+016+112+017+0f2+0013+102+007+0f2+0013+102+007+0f4+0011+102+007+0f4+0011+102+007+0f4+0011+102+007+0f4+00b+0f78+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_30",
+  "x": 6648,
+  "y": 744,
+  "script": [
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "1",
+        "flag1": true,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "fd239124-7bb1-4780-89ee-c85e0eb28f7b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 53
+        },
+        "__collapse": true
+      },
+      "id": "ec945ee2-63af-4adc-8295-b6466a1b7d7a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "d4412d57-a9b3-48a5-bff8-de44fa86a931"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "5b1209bb-4fd2-47cb-89be-4b8c27802e61"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "da76937c-3b02-452f-9cd7-5f405358c543",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "id": "440cc35a-2f06-4c34-8469-ee489de1d668"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 14
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "speed": 1,
+        "__collapse": true
+      },
+      "id": "e2fe78fd-4e72-4cc5-adba-03494e4c9e40"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "5ffbde7f-1604-4f97-bec5-068c8e455fa9"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 5
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "speed": 0,
+        "__collapse": true
+      },
+      "id": "74ab4f4e-a2ab-4984-a9d9-2d1191cbb9f0"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "51e2af96-9b63-4722-a561-88a665634887"
+    },
+    {
+      "command": "EVENT_ACTOR_START_UPDATE",
+      "args": {
+        "actorId": "ba6cd5de-11ec-4995-8e25-a0ee8e3ef19e",
+        "__collapse": true
+      },
+      "id": "4283a5d3-b1c7-4b59-b355-41535249a1e4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "44b7e9d1-0b93-45d0-9e9e-19147b02f97d",
+        "__collapse": true
+      },
+      "id": "ac1a498e-1006-42f6-a521-56f99a40e945"
+    }
+  ],
+  "playerSpriteSheetId": "10f391e7-d65e-479a-a7ba-ad59face2e0a",
+  "autoFadeEventCollapse": true,
+  "labelColor": "blue"
+}

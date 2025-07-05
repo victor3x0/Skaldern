@@ -1,0 +1,56 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "08cae9fa-fed8-414e-8257-89f22b68eff3",
+  "name": "Trap - Falling Tips",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "9530bb5b-b05d-475f-af3a-e015249cab05",
+        "__collapse": true
+      },
+      "id": "6701db58-3d8a-4d9b-ac5e-5557ed9206e3",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "9530bb5b-b05d-475f-af3a-e015249cab05",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "322f9b3a-580b-4a66-930e-abb0198edc3b",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "25327de6-5d47-42dc-a22e-2015a1ed7b25",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "9530bb5b-b05d-475f-af3a-e015249cab05",
+        "__collapse": true
+      },
+      "id": "4b4f34e9-f7de-4887-bf2b-f94718270b2d",
+      "children": {}
+    }
+  ],
+  "leaveScript": []
+}

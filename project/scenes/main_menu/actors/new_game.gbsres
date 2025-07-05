@@ -1,0 +1,47 @@
+{
+  "_resourceType": "actor",
+  "id": "2d518720-2331-4a8a-a7ed-81bbce16144b",
+  "name": "New Game",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "bc06694b-2224-4b0e-b6d7-bc72e88c4a7d",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_196",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "8e590ab4-3caf-434e-b58f-5c5a3126d140"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "1fd56640-7582-492c-a06c-0e3057849541"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 24,
+  "y": 6,
+  "_index": 1
+}

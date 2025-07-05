@@ -1,0 +1,73 @@
+{
+  "_resourceType": "scene",
+  "id": "37d22d13-ec66-455f-9695-8bedf83fea80",
+  "_index": 19,
+  "name": "Sky - 00",
+  "backgroundId": "fed6b688-a2a3-44b4-830d-5f0938fc62b6",
+  "tilesetId": "c62e9437-0cb4-4ca0-a87c-2e55d8b9084a",
+  "width": 35,
+  "height": 30,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0fb+0018+0fb+0018+0fb+0018+0fb+0018+0fb+00ea+0f8+001b+0f8+001b+0fe+0015+0fe+0015+0fe+0015+0fe+0015+0f8+0012+0f11+0012+0f9+0018+0fb+0018+0fb+0018+0fb+0018+0fb+00c+102+00a+0fb+01c+112+0f15+00c+102+0f15+00c+102+0f15+00c+102+0f15+00c+102+0f15+00c+102+0f15+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_22",
+  "x": 2216,
+  "y": 1632,
+  "script": [
+    {
+      "command": "EVENT_SCRIPT_LOCK",
+      "args": {
+        "__collapse": true
+      },
+      "id": "7b3e8368-5703-4d0d-9d20-d914bfe82c6c"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "1",
+        "flag1": true,
+        "flag2": true,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "0c14bc67-c8e6-42f1-8d8e-b885437a8477"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "da76937c-3b02-452f-9cd7-5f405358c543",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "id": "7d123b9f-227d-4b66-a317-01af3d2f6819"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "10f391e7-d65e-479a-a7ba-ad59face2e0a",
+  "autoFadeEventCollapse": true,
+  "labelColor": "blue"
+}

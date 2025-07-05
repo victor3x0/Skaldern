@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4bb453f8-fd8e-4ca3-819d-131c0b47d1c7",
+  "name": "Cave_01",
+  "symbol": "bg_cave_01",
+  "width": 50,
+  "height": 30,
+  "imageWidth": 401,
+  "imageHeight": 240,
+  "filename": "Cave_01.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,66 @@
+{
+  "_resourceType": "scene",
+  "id": "f2472542-5851-4478-bd21-19f49c503021",
+  "_index": 22,
+  "name": "Sky - 02",
+  "backgroundId": "8a26f4bc-9f92-4240-879f-0d01e740e879",
+  "tilesetId": "c62e9437-0cb4-4ca0-a87c-2e55d8b9084a",
+  "width": 25,
+  "height": 40,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00c2+0f6+0013+0f6+0013+0f6+0013+0f6+0013+0f6+0013+0f6+0013+0f6+0013+0f6+0013+0f6+0013+0f6+0013+0f6+004+0f9+006+0f6+004+0f9+006+0f6+004+0f9+006+0f6+004+0f9+006+0f6+00fa+0f7+013+00f+0f7+0012+0f7+0012+0f7+0012+0f7+0012+0f7+0012+0f7+0012+0f7+0012+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_25",
+  "x": 3168,
+  "y": 1512,
+  "script": [
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "L0",
+        "flag1": true,
+        "flag2": true,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "197de627-c07f-4487-9d3c-2d157fafff1d"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "da76937c-3b02-452f-9cd7-5f405358c543",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "id": "0315eede-4222-4d96-9a64-754d279db7a6"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "10f391e7-d65e-479a-a7ba-ad59face2e0a",
+  "autoFadeEventCollapse": true,
+  "labelColor": "blue"
+}

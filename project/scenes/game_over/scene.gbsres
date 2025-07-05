@@ -1,0 +1,60 @@
+{
+  "_resourceType": "scene",
+  "id": "992f4a76-1786-46f8-8abb-66426038bbd7",
+  "_index": 31,
+  "name": "GAME OVER",
+  "backgroundId": "0254fee9-f27e-4318-8526-ce22a8cbf5e9",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 4,
+  "symbol": "scene_0",
+  "x": 3944,
+  "y": 688,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "05f2ada6-a806-4ca6-83e9-6165405628db",
+              "x": {
+                "type": "number",
+                "value": 21
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "right",
+              "fadeSpeed": 3,
+              "__collapse": true
+            },
+            "id": "691563d7-dc1a-4fb3-98c1-0aba29496859"
+          }
+        ]
+      },
+      "id": "9c30ac51-ffea-4de9-b17e-380865c5e133"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "d9673c76-e802-4759-8c58-28a78c5de8c7",
+  "autoFadeEventCollapse": false,
+  "labelColor": "red"
+}

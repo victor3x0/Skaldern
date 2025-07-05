@@ -1,0 +1,201 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "9c4395ad-72a0-40fe-b419-5c12ecdb3fb2",
+  "name": "NPC - Evil Monkey",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f5dd0806-82d5-4b14-ad9c-450b057e76f0",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "3",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operation": "up",
+        "otherActorId": "$self$",
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_BOUNCE",
+            "args": {
+              "height": "low",
+              "__collapse": true
+            },
+            "id": "1101fc4a-0f85-404e-9612-877e9b183b8a"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "__collapse": true,
+              "customEventId": "85bd6c20-a87b-4198-8597-6e1149ab06b9"
+            },
+            "id": "3d7203a2-0dd0-4339-81de-3e1622ebceb7"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "44b7e9d1-0b93-45d0-9e9e-19147b02f97d",
+              "__collapse": true
+            },
+            "id": "89d3c74b-a6e0-4861-87a6-a97c1f1b2b71",
+            "children": {}
+          }
+        ]
+      },
+      "id": "80740bc9-fcb5-4310-8dcb-28e0e259a529"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Attack",
+        "__collapse": true
+      },
+      "id": "0dd23ab2-cefd-4065-b237-c30f1bb39ab8"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Attack",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "11f1a42e-0040-4892-946c-33885bccad20",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "43d7a87e-8150-458a-aa89-226b3ec9c8c1",
+      "children": {}
+    },
+    {
+      "command": "FO_EVENT_CUSTOM_PROJECTILE",
+      "args": {
+        "tabs": "general",
+        "lifetime": false,
+        "bounds": false,
+        "ignore": false,
+        "gravity": 0,
+        "collision": 0,
+        "bounce": 1,
+        "death": 0,
+        "varX": "0",
+        "varY": "0",
+        "projectile": 2,
+        "arc_height": 31,
+        "distance": 2,
+        "amplitude": 30,
+        "frequency": 10,
+        "phase": 64,
+        "actor": "$self$",
+        "orbit_x_offset": 0,
+        "orbit_y_offset": 0,
+        "orbit_amplitude": 100,
+        "orbit_frequency": 20,
+        "orbit_phase": 64,
+        "launch": false,
+        "hookshot_chain": 0,
+        "anchor_ignore": true,
+        "dir_offset": 0,
+        "customX": "0",
+        "customY": "0",
+        "__collapse": true
+      },
+      "children": {
+        "script": []
+      },
+      "id": "557fa166-3979-4556-9bfa-a566285c2730"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__section": "projectile",
+        "spriteSheetId": "c8a6f763-f107-48d2-b2ea-7ccc77cfc608",
+        "spriteStateId": "",
+        "actorId": "$self$",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "left",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "player",
+        "initialOffset": 1,
+        "speed": 3,
+        "animSpeed": 15,
+        "lifeTime": 1.5,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "3",
+        "collisionMask": [
+          "player"
+        ],
+        "__collapse": true,
+        "__presetId": "a9c0fbc1-8abf-4bfb-9459-2fd6cf8d36c3"
+      },
+      "id": "9090a008-735b-4ec3-a696-930e6082a3c9",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "e1d3a38a-7bbd-4927-967b-5a176f342774",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "d6fcac1c-9ea6-48cf-b2ca-21727742ed09",
+      "children": {}
+    },
+    {
+      "command": "EVENT_IDLE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "d72ca88c-447a-46bb-87a7-2fc3faa9f14f"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "85bd6c20-a87b-4198-8597-6e1149ab06b9",
+        "__collapse": true
+      },
+      "id": "d6e40820-8e24-45b3-abaf-75fd3cd131f9"
+    }
+  ],
+  "notes": "Attack in the direction of the player"
+}

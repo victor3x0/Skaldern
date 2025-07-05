@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "82228cfd-4298-4810-8061-f75b63dd99a0",
+  "name": "TilesetCity",
+  "symbol": "tileset_tilesetcity",
+  "width": 16,
+  "height": 12,
+  "imageWidth": 128,
+  "imageHeight": 96,
+  "filename": "TilesetCity.png"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c0455bbc-4fa3-41fe-95e4-df342dc61759",
+  "name": "Affiche_Skaldern",
+  "symbol": "bg_affiche_skaldern",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Affiche_Skaldern.png",
+  "tileColors": "",
+  "autoColor": false
+}

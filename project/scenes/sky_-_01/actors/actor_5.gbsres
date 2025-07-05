@@ -1,0 +1,103 @@
+{
+  "_resourceType": "actor",
+  "id": "74646ac6-f6a1-4f93-9301-ede68d3fa2bf",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f45110d0-7526-4e4e-8514-6a22d44877e7",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 0.25,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_65",
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operation": "up",
+        "otherActorId": "$self$",
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 2,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "6bde501b-bd22-4e5b-9c5d-425d3d48d978"
+          },
+          {
+            "command": "PM_EVENT_SET_PP_STATE",
+            "args": {
+              "state": "0",
+              "field": "que_state",
+              "__collapse": true
+            },
+            "id": "2c479cb3-a94b-4593-ab50-9f9769d33260"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "08217021-82ba-46f0-aecd-5654bad078ad"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "ece08756-1b80-4263-8928-f6603cee31ad"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 5,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "91a059e3-318a-4524-9927-fa1183c66365"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "8211d34f-3330-4325-b397-ed92b280bbab"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "2da84ebe-d932-4fa8-9f42-cef46892024c"
+          }
+        ],
+        "false": []
+      },
+      "id": "315100dc-4b55-4a0f-a3ae-8c82e707b5b6"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 13,
+  "y": 44,
+  "_index": 4
+}
