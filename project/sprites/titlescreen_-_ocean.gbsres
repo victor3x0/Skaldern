@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "95f0effb-e6b4-4021-8065-867c468bec30",
-  "name": "UI - Skaldern - Ocean",
+  "name": "TitleScreen - Ocean",
   "symbol": "sprite_ui_skaldern_ocean",
   "numFrames": 7,
-  "filename": "UI - Skaldern - Ocean.png",
+  "filename": "TitleScreen - Ocean.png",
   "checksum": "325a247fc93c0e19dc1cae2b723b794d9fceacec",
   "width": 112,
   "height": 16,

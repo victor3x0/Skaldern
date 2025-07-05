@@ -716,7 +716,7 @@
           "type": "number",
           "value": 13
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "def850ba-3a30-4157-aa8b-6e7efa2f9843"
     },

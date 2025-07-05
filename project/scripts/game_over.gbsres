@@ -122,7 +122,7 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "gt",
+          "type": "gte",
           "valueA": {
             "type": "variable",
             "value": "6"
@@ -132,7 +132,7 @@
             "value": 3
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": true
       },
       "children": {

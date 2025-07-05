@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "3975b59d-c182-431e-ac6e-1f11034c19f8",
-  "name": "UI - TitleScreenMenu - PetitsOiseaux",
+  "name": "TitleScreen - PetitsOiseaux",
   "symbol": "sprite_ui_titlescreenmenu_p",
   "numFrames": 3,
-  "filename": "UI - TitleScreenMenu - PetitsOiseaux.png",
+  "filename": "TitleScreen - PetitsOiseaux.png",
   "checksum": "075fef0544969324682785ee9edd2f6cd3535151",
   "width": 48,
   "height": 16,

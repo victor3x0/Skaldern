@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "bc993e5e-f8ce-433e-b10b-0f03c9fda74e",
-  "name": "UI_Retry",
+  "name": "GameOver_Retry",
   "symbol": "sprite_skaldern_sprites_ui_",
   "numFrames": 2.5,
-  "filename": "UI_Retry.png",
+  "filename": "GameOver_Retry.png",
   "checksum": "ede8c3769814207b63c09530bfa5eee18fe9cd15",
   "width": 40,
   "height": 48,
