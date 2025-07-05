@@ -1,0 +1,143 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "6cad45e0-7a28-40bd-aef7-91c61efe4bfa",
+  "name": "NPC_Ratou",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "61f2d488-262d-4d96-aa1e-55f272e467df",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "3",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operation": "up",
+        "otherActorId": "$self$",
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_BOUNCE",
+            "args": {
+              "height": "low",
+              "__collapse": true
+            },
+            "id": "b5bd3faa-50df-43ef-80fe-445048759d3b"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "85bd6c20-a87b-4198-8597-6e1149ab06b9",
+              "__collapse": true
+            },
+            "id": "183028d9-6846-4c61-9667-483fff79d1a9",
+            "children": {}
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "44b7e9d1-0b93-45d0-9e9e-19147b02f97d",
+              "__collapse": true
+            },
+            "id": "034d1749-c1e6-4d3f-8602-8180bf5612fa",
+            "children": {}
+          }
+        ]
+      },
+      "id": "4b9998a7-4a1e-4598-9d32-a054afefda07"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 24
+        },
+        "y": {
+          "type": "number",
+          "value": 25
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "c26470e8-9f15-435a-892f-de995d578e91",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "7e4dfa4a-db09-4cb2-8ac0-da83c9d8e912",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 48
+        },
+        "y": {
+          "type": "number",
+          "value": 25
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "4a2e6773-dd8d-49f0-8350-7f7d4a19b031",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "f168198d-168d-443f-abca-dd9c4a253dda",
+      "children": {}
+    }
+  ],
+  "hit1Script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d715a388-077f-4c42-8631-f37fdcc54e2e",
+      "children": {}
+    }
+  ],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "85bd6c20-a87b-4198-8597-6e1149ab06b9",
+        "__collapse": true
+      },
+      "id": "0e33545a-dcda-4986-92c8-ae1d7bca98d4",
+      "children": {}
+    }
+  ]
+}

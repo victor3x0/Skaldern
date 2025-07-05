@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "3950a743-109e-4444-913a-6c9c79bc22c4",
+  "name": "Bubble",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "fe9be8bc-9f9f-4c92-a492-8c95309c2033",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_29",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "6caf8e67-1e90-426d-a797-11f8ca107cf2"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 41,
+  "y": 12,
+  "_index": 0
+}

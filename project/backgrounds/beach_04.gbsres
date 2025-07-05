@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6fdf3995-8661-4303-b099-fe5a31abba28",
+  "name": "Beach_04",
+  "symbol": "bg_beach_04",
+  "width": 38,
+  "height": 45,
+  "imageWidth": 304,
+  "imageHeight": 360,
+  "filename": "Beach_04.png",
+  "tileColors": "",
+  "autoColor": false
+}

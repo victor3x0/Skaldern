@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "fa678a34-90cc-4bb5-b5ee-d695e1f35010",
+  "name": "TilesetNuages",
+  "symbol": "tileset_tilesetnuages",
+  "width": 16,
+  "height": 12,
+  "imageWidth": 128,
+  "imageHeight": 96,
+  "filename": "TilesetNuages.png"
+}

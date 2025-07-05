@@ -1,0 +1,290 @@
+{
+  "_resourceType": "settings",
+  "startSceneId": "440b99dd-c428-4e70-9d13-ec720cca0f8a",
+  "startX": 0,
+  "startY": 0,
+  "startMoveSpeed": 1,
+  "startAnimSpeed": 15,
+  "startDirection": "right",
+  "showCollisionExtraTiles": false,
+  "sgbEnabled": true,
+  "customHead": "",
+  "defaultBackgroundPaletteIds": [
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg"
+  ],
+  "defaultSpritePaletteIds": [
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg"
+  ],
+  "defaultSpritePaletteId": "default-sprite",
+  "defaultUIPaletteId": "default-ui",
+  "playerPaletteId": "",
+  "defaultFontId": "d0b8719b-03ed-4364-b2db-4aa62642dc4f",
+  "defaultCharacterEncoding": "",
+  "defaultPlayerSprites": {
+    "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "PLATFORM": "fd691a72-33f9-4b42-9218-9f34449439ec",
+    "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+  },
+  "musicDriver": "huge",
+  "cartType": "mbc5",
+  "batterylessEnabled": false,
+  "customColorsWhite": "E8F8E0",
+  "customColorsLight": "B0F088",
+  "customColorsDark": "509878",
+  "customColorsBlack": "202850",
+  "customControlsUp": [
+    "ArrowUp"
+  ],
+  "customControlsDown": [
+    "ArrowDown"
+  ],
+  "customControlsLeft": [
+    "ArrowLeft"
+  ],
+  "customControlsRight": [
+    "ArrowRight"
+  ],
+  "customControlsA": [
+    "Alt"
+  ],
+  "customControlsB": [
+    "Control"
+  ],
+  "customControlsStart": [
+    "Tab"
+  ],
+  "customControlsSelect": [
+    "Shift"
+  ],
+  "colorMode": "mixed",
+  "generateDebugFilesEnabled": false,
+  "compilerPreset": 3000,
+  "scriptEventPresets": {
+    "EVENT_LAUNCH_PROJECTILE": {
+      "fe0babea-579d-4b75-9b3f-fe30ff7fbab3": {
+        "id": "fe0babea-579d-4b75-9b3f-fe30ff7fbab3",
+        "name": "Simple Death",
+        "groups": [
+          "projectile",
+          "source",
+          "direction"
+        ],
+        "args": {
+          "spriteSheetId": "071755e9-3540-4b20-b2ef-e2920c8243ce",
+          "spriteStateId": "",
+          "speed": 0,
+          "animSpeed": 15,
+          "lifeTime": 0.5,
+          "loopAnim": true,
+          "destroyOnHit": true,
+          "collisionGroup": "3",
+          "collisionMask": [],
+          "actorId": "0",
+          "x": 0,
+          "y": 0,
+          "directionType": "direction",
+          "otherActorId": "$self$",
+          "direction": "right",
+          "angle": 0,
+          "angleVariable": "V0",
+          "targetActorId": "$self$",
+          "initialOffset": 0
+        }
+      },
+      "d9f615da-6c60-4ecc-b8c9-e3cab2ebe303": {
+        "id": "d9f615da-6c60-4ecc-b8c9-e3cab2ebe303",
+        "name": "Drop Gem",
+        "groups": [
+          "projectile",
+          "source",
+          "direction"
+        ],
+        "args": {
+          "spriteSheetId": "542fe397-b450-4818-99a4-c83e83464e68",
+          "spriteStateId": "",
+          "speed": 0.25,
+          "animSpeed": 7,
+          "lifeTime": 1.5,
+          "loopAnim": true,
+          "destroyOnHit": false,
+          "collisionGroup": "3",
+          "collisionMask": [],
+          "actorId": "0",
+          "x": 0,
+          "y": 0,
+          "directionType": "direction",
+          "otherActorId": "$self$",
+          "direction": "up",
+          "angle": 0,
+          "angleVariable": "0",
+          "targetActorId": "$self$",
+          "initialOffset": 0
+        }
+      },
+      "12332a35-2e69-4dea-88a5-663fdeeae7b2": {
+        "id": "12332a35-2e69-4dea-88a5-663fdeeae7b2",
+        "name": "Violent Death",
+        "groups": [
+          "projectile",
+          "source",
+          "direction"
+        ],
+        "args": {
+          "spriteSheetId": "7af3b107-abe7-4bc6-8501-e474cde0f04b",
+          "spriteStateId": "",
+          "speed": 0,
+          "animSpeed": 15,
+          "lifeTime": 0.5,
+          "loopAnim": true,
+          "destroyOnHit": false,
+          "collisionGroup": "3",
+          "collisionMask": [],
+          "actorId": "0",
+          "x": 0,
+          "y": 0,
+          "directionType": "direction",
+          "otherActorId": "$self$",
+          "direction": "up",
+          "angle": 0,
+          "angleVariable": "V0",
+          "targetActorId": "$self$",
+          "initialOffset": 0
+        }
+      },
+      "99fb57f9-eb78-4b0b-b18b-1b23e0e28685": {
+        "id": "99fb57f9-eb78-4b0b-b18b-1b23e0e28685",
+        "name": "Caca Simple",
+        "groups": [
+          "projectile",
+          "source",
+          "direction"
+        ],
+        "args": {
+          "spriteSheetId": "b57b2836-fbd5-4b5b-9930-1671802554e0",
+          "spriteStateId": "",
+          "speed": 1,
+          "animSpeed": 15,
+          "lifeTime": 2,
+          "loopAnim": true,
+          "destroyOnHit": true,
+          "collisionGroup": "3",
+          "collisionMask": [
+            "player"
+          ],
+          "actorId": "$self$",
+          "x": 4,
+          "y": 0,
+          "directionType": "direction",
+          "otherActorId": "$self$",
+          "direction": "down",
+          "angle": 0,
+          "angleVariable": "L0",
+          "targetActorId": "$self$",
+          "initialOffset": 16
+        }
+      },
+      "a9c0fbc1-8abf-4bfb-9459-2fd6cf8d36c3": {
+        "id": "a9c0fbc1-8abf-4bfb-9459-2fd6cf8d36c3",
+        "name": "Banana Boomerang",
+        "groups": [
+          "projectile",
+          "source"
+        ],
+        "args": {
+          "spriteSheetId": "c8a6f763-f107-48d2-b2ea-7ccc77cfc608",
+          "spriteStateId": "",
+          "speed": 3,
+          "animSpeed": 15,
+          "lifeTime": 1.5,
+          "loopAnim": true,
+          "destroyOnHit": true,
+          "collisionGroup": "3",
+          "collisionMask": [
+            "player"
+          ],
+          "actorId": "$self$",
+          "x": 0,
+          "y": 0
+        }
+      },
+      "6267b64d-9f69-4306-8ebf-cdcdb6764423": {
+        "id": "6267b64d-9f69-4306-8ebf-cdcdb6764423",
+        "name": "Pistol",
+        "groups": [
+          "projectile",
+          "source",
+          "direction"
+        ],
+        "args": {
+          "spriteSheetId": "1da34f30-a873-4b16-9936-46365f6b7b9e",
+          "spriteStateId": "",
+          "speed": 2,
+          "animSpeed": 15,
+          "lifeTime": 1.5,
+          "loopAnim": true,
+          "destroyOnHit": true,
+          "collisionGroup": "3",
+          "collisionMask": [
+            "player"
+          ],
+          "actorId": "$self$",
+          "x": 0,
+          "y": 8,
+          "directionType": "direction",
+          "otherActorId": "$self$",
+          "direction": "left",
+          "angle": 0,
+          "angleVariable": "L0",
+          "targetActorId": "$self$",
+          "initialOffset": 0
+        }
+      }
+    },
+    "EVENT_TEXT": {
+      "9fac6653-b039-48be-a2d1-438396bcb894": {
+        "id": "9fac6653-b039-48be-a2d1-438396bcb894",
+        "name": "Title",
+        "groups": [
+          "layout",
+          "behaviour"
+        ],
+        "args": {
+          "position": "top",
+          "minHeight": 4,
+          "maxHeight": 7,
+          "textX": 7,
+          "textY": 1,
+          "textHeight": 1,
+          "clearPrevious": true,
+          "showFrame": "true",
+          "speedIn": 3,
+          "speedOut": 3,
+          "closeWhen": "notModal",
+          "closeButton": "a",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      }
+    }
+  },
+  "scriptEventDefaultPresets": {
+    "EVENT_LAUNCH_PROJECTILE": "6267b64d-9f69-4306-8ebf-cdcdb6764423"
+  }
+}

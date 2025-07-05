@@ -1,0 +1,40 @@
+{
+  "_resourceType": "actor",
+  "id": "5b1806d6-1e8c-4368-b587-94afb64a0a01",
+  "name": "ScoreBoard",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "bc06694b-2224-4b0e-b6d7-bc72e88c4a7d",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_198",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": true
+      },
+      "id": "4d416225-6592-45bc-bb93-cf6dda5c76ae"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 24,
+  "y": 10,
+  "_index": 3
+}

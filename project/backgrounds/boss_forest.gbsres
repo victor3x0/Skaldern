@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c8b23a71-ada9-404b-8dbd-f17e95933808",
+  "name": "Boss_Forest",
+  "symbol": "bg_boss_forest",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Boss_Forest.png",
+  "tileColors": "",
+  "autoColor": false
+}

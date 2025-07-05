@@ -1,0 +1,101 @@
+{
+  "_resourceType": "scene",
+  "id": "d1abbccd-8487-4a4d-aa0e-5b07bacb18a0",
+  "_index": 30,
+  "name": "City - 03",
+  "backgroundId": "c074fa1c-d83f-4a0a-a9d4-2a8e75f9c119",
+  "tilesetId": "",
+  "width": 30,
+  "height": 24,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00a9+012+0094+012+0063+0fc+014+00e+0fc+0012+0fc+0012+0fc+0012+0fc+00!012+00f+0fc+0012+0fc+0012+0f5a+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_33",
+  "x": 5888,
+  "y": 728,
+  "script": [
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "1",
+        "flag1": true,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "7542d33d-2821-4320-a8bf-380671c3c7f2"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 53
+        },
+        "__collapse": true
+      },
+      "id": "51392665-b73e-4736-92e7-82e47bd26ae5"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "508f0ed0-9598-4df2-87bf-282692076096"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "088e2f4c-cd3d-4906-807f-09a3ae9d9918"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "da76937c-3b02-452f-9cd7-5f405358c543",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "id": "a276bcf7-958b-419c-b579-b85d9878b625"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "10f391e7-d65e-479a-a7ba-ad59face2e0a"
+}

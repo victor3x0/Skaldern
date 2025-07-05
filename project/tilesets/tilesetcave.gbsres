@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "c8211ae9-fa3b-4844-971d-a985d3a7e0e5",
+  "name": "TilesetCave",
+  "symbol": "tileset_tilesetcave",
+  "width": 16,
+  "height": 12,
+  "imageWidth": 128,
+  "imageHeight": 96,
+  "filename": "TilesetCave.png"
+}

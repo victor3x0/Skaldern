@@ -1,0 +1,35 @@
+## Changelog ##
+
+1.3.1 - 2024-29-10
+Fixed:
+ - Lifetime check not working
+
+1.3.0 - 2024-10-09
+Added:
+ - Show and Hide All Projectiles events
+
+1.2.1 - 2024-10-08
+Changed:
+ - Bitshifting for hookshot chain 
+ - Can use both script Execution and variable update
+ Fixed:
+ - Anchor type not breaking on switch statement
+
+1.2.0 - 2024-10-08
+Added: 
+ - Ignore Player Collision
+Changed: 
+ - Infinite Lifetime can now be changed globally or per projectile
+ - Combined bools into a bitmask
+
+1.1.1 - 2024-10-07
+
+Fixed offsets for anchor not working
+
+1.1.0 - 2024-10-04
+Added:
+- Anchor type
+- Script execution on projectile removal
+- Pause and unpause projectiles as well as pause on locked script
+Changed: 
+- Engine fields now exposed in settings

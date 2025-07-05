@@ -1,0 +1,1250 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Boss_PiggyIsDead?",
+      "symbol": "var_boss_piggyisdead_"
+    },
+    {
+      "id": "1",
+      "name": "Equipement",
+      "symbol": "var_equipement"
+    },
+    {
+      "id": "2",
+      "name": "PLAYER-I-Frame",
+      "symbol": "var_player_i_frame"
+    },
+    {
+      "id": "3",
+      "name": "PLAYER SCORE",
+      "symbol": "var_player_score"
+    },
+    {
+      "id": "5",
+      "name": "PLAYER BONUS",
+      "symbol": "var_player_bonus"
+    },
+    {
+      "id": "6",
+      "name": "Shame Point",
+      "symbol": "var_shame_point"
+    },
+    {
+      "id": "7",
+      "name": "MUSIC IS ACTIVE",
+      "symbol": "var_music_is_active"
+    },
+    {
+      "id": "8",
+      "name": "Platformer+ActualState",
+      "symbol": "var_platformer_actualstate"
+    },
+    {
+      "id": "9",
+      "name": "CompteurDeCle",
+      "symbol": "var_compteurdecle"
+    },
+    {
+      "id": "10",
+      "name": "PLAYER PV",
+      "symbol": "var_player_pv"
+    },
+    {
+      "id": "11",
+      "name": "Player Ammo",
+      "symbol": "var_player_ammo"
+    },
+    {
+      "id": "12",
+      "name": "HUD_OffsetY",
+      "symbol": "var_hud_offsety"
+    },
+    {
+      "id": "13",
+      "name": "CheckPointX",
+      "symbol": "var_checkpointx"
+    },
+    {
+      "id": "14",
+      "name": "CheckPointY",
+      "symbol": "var_checkpointy"
+    },
+    {
+      "id": "15",
+      "name": "PLAYER MAX PV",
+      "symbol": "var_player_max_pv"
+    },
+    {
+      "id": "34",
+      "name": "Variable 34",
+      "symbol": "var_variable_34"
+    },
+    {
+      "id": "41",
+      "name": "Frame Counter",
+      "symbol": "var_frame_counter"
+    },
+    {
+      "id": "55215e2c-ea19-4a04-920b-6c065c7c2255__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes"
+    },
+    {
+      "id": "d202c74c-b994-407b-b50c-1da3b05c874c__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_0"
+    },
+    {
+      "id": "603d53e9-3f7b-4ea2-b5b4-88a7806b9cc5__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_1"
+    },
+    {
+      "id": "5f10f006-d43f-420f-804f-bc97efc904b7__L0",
+      "name": "Life",
+      "symbol": "var_life"
+    },
+    {
+      "id": "ec3bd17e-e96d-44e1-81cc-87ccb966d849__L0",
+      "name": "Life",
+      "symbol": "var_life_0"
+    },
+    {
+      "id": "3d1ad3dc-070f-4cc6-a55a-6c6253ab55fd__L0",
+      "name": "Am I dead ?",
+      "symbol": "var_am_i_dead_"
+    },
+    {
+      "id": "3d1ad3dc-070f-4cc6-a55a-6c6253ab55fd__L1",
+      "name": "Have I Talk ?",
+      "symbol": "var_have_i_talk_"
+    },
+    {
+      "id": "46ee830a-eaa5-4f74-bec1-e4df9618ead3__L0",
+      "name": "InitialPosX",
+      "symbol": "var_initialposx_0"
+    },
+    {
+      "id": "46ee830a-eaa5-4f74-bec1-e4df9618ead3__L1",
+      "name": "InitialPosY",
+      "symbol": "var_initialposy"
+    },
+    {
+      "id": "46ee830a-eaa5-4f74-bec1-e4df9618ead3__L2",
+      "name": "Distance",
+      "symbol": "var_distance"
+    },
+    {
+      "id": "525c1078-19f7-4115-ab35-1b3312efe641__L0",
+      "name": "initPosX",
+      "symbol": "var_initposx"
+    },
+    {
+      "id": "525c1078-19f7-4115-ab35-1b3312efe641__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy"
+    },
+    {
+      "id": "cd2ec396-e73c-4486-96bb-963240843a2c__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_2"
+    },
+    {
+      "id": "9275b824-452c-4e69-9fdd-b8b081156e1d__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_3"
+    },
+    {
+      "id": "63323dd5-4a43-44fe-bf3e-c8ad8d3765c5__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_4"
+    },
+    {
+      "id": "3766287b-6fda-49b5-a5cb-9607e6e1a401__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_5"
+    },
+    {
+      "id": "9a64ab79-b89b-4b0c-b3c9-1ffd05aab96a__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_6"
+    },
+    {
+      "id": "9413f23d-2c28-48ce-9440-52b3805011f3__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_7"
+    },
+    {
+      "id": "af69c293-1a1e-4a75-b4ff-23b1c20e0d84__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_8"
+    },
+    {
+      "id": "429ba642-c1da-4fa6-a18f-9cb652130378__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_9"
+    },
+    {
+      "id": "18aac1e9-0cf8-4c99-8156-6dd7ce1e4d55__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_10"
+    },
+    {
+      "id": "192f572b-dd1f-4934-8751-762be4d42a84__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_11"
+    },
+    {
+      "id": "421517b7-c601-4ef9-9292-e0faf056d6e4__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_12"
+    },
+    {
+      "id": "07d17d0c-e35f-40cb-b359-71b68d8bd8d4__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_13"
+    },
+    {
+      "id": "5a481ba9-5c1b-48e5-85dc-8b46a625c410__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_14"
+    },
+    {
+      "id": "e2dc6235-0dd8-4a6f-b836-083c73a75a2c__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_15"
+    },
+    {
+      "id": "74065730-c890-4f0a-b954-dae14dcda8d9__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_16"
+    },
+    {
+      "id": "646cd050-431e-4eea-bdb0-48d360b7818d__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_17"
+    },
+    {
+      "id": "6853b59a-044e-468f-83db-1eab17b15eaa__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_18"
+    },
+    {
+      "id": "cda99433-dfa9-4609-8d78-79fded5bf13a__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_19"
+    },
+    {
+      "id": "73d94487-bef9-4039-989d-e23f9348045c__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_20"
+    },
+    {
+      "id": "332c4d0c-92ac-4b71-8131-fb59e1a25e31__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_21"
+    },
+    {
+      "id": "3bc9a57a-7d7f-4170-ab4e-27d0a349387c__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_22"
+    },
+    {
+      "id": "b070d819-867b-4875-bce2-9453fdc9d2f0__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_23"
+    },
+    {
+      "id": "298bea0f-a64a-4bb5-a243-88bf95a6aef8__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_24"
+    },
+    {
+      "id": "0b03155e-3fae-465e-9f51-302ce52efc5c__L0",
+      "name": "Collecté",
+      "symbol": "var_collect_"
+    },
+    {
+      "id": "defb2567-75bf-4ffc-b792-140b12807ad2__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_26"
+    },
+    {
+      "id": "8550a08f-85c1-46a8-897a-a2b8fadf3a3a__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_27"
+    },
+    {
+      "id": "bbbcf09f-71ae-4077-b5f6-37d429e4adea__L0",
+      "name": "Collecté",
+      "symbol": "var_collect_1"
+    },
+    {
+      "id": "d0ffb349-de7f-4aa2-af24-5f47b52df718__L0",
+      "name": "Collecté",
+      "symbol": "var_collect_0"
+    },
+    {
+      "id": "d65cca41-b5e3-4fcf-9c34-17bf8df24062__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_0"
+    },
+    {
+      "id": "d65cca41-b5e3-4fcf-9c34-17bf8df24062__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_0"
+    },
+    {
+      "id": "d65cca41-b5e3-4fcf-9c34-17bf8df24062__L2",
+      "name": "Hauteur De Saut",
+      "symbol": "var_hauteur_de_saut"
+    },
+    {
+      "id": "6840b62c-e4cc-4b5e-9838-039b4dfa43ee__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_1"
+    },
+    {
+      "id": "6840b62c-e4cc-4b5e-9838-039b4dfa43ee__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_1"
+    },
+    {
+      "id": "6840b62c-e4cc-4b5e-9838-039b4dfa43ee__L2",
+      "name": "Hauteur De Saut",
+      "symbol": "var_hauteur_de_saut_0"
+    },
+    {
+      "id": "42eac9ad-723b-41c4-b146-6769f92e42ca__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_2"
+    },
+    {
+      "id": "42eac9ad-723b-41c4-b146-6769f92e42ca__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_2"
+    },
+    {
+      "id": "42eac9ad-723b-41c4-b146-6769f92e42ca__L2",
+      "name": "Hauteur De Saut",
+      "symbol": "var_hauteur_de_saut_1"
+    },
+    {
+      "id": "4bad3718-6648-4e66-b3f5-b76d15524648__L0",
+      "name": "InitialPosX",
+      "symbol": "var_initialposx_1"
+    },
+    {
+      "id": "4bad3718-6648-4e66-b3f5-b76d15524648__L1",
+      "name": "InitialPosY",
+      "symbol": "var_initialposy_0"
+    },
+    {
+      "id": "4bad3718-6648-4e66-b3f5-b76d15524648__L2",
+      "name": "Distance",
+      "symbol": "var_distance_0"
+    },
+    {
+      "id": "e2f15c4c-e996-4861-9e04-69aa19f69ae6__L0",
+      "name": "AmIDead?",
+      "symbol": "var_amidead_"
+    },
+    {
+      "id": "f12bcc14-7822-4779-b816-7c45d9bd85c0__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_3"
+    },
+    {
+      "id": "f12bcc14-7822-4779-b816-7c45d9bd85c0__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_3"
+    },
+    {
+      "id": "f12bcc14-7822-4779-b816-7c45d9bd85c0__L2",
+      "name": "Hauteur De Saut",
+      "symbol": "var_hauteur_de_saut_2"
+    },
+    {
+      "id": "2943a50a-7796-46af-8252-5d13e02c3e66__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_4"
+    },
+    {
+      "id": "2943a50a-7796-46af-8252-5d13e02c3e66__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_4"
+    },
+    {
+      "id": "2943a50a-7796-46af-8252-5d13e02c3e66__L2",
+      "name": "Hauteur De Saut",
+      "symbol": "var_hauteur_de_saut_3"
+    },
+    {
+      "id": "26832040-2591-4b6d-96b2-13ab8d0349b7__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_5"
+    },
+    {
+      "id": "26832040-2591-4b6d-96b2-13ab8d0349b7__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_5"
+    },
+    {
+      "id": "dcac325d-cba3-4234-b7d6-122563e375cc__L0",
+      "name": "AmIDead?",
+      "symbol": "var_amidead_0"
+    },
+    {
+      "id": "18091b79-baac-405d-9b69-6cdd1f8936ad__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_6"
+    },
+    {
+      "id": "18091b79-baac-405d-9b69-6cdd1f8936ad__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_6"
+    },
+    {
+      "id": "18091b79-baac-405d-9b69-6cdd1f8936ad__L2",
+      "name": "Hauteur De Saut",
+      "symbol": "var_hauteur_de_saut_4"
+    },
+    {
+      "id": "08c6dbbf-c57c-4eb9-8f46-f29161fc16e3__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_7"
+    },
+    {
+      "id": "08c6dbbf-c57c-4eb9-8f46-f29161fc16e3__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_7"
+    },
+    {
+      "id": "08c6dbbf-c57c-4eb9-8f46-f29161fc16e3__L2",
+      "name": "Hauteur De Saut",
+      "symbol": "var_hauteur_de_saut_5"
+    },
+    {
+      "id": "fe78d60a-f0ef-4766-835c-c6ad8d8d2d04__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_8"
+    },
+    {
+      "id": "fe78d60a-f0ef-4766-835c-c6ad8d8d2d04__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_8"
+    },
+    {
+      "id": "fe78d60a-f0ef-4766-835c-c6ad8d8d2d04__L2",
+      "name": "Distance",
+      "symbol": "var_distance_1"
+    },
+    {
+      "id": "fe78d60a-f0ef-4766-835c-c6ad8d8d2d04__L3",
+      "name": "XTarget1",
+      "symbol": "var_xtarget1"
+    },
+    {
+      "id": "fe78d60a-f0ef-4766-835c-c6ad8d8d2d04__L4",
+      "name": "xTarget2",
+      "symbol": "var_xtarget2"
+    },
+    {
+      "id": "fe78d60a-f0ef-4766-835c-c6ad8d8d2d04__L5",
+      "name": "CurrentTarget",
+      "symbol": "var_currenttarget"
+    },
+    {
+      "id": "f248fd1e-fa79-41a8-9255-ab825211c787__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_9"
+    },
+    {
+      "id": "f248fd1e-fa79-41a8-9255-ab825211c787__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_9"
+    },
+    {
+      "id": "f248fd1e-fa79-41a8-9255-ab825211c787__L2",
+      "name": "Distance",
+      "symbol": "var_distance_2"
+    },
+    {
+      "id": "f248fd1e-fa79-41a8-9255-ab825211c787__L3",
+      "name": "XTarget1",
+      "symbol": "var_xtarget1_0"
+    },
+    {
+      "id": "f248fd1e-fa79-41a8-9255-ab825211c787__L4",
+      "name": "xTarget2",
+      "symbol": "var_xtarget2_0"
+    },
+    {
+      "id": "f248fd1e-fa79-41a8-9255-ab825211c787__L5",
+      "name": "CurrentTarget",
+      "symbol": "var_currenttarget_0"
+    },
+    {
+      "id": "735e8d98-3c2f-4c07-bccd-09d681db5c34__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_10"
+    },
+    {
+      "id": "735e8d98-3c2f-4c07-bccd-09d681db5c34__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_10"
+    },
+    {
+      "id": "735e8d98-3c2f-4c07-bccd-09d681db5c34__L2",
+      "name": "Hauteur De Saut",
+      "symbol": "var_hauteur_de_saut_6"
+    },
+    {
+      "id": "102c7943-8ef0-4d6e-9509-2979a44782d0__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_11"
+    },
+    {
+      "id": "102c7943-8ef0-4d6e-9509-2979a44782d0__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_11"
+    },
+    {
+      "id": "102c7943-8ef0-4d6e-9509-2979a44782d0__L2",
+      "name": "Hauteur De Saut",
+      "symbol": "var_hauteur_de_saut_7"
+    },
+    {
+      "id": "dbcfe8d7-e5e2-4c56-a373-4de3cc9a9e3a__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_12"
+    },
+    {
+      "id": "dbcfe8d7-e5e2-4c56-a373-4de3cc9a9e3a__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_12"
+    },
+    {
+      "id": "dbcfe8d7-e5e2-4c56-a373-4de3cc9a9e3a__L2",
+      "name": "Distance",
+      "symbol": "var_distance_3"
+    },
+    {
+      "id": "dbcfe8d7-e5e2-4c56-a373-4de3cc9a9e3a__L3",
+      "name": "XTarget1",
+      "symbol": "var_xtarget1_1"
+    },
+    {
+      "id": "dbcfe8d7-e5e2-4c56-a373-4de3cc9a9e3a__L4",
+      "name": "xTarget2",
+      "symbol": "var_xtarget2_1"
+    },
+    {
+      "id": "dbcfe8d7-e5e2-4c56-a373-4de3cc9a9e3a__L5",
+      "name": "CurrentTarget",
+      "symbol": "var_currenttarget_1"
+    },
+    {
+      "id": "29e2ae27-fa0a-41a9-a8ee-367322c2a1b2__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_13"
+    },
+    {
+      "id": "29e2ae27-fa0a-41a9-a8ee-367322c2a1b2__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_13"
+    },
+    {
+      "id": "29e2ae27-fa0a-41a9-a8ee-367322c2a1b2__L2",
+      "name": "Distance",
+      "symbol": "var_distance_4"
+    },
+    {
+      "id": "29e2ae27-fa0a-41a9-a8ee-367322c2a1b2__L3",
+      "name": "XTarget1",
+      "symbol": "var_xtarget1_2"
+    },
+    {
+      "id": "29e2ae27-fa0a-41a9-a8ee-367322c2a1b2__L4",
+      "name": "xTarget2",
+      "symbol": "var_xtarget2_2"
+    },
+    {
+      "id": "29e2ae27-fa0a-41a9-a8ee-367322c2a1b2__L5",
+      "name": "CurrentTarget",
+      "symbol": "var_currenttarget_2"
+    },
+    {
+      "id": "e6a12116-54de-43e2-8d90-0bd5232955b7__L0",
+      "name": "Am I dead",
+      "symbol": "var_am_i_dead"
+    },
+    {
+      "id": "08d5d271-a178-4c08-ae5d-6c44531bdacd__L0",
+      "name": "Am I dead",
+      "symbol": "var_am_i_dead_0"
+    },
+    {
+      "id": "5faf1e28-3353-4266-a8fa-80b0ef151daa__L0",
+      "name": "Am I dead",
+      "symbol": "var_am_i_dead_1"
+    },
+    {
+      "id": "a95b04a0-93a3-4504-83a1-8809976cb9bb__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_28"
+    },
+    {
+      "id": "12b100d2-e751-407c-b32f-7e36aefee440__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_29"
+    },
+    {
+      "id": "d4d3c23a-5c2c-47cb-89fa-003be5318006__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_30"
+    },
+    {
+      "id": "d0cbf4b0-c447-4885-93dd-2ceb46dcc335__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_31"
+    },
+    {
+      "id": "ce6bb2d1-eb50-4365-867c-57813a1681f4__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_32"
+    },
+    {
+      "id": "c91dc493-ff79-401f-bece-7ee3a38828c6__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_33"
+    },
+    {
+      "id": "6ca5209e-0f4c-429e-8e8d-2ba3e3176231__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_34"
+    },
+    {
+      "id": "d4bc2870-fd66-4634-9a04-1ed83c6d35ce__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_35"
+    },
+    {
+      "id": "75210c9f-a8be-4bda-be25-51cc0cb9e97e__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_36"
+    },
+    {
+      "id": "e738179e-079c-44c6-8a1d-8dc062853d4e__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_37"
+    },
+    {
+      "id": "037e4f41-4edf-42ed-9d70-ded3a695005f__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_38"
+    },
+    {
+      "id": "f2075f84-d9b6-4c5f-a3c0-e9cb70bf65a5__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_39"
+    },
+    {
+      "id": "b20e6f1d-8bf9-42fe-b0a3-5a7d9670578f__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_40"
+    },
+    {
+      "id": "60213874-d639-490d-b6d0-14a7e750fbcd__L0",
+      "name": "LesThunes",
+      "symbol": "var_lesthunes_41"
+    },
+    {
+      "id": "c78bf6a5-25d5-46b9-8765-6eb055c7c1f3__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_14"
+    },
+    {
+      "id": "c78bf6a5-25d5-46b9-8765-6eb055c7c1f3__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_14"
+    },
+    {
+      "id": "600e9ead-bc3a-4e19-b212-9e7e06c9e3e3__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_15"
+    },
+    {
+      "id": "600e9ead-bc3a-4e19-b212-9e7e06c9e3e3__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_15"
+    },
+    {
+      "id": "48c56806-29d1-4435-99ca-89f4629ad26d__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_16"
+    },
+    {
+      "id": "48c56806-29d1-4435-99ca-89f4629ad26d__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_16"
+    },
+    {
+      "id": "42c61440-3762-4e36-bd63-88b694a02e58__L0",
+      "name": "Life",
+      "symbol": "var_life_1"
+    },
+    {
+      "id": "1d84cf90-e375-465f-9603-bf637d2d80de__L0",
+      "name": "Life",
+      "symbol": "var_life_2"
+    },
+    {
+      "id": "bff9dfde-310f-4642-b537-33811c6bfc2e__L0",
+      "name": "Life",
+      "symbol": "var_life_3"
+    },
+    {
+      "id": "6c176ccd-a7a4-494d-b497-d3acdd26f27a__L0",
+      "name": "Cutsene_has_been_played",
+      "symbol": "var_cutsene_has_been_played"
+    },
+    {
+      "id": "d56a9f36-423e-42a5-91f4-f7a89e098fbe__L0",
+      "name": "Cutsene_has_been_played",
+      "symbol": "var_cutsene_has_been_played_0"
+    },
+    {
+      "id": "716651cd-5c1a-4d00-b176-9b339dbde5a0__L0",
+      "name": "Cutsene_has_been_played",
+      "symbol": "var_cutsene_has_been_played_1"
+    },
+    {
+      "id": "34e92754-cf5e-401c-8033-fc29957a9b89__L0",
+      "name": "Animation",
+      "symbol": "var_animation"
+    },
+    {
+      "id": "48c56806-29d1-4435-99ca-89f4629ad26d__L2",
+      "name": "Tempo !",
+      "symbol": "var_tempo_"
+    },
+    {
+      "id": "0b8b7c3e-4157-4a83-b82a-48c2a0bb9411__L0",
+      "name": "PlayerPosX",
+      "symbol": "var_playerposx"
+    },
+    {
+      "id": "0b8b7c3e-4157-4a83-b82a-48c2a0bb9411__L1",
+      "name": "PlayerPosY",
+      "symbol": "var_playerposy"
+    },
+    {
+      "id": "75b920d7-1f4a-41d3-9f4f-2e24efffe68d__L0",
+      "name": "Life",
+      "symbol": "var_life_4"
+    },
+    {
+      "id": "f4f06f5c-4c40-4c41-9626-b4ced2abd1d0__L0",
+      "name": "Hit",
+      "symbol": "var_hit"
+    },
+    {
+      "id": "d552ea20-260b-4d93-b803-d5495f94d920__L0",
+      "name": "SelfPosX",
+      "symbol": "var_selfposx"
+    },
+    {
+      "id": "d552ea20-260b-4d93-b803-d5495f94d920__L1",
+      "name": "SelfPosY",
+      "symbol": "var_selfposy"
+    },
+    {
+      "id": "33d96d19-eacb-4333-941a-560c6a0839f2__L0",
+      "name": "SelfPosX",
+      "symbol": "var_selfposx_0"
+    },
+    {
+      "id": "33d96d19-eacb-4333-941a-560c6a0839f2__L1",
+      "name": "SelfPosY",
+      "symbol": "var_selfposy_0"
+    },
+    {
+      "id": "093d0be2-f407-4d28-8c5f-0fa7d75d4044__L0",
+      "name": "SelfPosX",
+      "symbol": "var_selfposx_1"
+    },
+    {
+      "id": "093d0be2-f407-4d28-8c5f-0fa7d75d4044__L1",
+      "name": "SelfPosY",
+      "symbol": "var_selfposy_1"
+    },
+    {
+      "id": "435e7df1-68ec-4d8e-a34b-33678913f640__L0",
+      "name": "SelfPosX",
+      "symbol": "var_selfposx_2"
+    },
+    {
+      "id": "435e7df1-68ec-4d8e-a34b-33678913f640__L1",
+      "name": "SelfPosY",
+      "symbol": "var_selfposy_2"
+    },
+    {
+      "id": "e06835ef-4129-4f21-8353-f77b0ab015e3__L0",
+      "name": "SelfPosX",
+      "symbol": "var_selfposx_3"
+    },
+    {
+      "id": "e06835ef-4129-4f21-8353-f77b0ab015e3__L1",
+      "name": "SelfPosY",
+      "symbol": "var_selfposy_3"
+    },
+    {
+      "id": "489ca8e4-bd26-4d9d-a172-8e18b078e42a__L0",
+      "name": "SelfPosX",
+      "symbol": "var_selfposx_4"
+    },
+    {
+      "id": "489ca8e4-bd26-4d9d-a172-8e18b078e42a__L1",
+      "name": "SelfPosY",
+      "symbol": "var_selfposy_4"
+    },
+    {
+      "id": "20935f8c-f4d1-474c-b350-f373be93f0a8__L0",
+      "name": "SelfPosX",
+      "symbol": "var_selfposx_5"
+    },
+    {
+      "id": "20935f8c-f4d1-474c-b350-f373be93f0a8__L1",
+      "name": "SelfPosY",
+      "symbol": "var_selfposy_5"
+    },
+    {
+      "id": "30dad1c5-09b0-450b-8ade-3a53ac38dc56__L0",
+      "name": "SelfPosX",
+      "symbol": "var_selfposx_6"
+    },
+    {
+      "id": "30dad1c5-09b0-450b-8ade-3a53ac38dc56__L1",
+      "name": "SelfPosY",
+      "symbol": "var_selfposy_6"
+    },
+    {
+      "id": "56e9ce15-bca9-42b7-8f65-ef253ffd019c__L0",
+      "name": "Life",
+      "symbol": "var_life_5"
+    },
+    {
+      "id": "56e9ce15-bca9-42b7-8f65-ef253ffd019c__L1",
+      "name": "My Random Direction",
+      "symbol": "var_my_random_direction"
+    },
+    {
+      "id": "56e9ce15-bca9-42b7-8f65-ef253ffd019c__L2",
+      "name": "INITX",
+      "symbol": "var_initx"
+    },
+    {
+      "id": "56e9ce15-bca9-42b7-8f65-ef253ffd019c__L3",
+      "name": "INITY",
+      "symbol": "var_inity"
+    },
+    {
+      "id": "cfcda0b7-268b-4a8b-a5a5-24c58bc02b00__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_17"
+    },
+    {
+      "id": "cfcda0b7-268b-4a8b-a5a5-24c58bc02b00__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_17"
+    },
+    {
+      "id": "cfcda0b7-268b-4a8b-a5a5-24c58bc02b00__L2",
+      "name": "Tempo !",
+      "symbol": "var_tempo_0"
+    },
+    {
+      "id": "1ffc4e57-2bbe-45d9-9c97-84d32c266cfe__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_18"
+    },
+    {
+      "id": "1ffc4e57-2bbe-45d9-9c97-84d32c266cfe__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_18"
+    },
+    {
+      "id": "1ffc4e57-2bbe-45d9-9c97-84d32c266cfe__L2",
+      "name": "Tempo !",
+      "symbol": "var_tempo_1"
+    },
+    {
+      "id": "12070c5b-e77d-4b7d-81fa-ee7f4663206a__L0",
+      "name": "InitPosX",
+      "symbol": "var_initposx_19"
+    },
+    {
+      "id": "12070c5b-e77d-4b7d-81fa-ee7f4663206a__L1",
+      "name": "InitPosY",
+      "symbol": "var_initposy_19"
+    },
+    {
+      "id": "12070c5b-e77d-4b7d-81fa-ee7f4663206a__L2",
+      "name": "Tempo !",
+      "symbol": "var_tempo_2"
+    },
+    {
+      "id": "f6e245e9-45d5-4cc8-9fbc-a873b7e2ca49__L0",
+      "name": "Is Dead",
+      "symbol": "var_is_dead"
+    },
+    {
+      "id": "2ed1f370-23a7-45d2-94e3-2dae01c9466a__L0",
+      "name": "Life",
+      "symbol": "var_life_7"
+    },
+    {
+      "id": "2ed1f370-23a7-45d2-94e3-2dae01c9466a__L1",
+      "name": "IsDead",
+      "symbol": "var_isdead"
+    },
+    {
+      "id": "2ed1f370-23a7-45d2-94e3-2dae01c9466a__L2",
+      "name": "INITX",
+      "symbol": "var_initx_0"
+    },
+    {
+      "id": "2ed1f370-23a7-45d2-94e3-2dae01c9466a__L3",
+      "name": "INITY",
+      "symbol": "var_inity_0"
+    },
+    {
+      "id": "2ed1f370-23a7-45d2-94e3-2dae01c9466a__L4",
+      "name": "My Dir",
+      "symbol": "var_my_dir"
+    },
+    {
+      "id": "c24c4376-6c82-4c44-ab4d-f92a65563330__L0",
+      "name": "Life",
+      "symbol": "var_life_6"
+    },
+    {
+      "id": "5e16c1ee-4e8c-4fa5-b299-0870b24f68d4__L0",
+      "name": "Life",
+      "symbol": "var_life_8"
+    },
+    {
+      "id": "093434fd-60e3-4d5b-98e9-e647140697b5__L0",
+      "name": "Life",
+      "symbol": "var_life_9"
+    },
+    {
+      "id": "ff434c5e-d9b3-4747-8ab6-9d07a63ca90d__L0",
+      "name": "Life",
+      "symbol": "var_life_13"
+    },
+    {
+      "id": "ff434c5e-d9b3-4747-8ab6-9d07a63ca90d__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_20"
+    },
+    {
+      "id": "ff434c5e-d9b3-4747-8ab6-9d07a63ca90d__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_20"
+    },
+    {
+      "id": "9e432db0-5ec3-4c64-b82d-84c9c34dab4f__L0",
+      "name": "Life",
+      "symbol": "var_life_10"
+    },
+    {
+      "id": "9e432db0-5ec3-4c64-b82d-84c9c34dab4f__L1",
+      "name": "PoSX",
+      "symbol": "var_posx_0"
+    },
+    {
+      "id": "9e432db0-5ec3-4c64-b82d-84c9c34dab4f__L2",
+      "name": "PoSY",
+      "symbol": "var_posy_0"
+    },
+    {
+      "id": "6c591292-0ef4-4939-ac0e-870b790171bf__L0",
+      "name": "Life",
+      "symbol": "var_life_12"
+    },
+    {
+      "id": "6c591292-0ef4-4939-ac0e-870b790171bf__L1",
+      "name": "PoSX",
+      "symbol": "var_posx_1"
+    },
+    {
+      "id": "6c591292-0ef4-4939-ac0e-870b790171bf__L2",
+      "name": "PoSY",
+      "symbol": "var_posy_1"
+    },
+    {
+      "id": "7d61db9f-027e-4c96-967b-daf1eb90a834__L0",
+      "name": "Life",
+      "symbol": "var_life_11"
+    },
+    {
+      "id": "7d61db9f-027e-4c96-967b-daf1eb90a834__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_21"
+    },
+    {
+      "id": "7d61db9f-027e-4c96-967b-daf1eb90a834__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_21"
+    },
+    {
+      "id": "c83e811e-de00-4a18-b7a0-f962f6980b45__L0",
+      "name": "Life",
+      "symbol": "var_life_14"
+    },
+    {
+      "id": "c83e811e-de00-4a18-b7a0-f962f6980b45__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_22"
+    },
+    {
+      "id": "c83e811e-de00-4a18-b7a0-f962f6980b45__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_22"
+    },
+    {
+      "id": "4aa4c58b-3823-484b-807e-cf57b3aa2afb__L0",
+      "name": "Life",
+      "symbol": "var_life_15"
+    },
+    {
+      "id": "4aa4c58b-3823-484b-807e-cf57b3aa2afb__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_23"
+    },
+    {
+      "id": "4aa4c58b-3823-484b-807e-cf57b3aa2afb__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_23"
+    },
+    {
+      "id": "8b53fc9a-d6ad-48f6-a723-e7961549dcfc__L0",
+      "name": "Life",
+      "symbol": "var_life_16"
+    },
+    {
+      "id": "8b53fc9a-d6ad-48f6-a723-e7961549dcfc__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_24"
+    },
+    {
+      "id": "8b53fc9a-d6ad-48f6-a723-e7961549dcfc__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_24"
+    },
+    {
+      "id": "a27d5ae5-46d5-4e2f-abfb-53440ff2671a__L0",
+      "name": "Life",
+      "symbol": "var_life_17"
+    },
+    {
+      "id": "a27d5ae5-46d5-4e2f-abfb-53440ff2671a__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_25"
+    },
+    {
+      "id": "a27d5ae5-46d5-4e2f-abfb-53440ff2671a__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_25"
+    },
+    {
+      "id": "edc8b79e-fe66-4ff1-b273-e55fa961b38a__L0",
+      "name": "Life",
+      "symbol": "var_life_18"
+    },
+    {
+      "id": "edc8b79e-fe66-4ff1-b273-e55fa961b38a__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_26"
+    },
+    {
+      "id": "edc8b79e-fe66-4ff1-b273-e55fa961b38a__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_26"
+    },
+    {
+      "id": "dc288a21-c6ed-40ee-af09-7232b766f29d__L0",
+      "name": "Life",
+      "symbol": "var_life_19"
+    },
+    {
+      "id": "dc288a21-c6ed-40ee-af09-7232b766f29d__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_27"
+    },
+    {
+      "id": "dc288a21-c6ed-40ee-af09-7232b766f29d__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_27"
+    },
+    {
+      "id": "616d5443-f50d-4d5e-a9e5-a1e7b17e7b78__L0",
+      "name": "Life",
+      "symbol": "var_life_20"
+    },
+    {
+      "id": "616d5443-f50d-4d5e-a9e5-a1e7b17e7b78__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_28"
+    },
+    {
+      "id": "616d5443-f50d-4d5e-a9e5-a1e7b17e7b78__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_28"
+    },
+    {
+      "id": "96fbb74e-96ba-4686-aec0-318527e7c6ae__L0",
+      "name": "Life",
+      "symbol": "var_life_21"
+    },
+    {
+      "id": "96fbb74e-96ba-4686-aec0-318527e7c6ae__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_29"
+    },
+    {
+      "id": "96fbb74e-96ba-4686-aec0-318527e7c6ae__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_29"
+    },
+    {
+      "id": "6e09e2c9-8131-4932-8e90-79bd2236a2c4__L0",
+      "name": "Life",
+      "symbol": "var_life_22"
+    },
+    {
+      "id": "6e09e2c9-8131-4932-8e90-79bd2236a2c4__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_30"
+    },
+    {
+      "id": "6e09e2c9-8131-4932-8e90-79bd2236a2c4__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_30"
+    },
+    {
+      "id": "ba6cd5de-11ec-4995-8e25-a0ee8e3ef19e__L0",
+      "name": "Phase",
+      "symbol": "var_phase"
+    },
+    {
+      "id": "ba6cd5de-11ec-4995-8e25-a0ee8e3ef19e__L1",
+      "name": "Life",
+      "symbol": "var_life_23"
+    },
+    {
+      "id": "e113f3a4-7544-4004-b9b0-d72275234d6d__L0",
+      "name": "Life",
+      "symbol": "var_life_24"
+    },
+    {
+      "id": "e113f3a4-7544-4004-b9b0-d72275234d6d__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_31"
+    },
+    {
+      "id": "e113f3a4-7544-4004-b9b0-d72275234d6d__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_31"
+    },
+    {
+      "id": "4b773b20-f6bb-4e32-b8a5-c3884f680fd9__L0",
+      "name": "Life",
+      "symbol": "var_life_25"
+    },
+    {
+      "id": "4b773b20-f6bb-4e32-b8a5-c3884f680fd9__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_32"
+    },
+    {
+      "id": "4b773b20-f6bb-4e32-b8a5-c3884f680fd9__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_32"
+    },
+    {
+      "id": "abdf0bb2-8ac0-4cf8-b463-ae38257fbef2__L0",
+      "name": "Life",
+      "symbol": "var_life_26"
+    },
+    {
+      "id": "abdf0bb2-8ac0-4cf8-b463-ae38257fbef2__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_33"
+    },
+    {
+      "id": "abdf0bb2-8ac0-4cf8-b463-ae38257fbef2__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_33"
+    },
+    {
+      "id": "7083ed87-e890-469f-8dde-8dc2d7c49ed6__L0",
+      "name": "Life",
+      "symbol": "var_life_27"
+    },
+    {
+      "id": "7083ed87-e890-469f-8dde-8dc2d7c49ed6__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_34"
+    },
+    {
+      "id": "7083ed87-e890-469f-8dde-8dc2d7c49ed6__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_34"
+    },
+    {
+      "id": "47969512-a583-406f-a506-3858b8535401__L0",
+      "name": "Life",
+      "symbol": "var_life_28"
+    },
+    {
+      "id": "47969512-a583-406f-a506-3858b8535401__L1",
+      "name": "InitPoSX",
+      "symbol": "var_initposx_35"
+    },
+    {
+      "id": "47969512-a583-406f-a506-3858b8535401__L2",
+      "name": "InitPoSY",
+      "symbol": "var_initposy_35"
+    },
+    {
+      "id": "a0de211b-9baa-47ab-86c4-31c2ac9a64c3__L0",
+      "name": "Is Dead",
+      "symbol": "var_is_dead_0"
+    },
+    {
+      "id": "47da794e-6079-4e75-b7f7-e743523c7677__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "05f2ada6-a806-4ca6-83e9-6165405628db__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "07f8a573-f55f-4691-8c71-f526356a6135__L0",
+      "name": "Animation",
+      "symbol": "var_animation_0"
+    },
+    {
+      "id": "2dfac7bd-ffbc-4de7-95cd-bba434c831f6__L0",
+      "name": "MenuSelectorPos",
+      "symbol": "var_menuselectorpos_0"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "_resourceType": "actor",
+  "id": "27996ea7-167e-4943-8de5-86041179d67c",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f45110d0-7526-4e4e-8514-6a22d44877e7",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_90",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "9b5c2ccb-d62f-4d37-befc-3f0638d3cf8b"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "9b4a1b6e-737a-4884-b4a2-947b03e5ffb6"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "a643aff0-a052-4035-a876-60411aeda226"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "daeebc21-e856-4e8f-af8f-4e7fadf14bde"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 3,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "5c743b9b-02af-4b46-abc6-6318d2afa2c0"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "bc47f5a6-952e-4baf-9621-b14115c491fc"
+          },
+          {
+            "command": "PM_EVENT_PLATPLUS_DETACH_PLAYER",
+            "args": {
+              "state": "0",
+              "field": "actor_attached",
+              "__collapse": true
+            },
+            "id": "94e24668-10f2-421c-8767-789be6e4c836"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "ba54abb5-ba02-4c2d-b6ec-df764abafaad"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 3,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "2085c03a-c1ed-4b68-a522-45c2ea33178c"
+          }
+        ]
+      },
+      "id": "d6fae148-9ec9-484b-9eaa-3966e68530cd"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 7,
+  "_index": 3
+}

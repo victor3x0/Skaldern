@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "630cd2d9-eca9-4ed7-990d-e51d832b727f",
+  "name": "Cave_entrance",
+  "symbol": "bg_cave_entrance",
+  "width": 65,
+  "height": 18,
+  "imageWidth": 520,
+  "imageHeight": 144,
+  "filename": "Cave_entrance.png",
+  "tileColors": "",
+  "autoColor": false
+}

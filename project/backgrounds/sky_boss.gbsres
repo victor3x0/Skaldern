@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1c1f0c65-526b-407f-8266-adc01637a91a",
+  "name": "Sky_Boss",
+  "symbol": "bg_sky_boss",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Sky_Boss.png",
+  "tileColors": "",
+  "autoColor": false
+}

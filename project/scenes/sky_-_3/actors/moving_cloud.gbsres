@@ -1,0 +1,109 @@
+{
+  "_resourceType": "actor",
+  "id": "6428d280-28da-41a5-a99b-d78a85d62aa9",
+  "name": "Moving_Cloud",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d7cd0bb6-43ac-4750-af67-1bf01ed7911d",
+  "prefabId": "6618a3b1-9c20-46ea-a09f-767bec65a797",
+  "direction": "down",
+  "moveSpeed": 0.25,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_82",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 32
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "ccdd4e8c-895a-4d82-886e-0205d4baf21f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "197aa464-f3f8-4d8e-b2fd-8f2b5b2be368"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 26
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "7f745445-8397-449a-9643-38a4f87e25fb"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 26
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "7983f294-fc85-405a-8d0e-afd13aef4269"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 32
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "51b7d47f-fa9d-4373-8290-9233e897201a"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 20,
+  "y": 32,
+  "_index": 0
+}

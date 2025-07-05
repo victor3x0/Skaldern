@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f353b657-8cd7-4639-91c9-e44fa7a520ad",
+  "name": "City_01",
+  "symbol": "bg_city_01",
+  "width": 70,
+  "height": 30,
+  "imageWidth": 560,
+  "imageHeight": 240,
+  "filename": "City_01.png",
+  "tileColors": "",
+  "autoColor": false
+}

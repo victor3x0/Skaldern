@@ -1,0 +1,132 @@
+{
+  "_resourceType": "script",
+  "id": "a7dcf24b-969e-400b-851b-6ef651910c30",
+  "name": "HUD_Update_Ammo",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "DRAW AMMO",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V0",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "ba78f133-4435-46a2-9778-5b464b3658ac"
+          },
+          {
+            "command": "EVENT_LOOP_FOR",
+            "args": {
+              "variable": "V0",
+              "from": {
+                "type": "variable",
+                "value": "V0"
+              },
+              "comparison": "<",
+              "to": {
+                "type": "expression",
+                "value": "7"
+              },
+              "operation": "+=",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "V0"
+                      },
+                      "valueB": {
+                        "type": "expression",
+                        "value": "$11$+1"
+                      }
+                    },
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_REPLACE_TILE_XY",
+                        "args": {
+                          "x": {
+                            "type": "variable",
+                            "value": "V0"
+                          },
+                          "y": {
+                            "type": "expression",
+                            "value": "$12$+1"
+                          },
+                          "tilesetId": "28000d7e-1174-4a64-a152-4fbfcc3724d8",
+                          "tileIndex": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "__collapse": false
+                        },
+                        "id": "5f19dadd-dea7-438d-b109-fdbdcf971552"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_REPLACE_TILE_XY",
+                        "args": {
+                          "x": {
+                            "type": "variable",
+                            "value": "V0"
+                          },
+                          "y": {
+                            "type": "expression",
+                            "value": "$12$+1"
+                          },
+                          "tilesetId": "28000d7e-1174-4a64-a152-4fbfcc3724d8",
+                          "tileIndex": {
+                            "type": "number",
+                            "value": 3
+                          },
+                          "__collapse": false
+                        },
+                        "id": "0ccd47b2-039b-4db2-92da-6e2528367791"
+                      }
+                    ]
+                  },
+                  "id": "f9038d33-301c-42e7-a309-b1cff22a37b3"
+                }
+              ]
+            },
+            "id": "dd07c298-87a0-4faa-8636-3c3dbf609807"
+          }
+        ]
+      },
+      "id": "1820110d-9e5e-4eb0-b8c4-717739962fa3"
+    }
+  ]
+}

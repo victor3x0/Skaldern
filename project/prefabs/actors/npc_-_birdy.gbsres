@@ -1,0 +1,87 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "f4f06f5c-4c40-4c41-9626-b4ced2abd1d0",
+  "name": "NPC - Birdy",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "4c166355-05d5-4214-96ca-8a8a6d503690",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": true,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "225b3978-f866-416f-8223-77e6d0654ecf",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "7cda3395-c90c-4944-98c2-13608f71dc1a"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 22
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "77271919-b87c-474e-a351-2d7baad63dfe",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "0c367e14-3e2e-4b4b-a52e-d11303ca3d1f"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "85bd6c20-a87b-4198-8597-6e1149ab06b9",
+        "__collapse": true
+      },
+      "id": "1b1c77bf-72e0-4d01-a36b-a99293b0d390"
+    }
+  ]
+}

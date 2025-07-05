@@ -1,0 +1,40 @@
+{
+  "_resourceType": "actor",
+  "id": "38057982-817d-4b1d-a20d-e462cb32ae1a",
+  "name": "Music",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "bc06694b-2224-4b0e-b6d7-bc72e88c4a7d",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_199",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "cfcc87de-6aac-4100-8eb3-dad4c3c5bb8b"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 24,
+  "y": 12,
+  "_index": 4
+}

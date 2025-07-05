@@ -1,0 +1,132 @@
+{
+  "_resourceType": "script",
+  "id": "45c4d901-b399-4781-9d9c-a5cf6bae13a3",
+  "name": "HUD_Update_LifePoints",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "0b614558-ab69-4eff-9b5f-b73d66c32993"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "UPDATE LIFE POINTS",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LOOP_FOR",
+            "args": {
+              "variable": "V0",
+              "from": {
+                "type": "variable",
+                "value": "V0"
+              },
+              "comparison": "!=",
+              "to": {
+                "type": "variable",
+                "value": "15"
+              },
+              "operation": "+=",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "V0"
+                      },
+                      "valueB": {
+                        "type": "expression",
+                        "value": "$10$-1"
+                      }
+                    },
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_REPLACE_TILE_XY",
+                        "args": {
+                          "x": {
+                            "type": "variable",
+                            "value": "V0"
+                          },
+                          "y": {
+                            "type": "expression",
+                            "value": "$12$"
+                          },
+                          "tilesetId": "28000d7e-1174-4a64-a152-4fbfcc3724d8",
+                          "tileIndex": {
+                            "type": "number",
+                            "value": 1
+                          },
+                          "__collapse": false
+                        },
+                        "id": "f6cddc90-4bd8-4f7d-a0d3-6e176517009d"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_REPLACE_TILE_XY",
+                        "args": {
+                          "x": {
+                            "type": "variable",
+                            "value": "V0"
+                          },
+                          "y": {
+                            "type": "expression",
+                            "value": "$12$"
+                          },
+                          "tilesetId": "28000d7e-1174-4a64-a152-4fbfcc3724d8",
+                          "tileIndex": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "__collapse": false
+                        },
+                        "id": "ca495dc5-33ca-4309-bfc1-7f2026664577"
+                      }
+                    ]
+                  },
+                  "id": "fb355d5a-bd40-4662-a95e-4aac22ab8b87"
+                }
+              ]
+            },
+            "id": "b4fb11f4-6450-4540-87b8-e35e39b5500d"
+          }
+        ]
+      },
+      "id": "333d94a5-de74-46b3-8675-49de97c3d860"
+    }
+  ]
+}

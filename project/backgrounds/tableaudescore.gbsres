@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9e84e0a3-5811-45e3-a3b3-97598134201a",
+  "name": "TableauDeScore",
+  "symbol": "bg_tableaudescore",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "TableauDeScore.png",
+  "tileColors": "",
+  "autoColor": false
+}

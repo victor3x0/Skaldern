@@ -1,0 +1,57 @@
+{
+  "_resourceType": "scene",
+  "id": "e5c87d61-425c-40c1-8d09-1e77f31f8c0e",
+  "_index": 13,
+  "name": "Beach - Boss - Piggy",
+  "backgroundId": "606a79c5-e2d2-4cfd-86c2-483f57c65d98",
+  "tilesetId": "c62e9437-0cb4-4ca0-a87c-2e55d8b9084a",
+  "width": 24,
+  "height": 22,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001b0+0f60+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 5400,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "DRAW HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "number",
+                "value": 20
+              },
+              "__collapse": false
+            },
+            "id": "86469e0a-2de7-4b52-b832-ae4b9ec2bc1b"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0422bec1-7df6-422e-aa69-51642379336a",
+              "__collapse": true
+            },
+            "id": "066cac99-4bea-4f1b-a1f2-e5f3754b09fc"
+          }
+        ]
+      },
+      "id": "804882f9-4356-460a-8bc0-50b1805e56b8"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "",
+  "autoFadeEventCollapse": true,
+  "labelColor": "red"
+}

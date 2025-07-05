@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "f668d9cb-14db-40fa-918e-694ecf7373d2",
+  "name": "Open_door-sheet",
+  "symbol": "tileset_open_door_sheet",
+  "width": 4,
+  "height": 4,
+  "imageWidth": 32,
+  "imageHeight": 32,
+  "filename": "Open_door-sheet.png"
+}

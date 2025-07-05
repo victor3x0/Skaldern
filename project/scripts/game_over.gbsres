@@ -1,0 +1,228 @@
+{
+  "_resourceType": "script",
+  "id": "23f74905-e670-43d2-9a53-8bc0b2be26df",
+  "name": "Game Over",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_12",
+  "script": [
+    {
+      "command": "EVENT_SCRIPT_LOCK",
+      "args": {
+        "__collapse": true
+      },
+      "id": "c6c564e2-2477-43a9-b2a8-5d76f976dba2"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Hurt",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "2bdbb4f9-1fba-4cca-aa6e-1fb0672400ae"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.3,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": true
+      },
+      "id": "09780820-9a58-44de-b968-f11051719b67"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 2,
+        "__collapse": true
+      },
+      "id": "0512020e-cfbb-447b-b2cd-7b0e0bb2e781"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "Character Dying",
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "pxpos"
+              },
+              "y": {
+                "type": "sub",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "pypos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 48
+                }
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "units": "pixels",
+              "__collapse": false,
+              "__comment": false
+            },
+            "id": "52a96f1f-571a-48c4-9395-b51c4586fd93"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "pxpos"
+              },
+              "y": {
+                "type": "add",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "pypos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 144
+                }
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "units": "pixels",
+              "__collapse": false,
+              "__comment": false
+            },
+            "id": "f1e0dc99-5bd6-4e36-8ed4-cfb0a07de4d8"
+          }
+        ]
+      },
+      "id": "3b131e80-3476-4600-b865-0aae8e5649cd"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "GAME OVER",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_OVERLAY_HIDE",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "id": "04d3838f-8cb6-4cdf-b4f5-ab53e30d1289"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "992f4a76-1786-46f8-8abb-66426038bbd7",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": 3,
+                    "__collapse": true
+                  },
+                  "id": "7b08fcdb-db63-4207-9a15-2ca68261b08e"
+                }
+              ]
+            },
+            "id": "6c2362a5-ccb4-49cb-9fea-5ac123c97baa"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "6",
+              "__collapse": true
+            },
+            "id": "fc735f76-d70b-4230-99cc-24bc9a7de187"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "variable",
+                "value": "15"
+              },
+              "__collapse": true
+            },
+            "id": "dbeccf27-811b-4932-8bae-1f145abb093b"
+          },
+          {
+            "command": "EVENT_SCENE_POP_ALL_STATE",
+            "args": {
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "9c4003dc-6eb9-4527-a2a8-3f35fd71acd2"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "13"
+              },
+              "y": {
+                "type": "variable",
+                "value": "14"
+              },
+              "__collapse": true
+            },
+            "id": "cb99904d-69b5-47d7-a386-1404c08c150d"
+          }
+        ]
+      },
+      "id": "8425ec25-78b9-4e94-a578-c7408bf87b7a"
+    }
+  ]
+}

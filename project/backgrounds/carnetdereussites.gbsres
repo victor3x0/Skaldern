@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5ad39dbf-c7b1-4302-ae98-32acb2b1d48f",
+  "name": "CarnetDeReussites",
+  "symbol": "bg_menu",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "CarnetDeReussites.png",
+  "tileColors": "",
+  "autoColor": false
+}

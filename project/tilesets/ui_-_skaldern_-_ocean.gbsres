@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "ef21f3a9-1271-4446-8b63-a2eafad86ee1",
+  "name": "UI - Skaldern - Ocean",
+  "symbol": "tileset_ui_skaldern_ocean",
+  "width": 4,
+  "height": 4,
+  "imageWidth": 32,
+  "imageHeight": 32,
+  "filename": "UI - Skaldern - Ocean.png"
+}

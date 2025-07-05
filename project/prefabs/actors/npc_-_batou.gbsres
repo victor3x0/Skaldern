@@ -1,0 +1,146 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "ad088f63-313d-4a79-afbf-c5b9342fdf14",
+  "name": "NPC - Batou",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "387c7c07-9f69-4445-914f-1974294e4812",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "3",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operation": "up",
+        "otherActorId": "$self$",
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_BOUNCE",
+            "args": {
+              "height": "medium",
+              "__collapse": true
+            },
+            "id": "d2ee1a8d-f052-4aad-a68e-0fb1e051c1bb"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "85bd6c20-a87b-4198-8597-6e1149ab06b9",
+              "__collapse": true
+            },
+            "id": "bf0b3b33-d175-46a4-8650-e6c93d98123f"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_PLAYER_BOUNCE",
+            "args": {
+              "height": "medium",
+              "__collapse": true
+            },
+            "id": "723f7b20-56ac-43c4-85cd-6edf2bb95b14"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "44b7e9d1-0b93-45d0-9e9e-19147b02f97d",
+              "__collapse": true
+            },
+            "id": "b77da73c-8579-420d-a545-15a36b881f00"
+          }
+        ]
+      },
+      "id": "3e2769e3-4977-40ea-ae3f-1cfdf24d4e30"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 30
+        },
+        "y": {
+          "type": "number",
+          "value": 32
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "e84385df-38df-4be6-b4cd-443cb63ea303",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "516c3d5b-0948-496b-9c84-59e361095845"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 32
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "c8a96d68-c7fe-45f7-bd3a-4976518462c7",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "fa322f92-a35f-4b2b-87fc-aca8373012fe"
+    }
+  ],
+  "hit1Script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "5b9a0f63-47bc-48e1-a36b-cb36d019aaea",
+      "children": {}
+    }
+  ],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "85bd6c20-a87b-4198-8597-6e1149ab06b9",
+        "__collapse": true
+      },
+      "id": "4ecb076b-cfe4-4f10-b2b9-3717b8077fc7"
+    }
+  ]
+}

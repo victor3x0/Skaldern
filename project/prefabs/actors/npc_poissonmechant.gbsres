@@ -1,0 +1,130 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "48c56806-29d1-4435-99ca-89f4629ad26d",
+  "name": "NPC_PoissonMechant",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d9673c76-e802-4759-8c58-28a78c5de8c7",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": true,
+  "collisionGroup": "3",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "44b7e9d1-0b93-45d0-9e9e-19147b02f97d",
+        "__collapse": true
+      },
+      "id": "3b8ab4b1-2869-4690-9d9b-801e352fcc82",
+      "children": {}
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "L0",
+        "vectorY": "L1",
+        "__collapse": true
+      },
+      "id": "ffbaa814-aba0-4d70-951c-909060ac094e",
+      "children": {}
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "FO_EVENT_CUSTOM_PROJECTILE",
+      "args": {
+        "tabs": "default",
+        "lifetime": false,
+        "bounds": false,
+        "ignore": false,
+        "gravity": 0,
+        "collision": 0,
+        "bounce": 0,
+        "death": 0,
+        "varX": "0",
+        "varY": "0",
+        "projectile": 0,
+        "arc_height": 50,
+        "distance": 2,
+        "amplitude": 30,
+        "frequency": 10,
+        "phase": 64,
+        "actor": "$self$",
+        "orbit_x_offset": 0,
+        "orbit_y_offset": 0,
+        "orbit_amplitude": 100,
+        "orbit_frequency": 20,
+        "orbit_phase": 64,
+        "launch": false,
+        "hookshot_chain": 0,
+        "anchor_ignore": true,
+        "dir_offset": 0,
+        "customX": "0",
+        "customY": "0",
+        "__collapse": true
+      },
+      "children": {
+        "script": []
+      },
+      "id": "82dc0cdf-8148-4cac-894d-e286d0f40831"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "spriteSheetId": "423c6845-e57f-4721-a1e1-825503456df1",
+        "spriteStateId": "",
+        "speed": 2,
+        "animSpeed": 15,
+        "lifeTime": 1.5,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "3",
+        "collisionMask": [
+          "player"
+        ],
+        "actorId": "$self$",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "up",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "__presetId": "",
+        "__section": "source",
+        "__collapse": false
+      },
+      "id": "8e44970f-1a4c-4422-ad7e-63dbacb8fd0e"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "18b7f3be-689b-4bfb-8cac-d1c9bbd19035"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "85bd6c20-a87b-4198-8597-6e1149ab06b9",
+        "__collapse": true
+      },
+      "id": "023997b0-f631-4747-9d8d-83f32695c7e1",
+      "children": {}
+    }
+  ]
+}

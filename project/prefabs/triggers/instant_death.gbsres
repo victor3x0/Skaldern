@@ -1,0 +1,35 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "8968e77c-a962-40de-bc63-2e5d42e8f705",
+  "name": "Instant Death",
+  "prefabScriptOverrides": {},
+  "_index": 3,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "__collapse": false,
+        "customEventId": "44b7e9d1-0b93-45d0-9e9e-19147b02f97d"
+      },
+      "id": "b7ae13ce-cca6-44b8-b1a3-2af45afe0cda"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 14
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "__collapse": true
+      },
+      "id": "fb3872e0-0fc4-4449-9606-7bacfa2cd25c",
+      "children": {}
+    }
+  ],
+  "leaveScript": []
+}

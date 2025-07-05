@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "2f5c28aa-795f-4491-929d-e96ee80acf24",
+  "name": "Petits Oiseaux",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "58ce3cd9-81fa-4e2a-b9f6-b5c518fa4f4b",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 0.1,
+  "animSpeed": 7,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_201",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 31
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "moveType": "diagonal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "cb2b562c-c4e9-4ba9-801f-356ce00420ec"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "e8acf9f1-84bb-42d5-8ba3-3ceecea4fe41"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 20,
+  "y": 13,
+  "_index": 6
+}

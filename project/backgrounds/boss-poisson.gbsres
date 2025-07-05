@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d0d67bff-1924-4ad3-b3de-3aabcdcddfa1",
+  "name": "Boss-Poisson",
+  "symbol": "bg_boss_poisson",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Boss-Poisson.png",
+  "tileColors": "",
+  "autoColor": false
+}

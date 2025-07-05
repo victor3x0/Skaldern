@@ -1,0 +1,67 @@
+{
+  "_resourceType": "script",
+  "id": "7d100a16-8ae1-4a25-9fa0-c56561b4c19e",
+  "name": "NPC - Violent Death",
+  "description": "Common scrip for ennemy to die violently",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "de21a31f-6eb9-47bc-945b-79e2bcae64b0"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__presetId": "12332a35-2e69-4dea-88a5-663fdeeae7b2",
+        "__section": "projectile",
+        "spriteSheetId": "7af3b107-abe7-4bc6-8501-e474cde0f04b",
+        "spriteStateId": "",
+        "actorId": "0",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "up",
+        "angle": 0,
+        "angleVariable": "V0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 0,
+        "animSpeed": 15,
+        "lifeTime": 0.5,
+        "loopAnim": true,
+        "destroyOnHit": false,
+        "collisionGroup": "3",
+        "collisionMask": [],
+        "__collapse": true
+      },
+      "id": "5f4a7050-a40d-45c7-8b79-9665ab9851da"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "0718766b-5ebb-4301-8790-aa3dda5f719d"
+    },
+    {
+      "command": "EVENT_IDLE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "9add6ce3-3e08-41b4-a801-f15f96995038"
+    }
+  ]
+}

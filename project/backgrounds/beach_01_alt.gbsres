@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "41ab808f-4bd4-4646-9a78-324e00a28190",
+  "name": "Beach_01_alt",
+  "symbol": "bg_beach_01_alt",
+  "width": 48,
+  "height": 24,
+  "imageWidth": 384,
+  "imageHeight": 192,
+  "filename": "Beach_01_alt.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "606a79c5-e2d2-4cfd-86c2-483f57c65d98",
+  "name": "Beach_Boss",
+  "symbol": "bg_beach_boss",
+  "width": 24,
+  "height": 22,
+  "imageWidth": 192,
+  "imageHeight": 176,
+  "filename": "Beach_Boss.png",
+  "tileColors": "",
+  "autoColor": false
+}

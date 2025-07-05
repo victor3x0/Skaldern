@@ -1,0 +1,27 @@
+{
+  "_resourceType": "trigger",
+  "id": "be18992e-6080-47e8-af2e-4a41025705e7",
+  "name": "",
+  "prefabId": "",
+  "x": 28,
+  "y": 0,
+  "symbol": "trigger_55",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 16,
+  "script": [
+    {
+      "command": "EVENT_OVERLAY_SET_SCANLINE_CUTOFF",
+      "args": {
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": false
+      },
+      "id": "1c288146-337c-45d0-b494-854ae45d8f26"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

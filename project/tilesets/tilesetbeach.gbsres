@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "c62e9437-0cb4-4ca0-a87c-2e55d8b9084a",
+  "name": "TilesetBeach",
+  "symbol": "tileset_tilesetbeach",
+  "width": 16,
+  "height": 12,
+  "imageWidth": 128,
+  "imageHeight": 96,
+  "filename": "TilesetBeach.png"
+}

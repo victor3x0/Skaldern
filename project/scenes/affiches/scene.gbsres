@@ -1,0 +1,91 @@
+{
+  "_resourceType": "scene",
+  "id": "69f354cf-0039-4b24-91b4-1689a0563acc",
+  "_index": 16,
+  "name": "affiches",
+  "backgroundId": "c0455bbc-4fa3-41fe-95e4-df342dc61759",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 2,
+  "symbol": "scene_17",
+  "x": 4136,
+  "y": 696,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start",
+          "b",
+          "select"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": 1,
+              "__collapse": true
+            },
+            "id": "f3067b75-79df-4546-a087-9d36aadb0514"
+          }
+        ]
+      },
+      "id": "e0cd5c7a-1c4f-411d-a7d5-b86cca850216"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "5ff94fb6-d59a-4d0b-a988-9986bcc14474"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:a85a25bb-9253-454a-850f-4dfa2e4fb572!Pirate en  \n    beau cochon !\nRetrouvez-moi ce\n       mauudit !!",
+        "x": 4,
+        "y": 9,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "e08cd82b-a4be-4dce-af56-05a90f0a1370"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:96d42f3e-d1c8-4c60-811c-15e34c09e5bf!Récompense : 1002K",
+        "x": 6,
+        "y": 14,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "f8c74292-65d4-43d8-a76e-7681cc7c856a"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "428302a8-de4b-40ab-ba51-a5f536737701"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "9c06af54-61db-466a-ad30-db37e0168120",
+  "autoFadeEventCollapse": true,
+  "labelColor": "red"
+}

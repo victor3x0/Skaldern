@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "28000d7e-1174-4a64-a152-4fbfcc3724d8",
+  "name": "GUI",
+  "symbol": "tileset_gui",
+  "width": 4,
+  "height": 6,
+  "imageWidth": 32,
+  "imageHeight": 48,
+  "filename": "GUI.png"
+}

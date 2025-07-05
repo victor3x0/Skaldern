@@ -1,0 +1,12 @@
+build/
+cache/
+Skaldern Workfiles/
+
+
+*.bak
+*.sav
+*.icloud
+
+
+
+user_settings.gbsres
