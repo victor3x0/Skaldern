@@ -4,7 +4,7 @@
   "name": "",
   "prefabId": "",
   "x": 44,
-  "y": 15,
+  "y": 17,
   "symbol": "trigger_97",
   "prefabScriptOverrides": {},
   "width": 1,
@@ -13,17 +13,18 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "94c11c7d-f6be-4304-8401-fea554d43619",
+        "sceneId": "2dafdfbd-b81a-4c66-85f1-c8ba7aeadb00",
         "x": {
           "type": "number",
           "value": 2
         },
         "y": {
           "type": "number",
-          "value": 18
+          "value": 14
         },
         "direction": "right",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": true
       },
       "id": "2d2c2d2b-46f1-45a2-9bd9-7e67de9d0ec7"
     }

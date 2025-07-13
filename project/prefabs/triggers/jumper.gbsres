@@ -5,12 +5,45 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "command": "EVENT_PLAYER_BOUNCE",
+      "command": "PM_EVENT_PLATPLUS_STATE_STORE",
       "args": {
-        "height": "medium"
+        "variable": "T0",
+        "field": "plat_state",
+        "__collapse": true
       },
-      "id": "67ecc278-f86a-4bbb-af23-0fee08a09fa6",
-      "children": {}
+      "id": "2876c2d9-3a92-495f-8596-bd24e9f7a9c9"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_BOUNCE",
+            "args": {
+              "height": "medium",
+              "__collapse": true
+            },
+            "id": "be99092f-3fd8-47ce-8672-86ea9b967e7a"
+          }
+        ],
+        "false": []
+      },
+      "id": "29af9e0f-9cc9-4045-90ea-d1d53bb0942a"
     }
   ],
   "leaveScript": []

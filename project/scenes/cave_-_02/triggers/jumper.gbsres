@@ -12,6 +12,23 @@
       "args": {
         "height": "medium"
       }
+    },
+    "29af9e0f-9cc9-4045-90ea-d1d53bb0942a": {
+      "id": "29af9e0f-9cc9-4045-90ea-d1d53bb0942a",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "T0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      }
     }
   },
   "width": 2,

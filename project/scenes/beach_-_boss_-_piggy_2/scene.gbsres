@@ -1,0 +1,456 @@
+{
+  "_resourceType": "scene",
+  "id": "2dafdfbd-b81a-4c66-85f1-c8ba7aeadb00",
+  "_index": 34,
+  "name": "Beach - Boss - Piggy",
+  "backgroundId": "e9e82f4e-a900-484a-b991-78177b91013f",
+  "tilesetId": "",
+  "width": 22,
+  "height": 20,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0014a+0f6e+",
+  "autoFadeSpeed": null,
+  "symbol": "scene_35",
+  "x": 1928,
+  "y": 408,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Player Setup",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 7,
+              "__collapse": true
+            },
+            "id": "dfe69cce-43ed-47df-b9ee-2b2e8f57a5ba"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "15",
+              "value": {
+                "type": "number",
+                "value": 4
+              },
+              "__collapse": true
+            },
+            "id": "4717510d-9f3f-4415-bdc5-5485e041fcec"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "variable",
+                "value": "15"
+              },
+              "__collapse": true
+            },
+            "id": "75870c16-32a8-445c-b349-4716a78903ae"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "123d3b6a-3451-42d6-b636-a7205415915e"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "DRAW HUD",
+              "__collapse": true,
+              "__comment": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "12",
+                    "value": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "__collapse": true
+                  },
+                  "id": "f2565b44-c19c-4948-a694-f2382d9845d7"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "0422bec1-7df6-422e-aa69-51642379336a",
+                    "__collapse": true
+                  },
+                  "id": "fa9df828-de4e-4e73-acb9-0ca86f7dc19d"
+                }
+              ]
+            },
+            "id": "f25cbbca-4015-47b5-b656-a249550439ff"
+          }
+        ]
+      },
+      "id": "5038f84b-601c-4dd6-8e47-a264b97119e0"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "c5ce19eb-9a5b-484e-93c5-8598af9ddbfd",
+        "__collapse": true
+      },
+      "id": "d8a5674e-5c5e-49d7-b0f1-77359cedd09b"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "071147d8-43e5-479e-af6c-46f01639f232",
+        "__collapse": true
+      },
+      "id": "11e48491-40dc-4090-9da2-4ae44145ed05"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "84064110-9de5-4ae4-8ece-b42e93bdef18",
+        "__collapse": true
+      },
+      "id": "8a678523-65d8-43b7-ab6d-cad077dba79d"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "DRAW HUD",
+        "__collapse": true,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "number",
+                "value": 18
+              },
+              "__collapse": true
+            },
+            "id": "45dc135d-77f7-4f38-962d-d7267e9f8529"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0422bec1-7df6-422e-aa69-51642379336a",
+              "__collapse": true,
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L0"
+              }
+            },
+            "id": "32c9c01f-e149-4965-b851-a4de866488f3"
+          }
+        ]
+      },
+      "id": "038d1a4b-9c41-42ae-9d53-8c1669c8f3e0"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "DRAW PIGGY Empty LIFEBAR"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LOOP_WHILE",
+            "args": {
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
+              },
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "expression",
+                      "value": "6+$T0$"
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "tilesetId": "e9152541-6205-44e5-b947-d83c959ac135",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapse": true
+                  },
+                  "id": "e7141435-a605-4cc6-ba97-f808caa71e04"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "T0",
+                    "__collapse": true
+                  },
+                  "id": "3a17900a-5554-42c1-af75-a705f57d0d38"
+                }
+              ]
+            },
+            "id": "b35f424a-b96f-4b6e-a25d-7ecc226078df"
+          }
+        ]
+      },
+      "id": "cc261559-00c9-4005-aa73-222211b3a881"
+    },
+    {
+      "command": "EVENT_CAMERA_SET_POSITION",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "e92b1cff-8c8f-46d5-a1b7-d65602747d98"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2",
+        "__collapse": true
+      },
+      "id": "5428d04b-ef74-4f0f-bdfd-f4fe6fd1ecfc"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Start Animation",
+        "__collapse": true,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCRIPT_LOCK",
+            "args": {
+              "__collapse": true
+            },
+            "id": "ce7432eb-3e65-4557-a5c2-29bad0256689"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 2,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "80ed0341-60cc-4246-bc66-b2e3355a1586"
+          },
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 4
+              },
+              "__collapse": true
+            },
+            "id": "655d8942-b016-45fd-8f43-a4163219adb4"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "bcafc3e5-03b8-4d79-8e8e-814db8d9b787",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapse": true
+            },
+            "id": "9ba98a52-03d6-4aa2-90cb-09c35629c8a5"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "bcafc3e5-03b8-4d79-8e8e-814db8d9b787",
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+              "__collapse": true
+            },
+            "id": "8e02d224-7da7-478e-b29d-e2049e022532"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "d0c61ab7-83fb-4709-9320-56108ac4245b"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": true,
+              "__label": "DRAW PIGGY LIFEBAR"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "T0",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "5ec20238-9328-48e7-8f97-e8b9e6ecd3b7"
+                },
+                {
+                  "command": "EVENT_LOOP_WHILE",
+                  "args": {
+                    "condition": {
+                      "type": "lt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "T0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 10
+                      }
+                    },
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CAMERA_SHAKE",
+                        "args": {
+                          "time": 0.1,
+                          "frames": 30,
+                          "shakeDirection": "horizontal",
+                          "magnitude": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "__collapse": true
+                        },
+                        "id": "72a616fc-525d-4a23-8041-36ee806a8592"
+                      },
+                      {
+                        "command": "EVENT_REPLACE_TILE_XY",
+                        "args": {
+                          "x": {
+                            "type": "expression",
+                            "value": "6+$T0$"
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "tilesetId": "e9152541-6205-44e5-b947-d83c959ac135",
+                          "tileIndex": {
+                            "type": "number",
+                            "value": 3
+                          },
+                          "__collapse": true
+                        },
+                        "id": "13f2a6a0-8c94-4555-84f2-764c14948aec"
+                      },
+                      {
+                        "command": "EVENT_INC_VALUE",
+                        "args": {
+                          "variable": "T0",
+                          "__collapse": true
+                        },
+                        "id": "a9f6fbf1-4959-4a61-9670-f445f6a406e6"
+                      },
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 0.2,
+                          "frames": 30,
+                          "__collapse": true
+                        },
+                        "id": "90243e68-a7d9-4098-b5a3-d2261f90e431"
+                      }
+                    ]
+                  },
+                  "id": "d53b744a-2a21-494b-bcd1-2e4216a90204"
+                }
+              ]
+            },
+            "id": "ff4c3d5d-d5d4-4cb3-b891-938ae1bf9578"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "9b3adc88-85d7-404c-95c1-df26f80602e0"
+          },
+          {
+            "command": "EVENT_SCRIPT_UNLOCK",
+            "args": {
+              "__collapse": true
+            },
+            "id": "802ac509-0bc3-42e5-8954-0088a920b7c2"
+          }
+        ]
+      },
+      "id": "c902615a-453d-4a1e-bc10-869d911321a9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "44b7e9d1-0b93-45d0-9e9e-19147b02f97d",
+        "__collapse": true
+      },
+      "id": "1d8241e4-a4ad-4a82-ba4b-b4a5d02a5a9d"
+    }
+  ],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "",
+  "autoFadeEventCollapse": true,
+  "labelColor": "red"
+}

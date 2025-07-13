@@ -6,6 +6,14 @@
   "_index": 3,
   "script": [
     {
+      "command": "EVENT_PLAYER_BOUNCE",
+      "args": {
+        "height": "medium",
+        "__collapse": true
+      },
+      "id": "c5cac10e-a9a8-48ca-8408-0886d855e266"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "__collapse": true,

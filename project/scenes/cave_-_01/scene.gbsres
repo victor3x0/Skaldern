@@ -6,16 +6,52 @@
   "backgroundId": "4bb453f8-fd8e-4ca3-819d-131c0b47d1c7",
   "tilesetId": "c8211ae9-fa3b-4844-971d-a985d3a7e0e5",
   "width": 50,
-  "height": 30,
+  "height": 25,
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f1f4+002b+0f7+002b+0f7+002b+0f7+002b+0f7+00fa+0fd+004+016+004+0f24+00e+0f24+00e+0f24+00e+0f24+00e+0f143+",
-  "autoFadeSpeed": 1,
+  "collisions": "0f196+0025+0fd+0025+0fd+0025+0fd+002c+0f6+002c+0f6+002c+0f6+002c+0f6+002c+0f14+004+016+0f28+00e+0f24+00e+0f24+00e+0f24+00e+0fd8+",
+  "autoFadeSpeed": null,
   "symbol": "scene_1",
   "x": 640,
-  "y": 608,
+  "y": 632,
   "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "CheckPoint",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_RESET_STATE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "c0e20a97-1a69-433a-b363-02cccf77ca29"
+          },
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "771a1dd5-4ebe-4ba8-83af-7a1728d2f29e"
+          },
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "13",
+              "vectorY": "14",
+              "__collapse": true
+            },
+            "id": "17f20783-1bd6-4732-bd2d-f0c53ef8a573"
+          }
+        ]
+      },
+      "id": "288849e7-71e3-4f65-a1af-f1eba19b4758"
+    },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
@@ -75,9 +111,9 @@
               "variable": "12",
               "value": {
                 "type": "number",
-                "value": 28
+                "value": 23
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "ab154d3d-1c1c-457e-bb57-47ecd663c480"
           },
@@ -92,6 +128,424 @@
         ]
       },
       "id": "032ad5f9-dd65-468f-b528-ca96399d26e2"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Begin Animating Background Tiles",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": false
+            },
+            "id": "897a9653-ba86-4ad0-90b8-de6c1826a4f6"
+          },
+          {
+            "command": "EVENT_THREAD_START",
+            "args": {
+              "variable": "L1",
+              "__scriptTabs": "true",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_LOOP",
+                  "args": {
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH",
+                        "args": {
+                          "variable": "L0",
+                          "choices": 2,
+                          "__collapseCase0": false,
+                          "value0": 1,
+                          "__collapseCase1": false,
+                          "value1": 2,
+                          "__collapseCase2": false,
+                          "value2": 3,
+                          "__collapseCase3": false,
+                          "value3": 4,
+                          "__collapseCase4": false,
+                          "value4": 5,
+                          "__collapseCase5": false,
+                          "value5": 6,
+                          "__collapseCase6": false,
+                          "value6": 7,
+                          "__collapseCase7": false,
+                          "value7": 8,
+                          "__collapseCase8": false,
+                          "value8": 9,
+                          "__collapseCase9": false,
+                          "value9": 10,
+                          "__collapseCase10": false,
+                          "value10": 11,
+                          "__collapseCase11": false,
+                          "value11": 12,
+                          "__collapseCase12": false,
+                          "value12": 13,
+                          "__collapseCase13": false,
+                          "value13": 14,
+                          "__collapseCase14": false,
+                          "value14": 15,
+                          "__collapseCase15": false,
+                          "value15": 16,
+                          "__collapseElse": false,
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true0": [
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 20
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "tilesetId": "7c7109e8-52cd-4cf3-8110-56ad3791487f",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 1
+                                },
+                                "__collapse": true,
+                                "__label": "WATERFALL"
+                              },
+                              "id": "2b6e0421-9f49-4a97-85f9-855282dcc9db"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 20
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 17
+                                },
+                                "tilesetId": "45a1b9a4-7c11-41a6-885e-ea30f9d1e346",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 1
+                                },
+                                "__collapse": false,
+                                "__label": "CAVEWATER"
+                              },
+                              "id": "4e708971-7b20-43aa-aa6a-0a31eab6edaf"
+                            }
+                          ],
+                          "true1": [
+                            {
+                              "command": "EVENT_GROUP",
+                              "args": {
+                                "__label": "OCEAN FRAME 2",
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 20
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "tilesetId": "7c7109e8-52cd-4cf3-8110-56ad3791487f",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 2
+                                      },
+                                      "__collapse": true,
+                                      "__label": "WATERFALL"
+                                    },
+                                    "id": "b7ee7df3-a17e-4f91-b100-583bb00166ea"
+                                  },
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 20
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 17
+                                      },
+                                      "tilesetId": "45a1b9a4-7c11-41a6-885e-ea30f9d1e346",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 2
+                                      },
+                                      "__collapse": false,
+                                      "__label": "CAVEWATER"
+                                    },
+                                    "id": "8251c4f0-6948-4b86-aec9-7073e7344242"
+                                  }
+                                ]
+                              },
+                              "id": "5ac8a8b1-bbb0-4cf7-95d4-16e96d41f511"
+                            }
+                          ],
+                          "true2": [
+                            {
+                              "command": "EVENT_GROUP",
+                              "args": {
+                                "__label": "OCEAN FRAME 3",
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 16
+                                      },
+                                      "tilesetId": "ef21f3a9-1271-4446-8b63-a2eafad86ee1",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 3
+                                      },
+                                      "__collapse": true
+                                    },
+                                    "id": "084cc569-e4a1-4a11-86dd-ba2a840e74b5"
+                                  },
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 1
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 16
+                                      },
+                                      "tilesetId": "ef21f3a9-1271-4446-8b63-a2eafad86ee1",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 7
+                                      },
+                                      "__collapse": true
+                                    },
+                                    "id": "04210021-15bc-4ace-acf6-a4a6de5ec003"
+                                  },
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 17
+                                      },
+                                      "tilesetId": "ef21f3a9-1271-4446-8b63-a2eafad86ee1",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 11
+                                      },
+                                      "__collapse": true
+                                    },
+                                    "id": "c06e7be0-ff05-445c-9380-bc4029f694f2"
+                                  },
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 1
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 17
+                                      },
+                                      "tilesetId": "ef21f3a9-1271-4446-8b63-a2eafad86ee1",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 15
+                                      },
+                                      "__collapse": true
+                                    },
+                                    "id": "64ebfefb-8958-4099-a4c2-d5adbbeb5c60"
+                                  }
+                                ]
+                              },
+                              "id": "c6783e81-2ed7-42ef-b19d-4997c67b587b"
+                            }
+                          ],
+                          "true3": [],
+                          "true4": [],
+                          "true5": [],
+                          "true6": [],
+                          "true7": [],
+                          "true8": [],
+                          "true9": [],
+                          "true10": [],
+                          "true11": [],
+                          "true12": [],
+                          "true13": [],
+                          "true14": [],
+                          "true15": [],
+                          "false": [
+                            {
+                              "command": "EVENT_GROUP",
+                              "args": {
+                                "__label": "OCEAN FRAME 0",
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 20
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "tilesetId": "7c7109e8-52cd-4cf3-8110-56ad3791487f",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "__collapse": true,
+                                      "__label": "WATERFALL"
+                                    },
+                                    "id": "48f544a2-f5d4-4171-a234-87559efc11df"
+                                  },
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 20
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 17
+                                      },
+                                      "tilesetId": "45a1b9a4-7c11-41a6-885e-ea30f9d1e346",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "__collapse": true,
+                                      "__label": "CAVEWATER"
+                                    },
+                                    "id": "8fd7c2b6-5033-4c47-9f9b-116bef7f99c8"
+                                  }
+                                ]
+                              },
+                              "id": "ea189cde-c8c3-49eb-8423-c3704436c270"
+                            }
+                          ]
+                        },
+                        "id": "6a02ad7d-c9d7-4c39-97df-1b00f76ca70b"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "L0"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 3
+                            }
+                          },
+                          "__collapseElse": false,
+                          "__collapse": true,
+                          "__label": "Continue or Restart Animation"
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "L0",
+                                "value": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "__collapse": true
+                              },
+                              "id": "cef58167-1cad-4f3b-a552-b7b9f4fd20d1"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_INC_VALUE",
+                              "args": {
+                                "variable": "L0",
+                                "__collapse": true
+                              },
+                              "id": "4f43c5ab-701e-4924-bcd7-0ff801b9a239"
+                            }
+                          ]
+                        },
+                        "id": "f85d8799-9226-4513-9cc7-b3cadccf328a"
+                      },
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 0.4,
+                          "frames": 30,
+                          "__collapse": true
+                        },
+                        "id": "c73fed08-5e35-44e8-83b2-5b7b2f6f3d37"
+                      }
+                    ]
+                  },
+                  "id": "6931c184-06c3-43bc-be0c-09f7f4b0756a"
+                }
+              ]
+            },
+            "id": "336ee344-f4c6-4399-80df-7b5ee54aa667"
+          }
+        ]
+      },
+      "id": "ce9743fb-87ce-4516-863d-4b541ea5dae3"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2",
+        "__collapse": true
+      },
+      "id": "fc5b68af-abb9-4ef3-9261-064adf06254a"
     }
   ],
   "playerHit1Script": [],

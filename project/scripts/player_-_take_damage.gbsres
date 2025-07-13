@@ -17,7 +17,8 @@
             "value": "2"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -27,6 +28,20 @@
               "__collapse": true
             },
             "id": "3d1632c8-9af7-4773-b3fb-f54f2ffa69b6"
+          },
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 0.2,
+              "frames": 30,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 10
+              },
+              "__collapse": true
+            },
+            "id": "beb55f25-c93c-412a-a667-85d15a723681"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -80,6 +95,13 @@
             "id": "07506aa9-e54c-4422-9d6b-0c7688367465"
           },
           {
+            "command": "EVENT_SCRIPT_UNLOCK",
+            "args": {
+              "__collapse": true
+            },
+            "id": "bda57deb-489d-4200-8aa6-be580cc3c731"
+          },
+          {
             "command": "EVENT_IF",
             "args": {
               "condition": {
@@ -94,7 +116,7 @@
                 }
               },
               "__collapseElse": false,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -152,13 +174,6 @@
                     "__collapse": true
                   },
                   "id": "7c615874-4f5f-4e8d-a282-3d39cca1280c"
-                },
-                {
-                  "command": "EVENT_SCRIPT_UNLOCK",
-                  "args": {
-                    "__collapse": true
-                  },
-                  "id": "bda57deb-489d-4200-8aa6-be580cc3c731"
                 },
                 {
                   "command": "EVENT_GROUP",

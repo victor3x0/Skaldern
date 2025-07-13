@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ed92e062-52f1-473d-b292-9d753ffcd062",
+  "name": "Cave - Boss - PiggyDeath",
+  "symbol": "bg_cave_boss_piggydeath",
+  "width": 22,
+  "height": 20,
+  "imageWidth": 176,
+  "imageHeight": 160,
+  "filename": "Cave - Boss - PiggyDeath.png",
+  "tileColors": "",
+  "autoColor": false
+}

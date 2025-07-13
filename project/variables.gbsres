@@ -3,8 +3,8 @@
   "variables": [
     {
       "id": "0",
-      "name": "Boss_PiggyIsDead?",
-      "symbol": "var_boss_piggyisdead_"
+      "name": "Boss_IsDead?",
+      "symbol": "var_boss_isdead_"
     },
     {
       "id": "1",
@@ -85,6 +85,11 @@
       "id": "41",
       "name": "Frame Counter",
       "symbol": "var_frame_counter"
+    },
+    {
+      "id": "42",
+      "name": "Thread Patrol",
+      "symbol": "var_thread_patrol"
     },
     {
       "id": "55215e2c-ea19-4a04-920b-6c065c7c2255__L0",
@@ -1238,13 +1243,113 @@
     },
     {
       "id": "07f8a573-f55f-4691-8c71-f526356a6135__L0",
-      "name": "Animation",
-      "symbol": "var_animation_0"
+      "name": "BGAnimationFrame",
+      "symbol": "var_bganimationframe"
     },
     {
       "id": "2dfac7bd-ffbc-4de7-95cd-bba434c831f6__L0",
       "name": "MenuSelectorPos",
       "symbol": "var_menuselectorpos_0"
+    },
+    {
+      "id": "aaf16a7e-df75-4f6b-b771-e36a9e17fe74__L0",
+      "name": "Attacking",
+      "symbol": "var_attacking_1"
+    },
+    {
+      "id": "1bdebc4d-f767-49dc-9e6d-2c0e49ce5850__L0",
+      "name": "BGAnimationFrame",
+      "symbol": "var_bganimationframe_0"
+    },
+    {
+      "id": "aaf16a7e-df75-4f6b-b771-e36a9e17fe74__L1",
+      "name": "Moving",
+      "symbol": "var_moving"
+    },
+    {
+      "id": "07f8a573-f55f-4691-8c71-f526356a6135__L1",
+      "name": "BGAnimation",
+      "symbol": "var_bganimation"
+    },
+    {
+      "id": "1bdebc4d-f767-49dc-9e6d-2c0e49ce5850__L1",
+      "name": "BG_Animation",
+      "symbol": "var_bg_animation_0"
+    },
+    {
+      "id": "af8a0601-4eef-40d9-8b36-9a918deaead3__L0",
+      "name": "Attacking",
+      "symbol": "var_attacking_0"
+    },
+    {
+      "id": "af8a0601-4eef-40d9-8b36-9a918deaead3__L1",
+      "name": "Loop",
+      "symbol": "var_loop_0"
+    },
+    {
+      "id": "bf93c5a7-e242-4acb-bb72-12293570857e__L0",
+      "name": "Attacking",
+      "symbol": "var_attacking"
+    },
+    {
+      "id": "bf93c5a7-e242-4acb-bb72-12293570857e__L1",
+      "name": "Moving",
+      "symbol": "var_moving_0"
+    },
+    {
+      "id": "bcafc3e5-03b8-4d79-8e8e-814db8d9b787__L0",
+      "name": "Life",
+      "symbol": "var_life_29"
+    },
+    {
+      "id": "bebbf214-7e68-453c-96b4-e7aa64a3d4cb__L0",
+      "name": "Life",
+      "symbol": "var_life_30"
+    },
+    {
+      "id": "c5ce19eb-9a5b-484e-93c5-8598af9ddbfd__L0",
+      "name": "StartX",
+      "symbol": "var_startx"
+    },
+    {
+      "id": "c5ce19eb-9a5b-484e-93c5-8598af9ddbfd__L1",
+      "name": "StartY",
+      "symbol": "var_starty"
+    },
+    {
+      "id": "bcafc3e5-03b8-4d79-8e8e-814db8d9b787__L2",
+      "name": "Local 2",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "368caad6-f666-48db-ba09-c36d5c498d13__L0",
+      "name": "StartX",
+      "symbol": "var_startx_0"
+    },
+    {
+      "id": "368caad6-f666-48db-ba09-c36d5c498d13__L1",
+      "name": "StartY",
+      "symbol": "var_starty_0"
+    },
+    {
+      "id": "f68db398-3293-4f78-9d2d-3709eaf3958b__L0",
+      "name": "StartX",
+      "symbol": "var_startx_1"
+    },
+    {
+      "id": "f68db398-3293-4f78-9d2d-3709eaf3958b__L1",
+      "name": "StartY",
+      "symbol": "var_starty_1"
+    },
+    {
+      "id": "0171207a-f2ea-4b8d-9fbf-6a4aa5f100c3__L0",
+      "name": "Attacking",
+      "symbol": "var_attacking_2"
+    },
+    {
+      "id": "0171207a-f2ea-4b8d-9fbf-6a4aa5f100c3__L1",
+      "name": "Moving",
+      "symbol": "var_moving_1"
     }
   ]
 }

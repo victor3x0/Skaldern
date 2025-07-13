@@ -3,8 +3,8 @@
   "id": "53c9fcda-41b8-4f59-839a-387fe22b0334",
   "name": "",
   "prefabId": "8968e77c-a962-40de-bc63-2e5d42e8f705",
-  "x": 13,
-  "y": 23,
+  "x": 20,
+  "y": 17,
   "symbol": "trigger_2",
   "prefabScriptOverrides": {
     "fb3872e0-0fc4-4449-9606-7bacfa2cd25c": {
@@ -12,17 +12,43 @@
       "args": {
         "x": {
           "type": "number",
-          "value": 11
+          "value": 17
         },
         "y": {
           "type": "number",
+          "value": 15
+        }
+      }
+    },
+    "75ef85db-04d6-46ac-9891-19b92912f3c4": {
+      "id": "75ef85db-04d6-46ac-9891-19b92912f3c4",
+      "args": {
+        "x": {
+          "type": "number",
           "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        }
+      }
+    },
+    "66e643e5-29ca-4559-90a6-e3f6ea40b177": {
+      "id": "66e643e5-29ca-4559-90a6-e3f6ea40b177",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 15
         }
       }
     }
   },
   "width": 14,
-  "height": 1,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

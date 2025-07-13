@@ -3,12 +3,12 @@
   "id": "fc6c987e-6c20-4a4a-81b3-f4c394625111",
   "name": "",
   "prefabId": "",
-  "x": 53,
-  "y": 15,
+  "x": 64,
+  "y": 8,
   "symbol": "trigger_24",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 1,
+  "width": 1,
+  "height": 6,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -16,15 +16,15 @@
         "sceneId": "34e92754-cf5e-401c-8033-fc29957a9b89",
         "x": {
           "type": "number",
-          "value": 18
+          "value": 2
         },
         "y": {
           "type": "number",
-          "value": 14
+          "value": 13
         },
-        "direction": "left",
+        "direction": "right",
         "fadeSpeed": "2",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "cef0a7d6-76a0-49b9-ab33-b98117a2f849"
     }

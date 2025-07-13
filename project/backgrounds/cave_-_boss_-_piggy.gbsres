@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e9e82f4e-a900-484a-b991-78177b91013f",
+  "name": "Cave - Boss - Piggy",
+  "symbol": "bg_cave_boss_piggy",
+  "width": 22,
+  "height": 20,
+  "imageWidth": 176,
+  "imageHeight": 160,
+  "filename": "Cave - Boss - Piggy.png",
+  "tileColors": "",
+  "autoColor": false
+}

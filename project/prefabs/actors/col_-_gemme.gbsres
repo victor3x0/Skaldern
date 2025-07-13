@@ -20,7 +20,8 @@
         "value": {
           "type": "expression",
           "value": "$03$+10*$05$"
-        }
+        },
+        "__collapse": true
       },
       "id": "d58cb40d-9df6-4348-ad74-25e3457eecb4"
     },

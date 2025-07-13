@@ -4,7 +4,7 @@
   "name": "",
   "prefabId": "8968e77c-a962-40de-bc63-2e5d42e8f705",
   "x": 28,
-  "y": 29,
+  "y": 27,
   "symbol": "trigger_94",
   "prefabScriptOverrides": {
     "fb3872e0-0fc4-4449-9606-7bacfa2cd25c": {
@@ -19,10 +19,36 @@
           "value": 26
         }
       }
+    },
+    "75ef85db-04d6-46ac-9891-19b92912f3c4": {
+      "id": "75ef85db-04d6-46ac-9891-19b92912f3c4",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 26
+        },
+        "y": {
+          "type": "number",
+          "value": 26
+        }
+      }
+    },
+    "66e643e5-29ca-4559-90a6-e3f6ea40b177": {
+      "id": "66e643e5-29ca-4559-90a6-e3f6ea40b177",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 26
+        },
+        "y": {
+          "type": "number",
+          "value": 26
+        }
+      }
     }
   },
   "width": 6,
-  "height": 1,
+  "height": 3,
   "script": [],
   "leaveScript": [],
   "_index": 0

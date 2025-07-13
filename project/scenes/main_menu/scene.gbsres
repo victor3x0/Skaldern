@@ -92,23 +92,23 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "4b8f61cf-4461-41fc-aac0-3787ce201d50"
           },
           {
             "command": "EVENT_THREAD_START",
             "args": {
-              "variable": "33",
+              "variable": "L1",
               "__scriptTabs": "true",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
                 {
                   "command": "EVENT_LOOP",
                   "args": {
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -560,7 +560,7 @@
                             }
                           },
                           "__collapseElse": false,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Continue or Restart Animation"
                         },
                         "children": {

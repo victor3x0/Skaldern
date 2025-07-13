@@ -19,16 +19,15 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 14
+          "value": 0
         },
         "y": {
           "type": "number",
-          "value": 14
+          "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "fb3872e0-0fc4-4449-9606-7bacfa2cd25c",
-      "children": {}
+      "id": "66e643e5-29ca-4559-90a6-e3f6ea40b177"
     }
   ],
   "leaveScript": []

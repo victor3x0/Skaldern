@@ -6,7 +6,24 @@
   "x": 8,
   "y": 25,
   "symbol": "trigger_102",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "29af9e0f-9cc9-4045-90ea-d1d53bb0942a": {
+      "id": "29af9e0f-9cc9-4045-90ea-d1d53bb0942a",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "T0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        }
+      }
+    }
+  },
   "width": 2,
   "height": 1,
   "script": [

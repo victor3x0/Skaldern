@@ -1,6 +1,7 @@
 {
   "version": "4.2.0-e1",
   "fields": [
+  
     {
       "key": "INPUT_PLATFORM_JUMP",
       "sceneType": "PLATFORM",

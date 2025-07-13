@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "45a1b9a4-7c11-41a6-885e-ea30f9d1e346",
+  "name": "Animated_CaveWater",
+  "symbol": "tileset_animated_cavewater",
+  "width": 3,
+  "height": 1,
+  "imageWidth": 24,
+  "imageHeight": 8,
+  "filename": "Animated_CaveWater.png"
+}

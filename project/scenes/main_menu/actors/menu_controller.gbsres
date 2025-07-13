@@ -770,7 +770,7 @@
                     "sceneId": "05f2ada6-a806-4ca6-83e9-6165405628db",
                     "x": {
                       "type": "number",
-                      "value": 22
+                      "value": 21
                     },
                     "y": {
                       "type": "number",
@@ -954,7 +954,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 18,
-  "y": 8,
+  "x": 24,
+  "y": 4,
   "_index": 0
 }

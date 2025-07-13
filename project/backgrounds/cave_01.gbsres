@@ -4,9 +4,9 @@
   "name": "Cave_01",
   "symbol": "bg_cave_01",
   "width": 50,
-  "height": 30,
+  "height": 25,
   "imageWidth": 401,
-  "imageHeight": 240,
+  "imageHeight": 200,
   "filename": "Cave_01.png",
   "tileColors": "",
   "autoColor": false

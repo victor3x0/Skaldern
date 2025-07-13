@@ -48,11 +48,11 @@
                   "priority": false
                 },
                 {
-                  "id": "dcd02f02-a944-4282-b8db-a6fb5534b14d",
-                  "x": 12,
-                  "y": 0,
-                  "sliceX": 16,
-                  "sliceY": 32,
+                  "id": "efbdc1b1-c8c4-4117-99c3-059b42486872",
+                  "x": -1,
+                  "y": 9,
+                  "sliceX": 0,
+                  "sliceY": 0,
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
@@ -61,11 +61,11 @@
                   "priority": false
                 },
                 {
-                  "id": "efbdc1b1-c8c4-4117-99c3-059b42486872",
-                  "x": -1,
-                  "y": 9,
-                  "sliceX": 0,
-                  "sliceY": 0,
+                  "id": "9eb6cfef-fbee-4ff8-873d-b2eb1c10cf5c",
+                  "x": 12,
+                  "y": 1,
+                  "sliceX": 16,
+                  "sliceY": 32,
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
@@ -189,7 +189,7 @@
                 },
                 {
                   "id": "c0ddd442-9d9e-42ed-87e4-258227a5466f",
-                  "x": 11,
+                  "x": 12,
                   "y": 0,
                   "sliceX": 16,
                   "sliceY": 32,
@@ -402,7 +402,7 @@
                 {
                   "id": "2e2b6426-25ba-43c5-b3ed-fbce83525a33",
                   "x": 2,
-                  "y": 0,
+                  "y": 1,
                   "sliceX": 8,
                   "sliceY": 56,
                   "palette": 0,
@@ -415,7 +415,7 @@
                 {
                   "id": "4008b120-e548-4bf6-b4f0-f90c2ded7f97",
                   "x": 9,
-                  "y": 0,
+                  "y": 1,
                   "sliceX": 16,
                   "sliceY": 56,
                   "palette": 0,
@@ -427,7 +427,7 @@
                 },
                 {
                   "id": "50a7ef9f-bc48-43bb-8cbd-2a1daa499743",
-                  "x": 1,
+                  "x": 2,
                   "y": 9,
                   "sliceX": 48,
                   "sliceY": 0,
@@ -440,7 +440,7 @@
                 },
                 {
                   "id": "39731f43-381c-4271-a4a1-5015aed3ca4c",
-                  "x": 9,
+                  "x": 10,
                   "y": 9,
                   "sliceX": 56,
                   "sliceY": 0,
@@ -453,7 +453,7 @@
                 },
                 {
                   "id": "051c2035-94da-4cb4-93e1-1694555b1615",
-                  "x": -3,
+                  "x": -2,
                   "y": 2,
                   "sliceX": 16,
                   "sliceY": 32,
@@ -927,7 +927,7 @@
                 {
                   "id": "659cfc8c-3490-4c49-8898-30fb0a489627",
                   "x": 9,
-                  "y": 7,
+                  "y": 5,
                   "sliceX": 0,
                   "sliceY": 16,
                   "palette": 0,
