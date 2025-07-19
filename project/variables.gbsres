@@ -1238,8 +1238,8 @@
     },
     {
       "id": "05f2ada6-a806-4ca6-83e9-6165405628db__L0",
-      "name": "Local 0",
-      "symbol": "var_local_1"
+      "name": "BackGroundAnimationFrame",
+      "symbol": "var_backgroundanimationfram"
     },
     {
       "id": "07f8a573-f55f-4691-8c71-f526356a6135__L0",
@@ -1350,6 +1350,16 @@
       "id": "0171207a-f2ea-4b8d-9fbf-6a4aa5f100c3__L1",
       "name": "Moving",
       "symbol": "var_moving_1"
+    },
+    {
+      "id": "dd8edc88-ed54-4bfb-bf0a-01ec64a87533__L0",
+      "name": "Attack",
+      "symbol": "var_attack_0"
+    },
+    {
+      "id": "05f2ada6-a806-4ca6-83e9-6165405628db__L1",
+      "name": "BackGroundAnimationThread",
+      "symbol": "var_backgroundanimationthre"
     }
   ]
 }

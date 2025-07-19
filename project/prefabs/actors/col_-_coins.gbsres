@@ -21,7 +21,7 @@
           "type": "expression",
           "value": "$03$+1*$05$"
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "4c308061-6651-4ac0-9e4d-47fd6b92498d"
     },

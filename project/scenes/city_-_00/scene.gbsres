@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "e37c2099-aef4-4cc0-9da0-cb1ae41f1a19",
-  "_index": 15,
+  "_index": 13,
   "name": "City - 00",
   "backgroundId": "86e2bd18-633e-4b60-ac4f-628b76603109",
   "tilesetId": "",
@@ -125,6 +125,6 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "10f391e7-d65e-479a-a7ba-ad59face2e0a",
-  "autoFadeEventCollapse": false,
+  "autoFadeEventCollapse": true,
   "labelColor": "blue"
 }

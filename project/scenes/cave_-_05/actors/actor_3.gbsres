@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "c99ba827-b0c9-4dec-be89-e15e9633a319",
+  "id": "3bbcb23e-c4eb-4b49-96ce-bfcf31527dc0",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -21,7 +21,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 19,
-  "y": 10,
+  "x": 20,
+  "y": 11,
   "_index": 2
 }

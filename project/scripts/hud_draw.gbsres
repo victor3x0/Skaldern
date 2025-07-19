@@ -51,7 +51,7 @@
                 "type": "number",
                 "value": 1
               },
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -70,7 +70,7 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [

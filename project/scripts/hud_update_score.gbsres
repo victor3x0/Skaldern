@@ -14,7 +14,7 @@
         "x": 9,
         "y": 1,
         "location": "overlay",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "DRAW SCORE"
       },
       "id": "be35c498-fb10-4773-9acb-17dabece1f00"

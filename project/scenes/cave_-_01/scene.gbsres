@@ -4,17 +4,17 @@
   "_index": 0,
   "name": "Cave - 01",
   "backgroundId": "4bb453f8-fd8e-4ca3-819d-131c0b47d1c7",
-  "tilesetId": "c8211ae9-fa3b-4844-971d-a985d3a7e0e5",
-  "width": 50,
-  "height": 25,
+  "tilesetId": "",
+  "width": 94,
+  "height": 40,
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f196+0025+0fd+0025+0fd+0025+0fd+002c+0f6+002c+0f6+002c+0f6+002c+0f6+002c+0f14+004+016+0f28+00e+0f24+00e+0f24+00e+0f24+00e+0fd8+",
+  "collisions": "0f263+0025+0f39+0025+0f39+0025+0f39+0025+0f39+0025+0f39+003+10!0021+0f3b+01!11!01!0fc+014+008+018+0f10+0025+0f6+00!10!00!0fc+0014+0f10+0025+0f6+00!10!00!0fc+0014+0f10+0025+0f6+00!10!00!0fc+001e+0f6+0025+0f6+00!10!00!0fc+001e+0f6+002c+10!00!0f4+0026+0f6+002c+10!00!0f4+0026+0f6+002c+10!00!0f4+0026+0f6+002c+10!00!0f4+0026+0f14+004+0f6+004+0f28+014+007+013+0f1a+00e+0f28+00e+0f1a+00e+0f28+00e+0f1a+00e+0f16+0020+0f1a+00e+0f16+0020+0f3e+0017+015+004+0f3e+0020+0f3e+0020+0f3e+0020+0f3e+0020+0f3e+00c+0f3+004+0f3+006+0f42+001c+0f4c+00e+0f50+00e+0f1e4+",
   "autoFadeSpeed": null,
   "symbol": "scene_1",
-  "x": 640,
-  "y": 632,
+  "x": 952,
+  "y": 608,
   "script": [
     {
       "command": "EVENT_GROUP",
@@ -111,7 +111,7 @@
               "variable": "12",
               "value": {
                 "type": "number",
-                "value": 23
+                "value": 28
               },
               "__collapse": false
             },
@@ -121,7 +121,11 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "0422bec1-7df6-422e-aa69-51642379336a",
-              "__collapse": true
+              "__collapse": false,
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "T0"
+              }
             },
             "id": "34434d29-26bd-4cf1-98ed-1070ef49ff92"
           }
@@ -133,7 +137,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Begin Animating Background Tiles",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -161,7 +165,7 @@
                 {
                   "command": "EVENT_LOOP",
                   "args": {
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -216,7 +220,7 @@
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 0
+                                  "value": 5
                                 },
                                 "tilesetId": "7c7109e8-52cd-4cf3-8110-56ad3791487f",
                                 "tileIndex": {
@@ -237,14 +241,14 @@
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 17
+                                  "value": 22
                                 },
                                 "tilesetId": "45a1b9a4-7c11-41a6-885e-ea30f9d1e346",
                                 "tileIndex": {
                                   "type": "number",
                                   "value": 1
                                 },
-                                "__collapse": false,
+                                "__collapse": true,
                                 "__label": "CAVEWATER"
                               },
                               "id": "4e708971-7b20-43aa-aa6a-0a31eab6edaf"
@@ -255,7 +259,7 @@
                               "command": "EVENT_GROUP",
                               "args": {
                                 "__label": "OCEAN FRAME 2",
-                                "__collapse": false
+                                "__collapse": true
                               },
                               "children": {
                                 "true": [
@@ -268,7 +272,7 @@
                                       },
                                       "y": {
                                         "type": "number",
-                                        "value": 0
+                                        "value": 5
                                       },
                                       "tilesetId": "7c7109e8-52cd-4cf3-8110-56ad3791487f",
                                       "tileIndex": {
@@ -289,14 +293,14 @@
                                       },
                                       "y": {
                                         "type": "number",
-                                        "value": 17
+                                        "value": 22
                                       },
                                       "tilesetId": "45a1b9a4-7c11-41a6-885e-ea30f9d1e346",
                                       "tileIndex": {
                                         "type": "number",
                                         "value": 2
                                       },
-                                      "__collapse": false,
+                                      "__collapse": true,
                                       "__label": "CAVEWATER"
                                     },
                                     "id": "8251c4f0-6948-4b86-aec9-7073e7344242"
@@ -431,7 +435,7 @@
                                       },
                                       "y": {
                                         "type": "number",
-                                        "value": 0
+                                        "value": 5
                                       },
                                       "tilesetId": "7c7109e8-52cd-4cf3-8110-56ad3791487f",
                                       "tileIndex": {
@@ -452,14 +456,14 @@
                                       },
                                       "y": {
                                         "type": "number",
-                                        "value": 17
+                                        "value": 22
                                       },
                                       "tilesetId": "45a1b9a4-7c11-41a6-885e-ea30f9d1e346",
                                       "tileIndex": {
                                         "type": "number",
                                         "value": 0
                                       },
-                                      "__collapse": true,
+                                      "__collapse": false,
                                       "__label": "CAVEWATER"
                                     },
                                     "id": "8fd7c2b6-5033-4c47-9f9b-116bef7f99c8"

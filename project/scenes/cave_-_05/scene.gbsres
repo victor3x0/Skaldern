@@ -1,20 +1,20 @@
 {
   "_resourceType": "scene",
   "id": "76159db9-e4c4-4331-91ed-7d4eda40de78",
-  "_index": 3,
+  "_index": 2,
   "name": "Cave - 05",
   "backgroundId": "a2aa8818-0c1a-46d9-8245-6801d8d59334",
-  "tilesetId": "c8211ae9-fa3b-4844-971d-a985d3a7e0e5",
+  "tilesetId": "",
   "width": 35,
   "height": 20,
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f1f+102+0f21+102+0f21+102+0f21+102+0f21+102+0f21+102+0f2+001f+102+0f2+001f+102+0f2+001f+102+0f2+001f+102+0f2+001f+102+0f2+001f+102+0f2+00a+014+003+014+00a+102+0f2+001f+102+0fb+00d+0f16+00d+0f16+00d+0f76+",
+  "collisions": "0ff5+0021+0f2+0021+0f2+0021+0f2+0021+0f2+0021+0f2+0021+0f2+0021+0fb+004+014+004+0f17+00c+0f17+00c+0f77+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 2136,
-  "y": 640,
+  "x": 2368,
+  "y": 736,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -24,7 +24,7 @@
           "type": "number",
           "value": 18
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "f3a38d6b-e0c4-4935-9bc1-791675779249"
     },
@@ -32,7 +32,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0422bec1-7df6-422e-aa69-51642379336a",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "a0cbc5bd-613f-4785-bf29-d1714b9a1dbe"
     }
@@ -41,6 +41,6 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "",
-  "autoFadeEventCollapse": false,
+  "autoFadeEventCollapse": true,
   "labelColor": "purple"
 }

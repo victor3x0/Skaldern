@@ -14,18 +14,40 @@
       "id": "b7ae13ce-cca6-44b8-b1a3-2af45afe0cda"
     },
     {
+      "command": "PT_EVENT_PLAYER_FIELD_SET",
+      "args": {
+        "field": "pl_vel_x",
+        "variable": "0",
+        "value": 0,
+        "type": "number",
+        "__collapse": true
+      },
+      "id": "417c605d-74ff-4ffc-8704-f81b1e7025da"
+    },
+    {
+      "command": "PT_EVENT_PLAYER_FIELD_SET",
+      "args": {
+        "field": "pl_vel_y",
+        "variable": "0",
+        "value": 0,
+        "type": "number",
+        "__collapse": true
+      },
+      "id": "311bd581-59ba-4010-9d1a-0ce64c8f5762"
+    },
+    {
       "command": "EVENT_ACTOR_SET_POSITION",
       "args": {
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 18
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 20
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "66e643e5-29ca-4559-90a6-e3f6ea40b177"
     }

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "b4a57084-1bfb-4419-abbf-2358c624fc57",
-  "_index": 26,
+  "_index": 24,
   "name": "Beach - 02",
   "backgroundId": "41ab808f-4bd4-4646-9a78-324e00a28190",
   "tilesetId": "c62e9437-0cb4-4ca0-a87c-2e55d8b9084a",
@@ -13,8 +13,8 @@
   "collisions": "00176+01!00!014+009d+014+0014+014+008f+0f4+002c+0f4+008+0fd+008+014+008+0f1c+0014+0f1c+0014+0f1c+0014+0fcf+",
   "autoFadeSpeed": 1,
   "symbol": "scene_29",
-  "x": 3128,
-  "y": 464,
+  "x": 3152,
+  "y": 640,
   "script": [
     {
       "command": "EVENT_GROUP",

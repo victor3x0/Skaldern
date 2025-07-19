@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "47da794e-6079-4e75-b7f7-e743523c7677",
-  "_index": 6,
+  "_index": 4,
   "name": "Beach - 01",
   "backgroundId": "7bdca15f-de13-4e4e-901b-776b99507f5f",
   "tilesetId": "c62e9437-0cb4-4ca0-a87c-2e55d8b9084a",
@@ -13,8 +13,8 @@
   "collisions": "00e0+01!0f2+012+001c+0f2+001e+0f2+001e+0f2+001e+0f2+001e+0f2+00!102+006+0f2+00a+0f2+007+0f2+00!102+006+0f2+00a+0f2+006+0f4+112+0f1a+004+102+005a+",
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
-  "x": 2464,
-  "y": 480,
+  "x": 2760,
+  "y": 456,
   "script": [
     {
       "command": "EVENT_GROUP",
@@ -47,6 +47,23 @@
         ]
       },
       "id": "351430e7-b9b4-41fd-a869-ed176c179bb1"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "da76937c-3b02-452f-9cd7-5f405358c543",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "2"
+        },
+        "__comment": false
+      },
+      "id": "fb516ee3-b09a-428c-abbe-e14f24a3ba01"
     },
     {
       "command": "EVENT_GROUP",

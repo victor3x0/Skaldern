@@ -1,21 +1,36 @@
 {
   "_resourceType": "scene",
   "id": "05f2ada6-a806-4ca6-83e9-6165405628db",
-  "_index": 14,
+  "_index": 12,
   "name": "START GAME",
   "backgroundId": "630cd2d9-eca9-4ed7-990d-e51d832b727f",
-  "tilesetId": "c8211ae9-fa3b-4844-971d-a985d3a7e0e5",
-  "width": 65,
+  "tilesetId": "",
+  "width": 90,
   "height": 18,
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0fe+0033+0fe+0033+0fe+0033+0fe+0033+0fe+0033+0fe+0033+0fe+0033+0fe+0033+0fe+00d+016+0020+0fe+0033+0fe+0018+0f2+0019+0fe+0018+0f2+0019+0fe+0014+0f6+0019+0fe+0014+0f6+0019+0f104+",
-  "autoFadeSpeed": 3,
+  "collisions": "0ff+004b+0ff+004b+0ff+004b+0ff+004b+0ff+004b+0ff+0026+016+001f+0ff+002b+016+001a+0ff+004b+0ff+00c+016+002f+0f2+008+0ff+0036+01b+0f2+008+0ff+0017+012+0028+0f2+008+0ff+0041+0f2+008+0ff+0013+014+0022+0f6+002+0f2+008+0ff+0039+0f6+002+0f2+008+0f168+",
+  "autoFadeSpeed": null,
   "symbol": "scene_15",
   "x": 64,
   "y": 424,
   "script": [
+    {
+      "command": "EVENT_CAMERA_SET_POSITION",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "cfbc2cd9-fe0f-46cd-bc1f-f284b4908efd"
+    },
     {
       "command": "EVENT_GROUP",
       "args": {
@@ -73,7 +88,7 @@
             "command": "EVENT_GROUP",
             "args": {
               "__label": "DRAW HUD",
-              "__collapse": true,
+              "__collapse": false,
               "__comment": false
             },
             "children": {
@@ -94,7 +109,11 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "0422bec1-7df6-422e-aa69-51642379336a",
-                    "__collapse": true
+                    "__collapse": true,
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "T0"
+                    }
                   },
                   "id": "79c43d0a-58e8-4e00-b30a-5ecf3ab9945e"
                 }
@@ -105,12 +124,418 @@
         ]
       },
       "id": "f58da22a-72f5-4daa-a673-d9de8811ea18"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Begin Animating Background Tiles",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": false
+            },
+            "id": "cadc16b5-7f59-4e4f-8027-4e100f54f89a"
+          },
+          {
+            "command": "EVENT_THREAD_START",
+            "args": {
+              "variable": "L1",
+              "__scriptTabs": "true",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_LOOP",
+                  "args": {
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH",
+                        "args": {
+                          "variable": "L0",
+                          "choices": 2,
+                          "__collapseCase0": true,
+                          "value0": 1,
+                          "__collapseCase1": true,
+                          "value1": 2,
+                          "__collapseCase2": false,
+                          "value2": 3,
+                          "__collapseCase3": false,
+                          "value3": 4,
+                          "__collapseCase4": false,
+                          "value4": 5,
+                          "__collapseCase5": false,
+                          "value5": 6,
+                          "__collapseCase6": false,
+                          "value6": 7,
+                          "__collapseCase7": false,
+                          "value7": 8,
+                          "__collapseCase8": false,
+                          "value8": 9,
+                          "__collapseCase9": false,
+                          "value9": 10,
+                          "__collapseCase10": false,
+                          "value10": 11,
+                          "__collapseCase11": false,
+                          "value11": 12,
+                          "__collapseCase12": false,
+                          "value12": 13,
+                          "__collapseCase13": false,
+                          "value13": 14,
+                          "__collapseCase14": false,
+                          "value14": 15,
+                          "__collapseCase15": false,
+                          "value15": 16,
+                          "__collapseElse": true,
+                          "__collapse": true
+                        },
+                        "children": {
+                          "true0": [
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 14
+                                },
+                                "tilesetId": "c4ee804b-f2d1-47a9-88cd-0c1e41d9a865",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 1
+                                },
+                                "__collapse": false,
+                                "__label": "OCEAN"
+                              },
+                              "id": "b451e0f7-2058-443e-84d7-a027180ecc6d"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 1
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 14
+                                },
+                                "tilesetId": "c4ee804b-f2d1-47a9-88cd-0c1e41d9a865",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 4
+                                },
+                                "__collapse": false,
+                                "__label": "OCEAN"
+                              },
+                              "id": "071fd279-0c3e-4fed-bdf9-91abe9b56abd"
+                            }
+                          ],
+                          "true1": [
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 14
+                                },
+                                "tilesetId": "c4ee804b-f2d1-47a9-88cd-0c1e41d9a865",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 2
+                                },
+                                "__collapse": false,
+                                "__label": "OCEAN"
+                              },
+                              "id": "d3f62795-d095-4d40-be44-18723f4aa3f9"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 1
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 14
+                                },
+                                "tilesetId": "c4ee804b-f2d1-47a9-88cd-0c1e41d9a865",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 5
+                                },
+                                "__collapse": false,
+                                "__label": "OCEAN"
+                              },
+                              "id": "4b109ddd-db52-427c-b75c-58179bee8d93"
+                            }
+                          ],
+                          "true2": [
+                            {
+                              "command": "EVENT_GROUP",
+                              "args": {
+                                "__label": "OCEAN FRAME 3",
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 16
+                                      },
+                                      "tilesetId": "ef21f3a9-1271-4446-8b63-a2eafad86ee1",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 3
+                                      },
+                                      "__collapse": true
+                                    },
+                                    "id": "cc96dd0e-77c6-480d-8eca-f445daee1942"
+                                  },
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 1
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 16
+                                      },
+                                      "tilesetId": "ef21f3a9-1271-4446-8b63-a2eafad86ee1",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 7
+                                      },
+                                      "__collapse": true
+                                    },
+                                    "id": "0fb16edb-26dc-43d3-8e77-625820f38096"
+                                  },
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 17
+                                      },
+                                      "tilesetId": "ef21f3a9-1271-4446-8b63-a2eafad86ee1",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 11
+                                      },
+                                      "__collapse": true
+                                    },
+                                    "id": "04ebdc2a-ea6e-43ce-ba54-8520edc59238"
+                                  },
+                                  {
+                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "args": {
+                                      "x": {
+                                        "type": "number",
+                                        "value": 1
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 17
+                                      },
+                                      "tilesetId": "ef21f3a9-1271-4446-8b63-a2eafad86ee1",
+                                      "tileIndex": {
+                                        "type": "number",
+                                        "value": 15
+                                      },
+                                      "__collapse": true
+                                    },
+                                    "id": "4d57199c-9c7a-4617-abb1-f318c2050ab0"
+                                  }
+                                ]
+                              },
+                              "id": "9ce4cdff-72ce-471c-82c1-0c37f8d19e7a"
+                            }
+                          ],
+                          "true3": [],
+                          "true4": [],
+                          "true5": [],
+                          "true6": [],
+                          "true7": [],
+                          "true8": [],
+                          "true9": [],
+                          "true10": [],
+                          "true11": [],
+                          "true12": [],
+                          "true13": [],
+                          "true14": [],
+                          "true15": [],
+                          "false": [
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 14
+                                },
+                                "tilesetId": "c4ee804b-f2d1-47a9-88cd-0c1e41d9a865",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "__collapse": false,
+                                "__label": "OCEAN"
+                              },
+                              "id": "2b06a81d-b480-4ed7-9ca1-3904058d6241"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 1
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 14
+                                },
+                                "tilesetId": "c4ee804b-f2d1-47a9-88cd-0c1e41d9a865",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 3
+                                },
+                                "__collapse": false,
+                                "__label": "OCEAN"
+                              },
+                              "id": "5afb3806-4dd0-4564-b9c0-d211204787ae"
+                            }
+                          ]
+                        },
+                        "id": "55355432-44c0-45ec-9cbf-70b60b08af26"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "L0"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 3
+                            }
+                          },
+                          "__collapseElse": false,
+                          "__collapse": true,
+                          "__label": "Continue or Restart Animation"
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "L0",
+                                "value": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "__collapse": true
+                              },
+                              "id": "da7a7637-acde-4f8d-a7e8-f46b6d2b7ac5"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_INC_VALUE",
+                              "args": {
+                                "variable": "L0",
+                                "__collapse": true
+                              },
+                              "id": "e7993d16-9e45-4e9f-afc4-0a2b351e0e81"
+                            }
+                          ]
+                        },
+                        "id": "832defb4-fdae-47f2-b781-e463fdba92e7"
+                      },
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 0.4,
+                          "frames": 30,
+                          "__collapse": true
+                        },
+                        "id": "7937a585-6093-4324-aa6d-09e17356b189"
+                      }
+                    ]
+                  },
+                  "id": "6e7b18d3-e7c0-478c-8094-03fee00d36e1"
+                }
+              ]
+            },
+            "id": "f62b28cb-a321-4127-8871-314ab94ea44e"
+          }
+        ]
+      },
+      "id": "40f2bee8-f463-48ab-9319-73e6534f28c0"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2",
+        "__collapse": true
+      },
+      "id": "bc56868a-3ff9-4da4-a64b-5d9fdd0b7c63"
+    },
+    {
+      "command": "EVENT_CAMERA_LOCK",
+      "args": {
+        "speed": 1,
+        "axis": [
+          "x",
+          "y"
+        ],
+        "__collapse": true
+      },
+      "id": "b2a9f0ff-b80b-4aa7-bac0-eba254d38368"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "",
-  "autoFadeEventCollapse": false,
+  "autoFadeEventCollapse": true,
   "labelColor": "blue"
 }
