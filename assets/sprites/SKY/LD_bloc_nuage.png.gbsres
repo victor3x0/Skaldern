@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "e9977ea7-7edf-46ea-adc8-8a1b74cd683b",
+  "name": "SKY/LD_bloc_nuage",
+  "symbol": "sprite_ld_bloc_nuage",
+  "states": [
+    {
+      "id": "7f46d483-b155-487b-ab48-4c7eb8d04926",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "4ad08480-f323-4982-87af-5d0ac29fdf74",
+          "frames": [
+            {
+              "id": "14cb14ac-8b99-444f-aac9-7fd0ae1bb419",
+              "tiles": [
+                {
+                  "id": "58d29d3d-4773-4038-9509-145367bbc7d3",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "361a3711-307e-4de6-8a8f-6f7077558d54",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "46ac5c13-c003-4f83-a24d-dcce92b9d0e6",
+          "frames": [
+            {
+              "id": "609690cb-b3ea-4a92-8634-2cc5e8849f4f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b4536b85-678c-435f-a207-e1711d798e8b",
+          "frames": [
+            {
+              "id": "32bcb2cc-3981-4d1a-ae48-ba18bb9d08fb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5a0536b2-ba54-49da-ba39-41240779253b",
+          "frames": [
+            {
+              "id": "4863bfe4-5d0d-4fd3-8fb1-37090f4c4761",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5be4d994-3cbe-4552-bcc4-f57ed60b0542",
+          "frames": [
+            {
+              "id": "355a160e-cbf1-4fe7-846d-8c61b78007c4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7777d710-8bca-4bac-a9fc-7a88db45b707",
+          "frames": [
+            {
+              "id": "5808d59c-ead3-43ee-a75b-8ba115132371",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "de7da200-22f9-424e-928d-4c52254afa49",
+          "frames": [
+            {
+              "id": "55f6435b-268a-4311-81d7-87e3d1d7f20a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0af951d6-352b-4b92-b103-40dc42f0a1ee",
+          "frames": [
+            {
+              "id": "80597357-399a-4d36-a0aa-b1ba937600d5",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "SKY/LD_bloc_nuage.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "d30e18012daacf2513cd56b17412fa45d6829a18"
+}

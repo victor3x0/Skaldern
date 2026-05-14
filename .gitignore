@@ -1,0 +1,12 @@
+build/
+cache/
+_gbsbuild/
+node_modules/
+*.bak
+*.sav
+*.icloud
+*.gbc
+*.gb
+
+
+user_settings.gbsres

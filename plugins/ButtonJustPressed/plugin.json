@@ -1,0 +1,7 @@
+{
+  "name": "If Button Just Pressed",
+  "version": "5.0.0",
+  "gbsVersion": "4.0.0",
+  "author": "Skaldern Project",
+  "description": "Détecte une pression de bouton avec fenêtre de tolérance configurable (buffer). Reste 'true' pendant N frames après la pression — idéal pour les combinaisons de touches type B+Down."
+}

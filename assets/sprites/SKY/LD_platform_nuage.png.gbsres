@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "f9c5356b-2082-4da3-8014-d8b31b6b69f0",
+  "name": "SKY/LD_platform_nuage",
+  "symbol": "sprite_ld_platform_nuage",
+  "states": [
+    {
+      "id": "4e625732-1a9d-4c24-8d0d-a26eaabcf69b",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "7e029ab8-64de-474b-ad14-ce3a7de5b009",
+          "frames": [
+            {
+              "id": "5bbfed93-a741-416a-96ab-ff36d00cfcd5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b0e6fc94-3fe9-44af-92b9-9fda0081e772",
+          "frames": [
+            {
+              "id": "7d4b7270-0bb4-488b-b17e-bf60a4f050c1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "eda73aa8-f2f6-405d-9389-ea0265a7a85e",
+          "frames": [
+            {
+              "id": "5467d366-f561-471f-87a0-94108fdf49d5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9e8c1f55-4fd9-4f81-9574-8b87d25690a6",
+          "frames": [
+            {
+              "id": "99a62010-5725-4d37-a316-5851f00efdfb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9ca004f0-0815-4e61-a24e-30eceaef6abf",
+          "frames": [
+            {
+              "id": "a116a036-148d-48ac-ae92-299fb45e87ff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5ba415b1-6ab5-49fa-8aa1-e14f04775501",
+          "frames": [
+            {
+              "id": "32ad53ee-a7f3-4cf7-a9cf-0db4c73a3aac",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e217fe03-7b15-4677-84eb-e12758efb84f",
+          "frames": [
+            {
+              "id": "371c8810-34ff-4a1f-ac14-37b7869df405",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b4171b89-e5aa-425f-b949-de7457c34b07",
+          "frames": [
+            {
+              "id": "71ec652b-96e7-47ed-bb0a-c2a634ee42d2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "SKY/LD_platform_nuage.png",
+  "width": 24,
+  "height": 8,
+  "checksum": "48b0af6d09d3782c1255a5d06f4dcceed5a55df9"
+}

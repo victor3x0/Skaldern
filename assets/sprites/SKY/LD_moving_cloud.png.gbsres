@@ -1,0 +1,142 @@
+{
+  "_resourceType": "sprite",
+  "id": "b8e2ca28-b701-4faf-9f95-7e9638cac654",
+  "name": "SKY/LD_moving_cloud",
+  "symbol": "sprite_ld_moving_cloud",
+  "states": [
+    {
+      "id": "7b3b081c-dc4e-41ab-8851-96fa46cb1a1d",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "81d57f32-746f-496b-8700-75db310ee36f",
+          "frames": [
+            {
+              "id": "a224050e-7c67-43b4-8673-95f8488a9564",
+              "tiles": [
+                {
+                  "id": "20499986-9340-4af9-be6b-a6ea0a1b09f3",
+                  "x": -4,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "d9fc0167-d8e1-4ac5-b9fb-c7d8c07e8e64",
+                  "x": 4,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "4a2c8396-42e8-4eed-b3b5-e74fbbffe936",
+                  "x": 12,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b6c501e8-7b39-4b7f-9b82-227f9de2d6aa",
+          "frames": [
+            {
+              "id": "7b101f5f-996b-41c3-ad88-7c89d91d910a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e7ef9e9f-f68f-4ccc-930a-b425f8127db8",
+          "frames": [
+            {
+              "id": "2c3364fd-730d-4e2a-a5cd-726cbeb7b911",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "25fb70b2-ae18-4a49-a9b6-76cb4b9cb9b7",
+          "frames": [
+            {
+              "id": "dfa0af20-ae42-4070-9709-0aa7306695d4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8571e43c-1ca4-4c7b-a6f5-504af898593f",
+          "frames": [
+            {
+              "id": "e424fe2d-304f-410c-859f-38be680ea0b2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cd15d29c-5299-41de-8f51-07eafb0b2ca1",
+          "frames": [
+            {
+              "id": "dd5c81a5-3a81-4848-9928-84b2711e43bf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c8051cdc-592b-49ea-b763-3538295c5f33",
+          "frames": [
+            {
+              "id": "76721618-5754-48e2-b357-ef1e9048e1fd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b375997b-253f-422b-b0bc-5300aa4597b9",
+          "frames": [
+            {
+              "id": "58ad9a51-fcc1-4245-a550-f5891b869a94",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 3,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 24,
+  "canvasHeight": 8,
+  "boundsX": -4,
+  "boundsY": 0,
+  "boundsWidth": 24,
+  "boundsHeight": 8,
+  "animSpeed": 15,
+  "filename": "SKY/LD_moving_cloud.png",
+  "width": 24,
+  "height": 8,
+  "checksum": "a212f93e31511871e8e3984b5d2469910a4cf137"
+}

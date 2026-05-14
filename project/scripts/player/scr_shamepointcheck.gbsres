@@ -1,0 +1,160 @@
+{
+  "_resourceType": "script",
+  "id": "2d70a5f6-6e47-4681-a5c7-23f9c948c7cd",
+  "name": "Player/SCR_ShamePointCheck",
+  "description": "Check For Game Over or take a knockback State",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "V0",
+        "__collapse": true
+      },
+      "id": "248706f8-ad4f-4dff-b369-1df1fb5e1eaf"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "0",
+        "frame": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "__collapse": false
+      },
+      "id": "3f8a3c2a-3c18-41dc-99b0-98b3edff64b2"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "6"
+          }
+        },
+        "__collapseElse": true,
+        "__label": "GAME OVER",
+        "__collapse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "9",
+              "__collapse": true
+            },
+            "id": "9952683e-a693-45d7-be75-6369888366ab"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "0",
+              "frame": {
+                "type": "variable",
+                "value": "V0"
+              },
+              "__collapse": true
+            },
+            "id": "c692f75d-13fe-485a-a078-805fd75c9126"
+          },
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b",
+                "left",
+                "up",
+                "down",
+                "right",
+                "a",
+                "start",
+                "select"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": true
+            },
+            "children": {
+              "true": []
+            },
+            "id": "f7abe4f0-de3e-4f07-bb9f-822824184cb0"
+          },
+          {
+            "command": "EVENT_PLATFORMER_STATE_SET",
+            "args": {
+              "state": "blank",
+              "__collapse": true
+            },
+            "id": "86396b7f-deb3-4866-b3ab-8510546321a5"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 0.5
+              },
+              "frames": {
+                "type": "number",
+                "value": 60
+              },
+              "__collapse": true,
+              "units": "frames"
+            },
+            "id": "301a9def-2982-4d58-b9d7-fb2d48d49932"
+          },
+          {
+            "command": "EVENT_FADE_OUT",
+            "args": {
+              "speed": 4,
+              "__collapse": true
+            },
+            "id": "c977e14b-f9c2-4151-97d4-203895315607"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a8bd9b18-0eee-4046-bf79-d63a2ce6802e",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "588fd018-a328-40a1-84ed-13cc0c9e58c6"
+          }
+        ],
+        "false": []
+      },
+      "id": "0de78291-a53c-4fc4-98d5-f1d915ef14c0"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "_resourceType": "engineFieldValues",
+  "engineFieldValues": [
+    {
+      "id": "fade_style",
+      "value": 0
+    },
+    {
+      "id": "FEAT_PLATFORM_COYOTE_TIME",
+      "value": 1
+    },
+    {
+      "id": "FEAT_PLATFORM_DROP_THROUGH",
+      "value": 1
+    },
+    {
+      "id": "SHOOTER_MOVEMENT_TYPE",
+      "value": "MOVEMENT_TYPE_LOCK_PERPENDICULAR"
+    },
+    {
+      "id": "SHOOTER_TRIGGER_ACTIVATION",
+      "value": "ON_PLAYER_COLLISION"
+    },
+    {
+      "id": "SHOOTER_WALL_COLLISION_GROUP",
+      "value": "COLLISION_GROUP_NONE"
+    },
+    {
+      "id": "INPUT_PLATFORM_INTERACT",
+      "value": "INPUT_UP"
+    },
+    {
+      "id": "plat_turn_control",
+      "value": 1
+    },
+    {
+      "id": "FEAT_PLATFORM_RUN",
+      "value": 0
+    },
+    {
+      "id": "plat_run_boost",
+      "value": 1638
+    },
+    {
+      "id": "FEAT_PLATFORM_LADDERS",
+      "value": 0
+    },
+    {
+      "id": "plat_jump_vel",
+      "value": 8192
+    },
+    {
+      "id": "plat_walk_vel",
+      "value": 4096
+    },
+    {
+      "id": "plat_walk_acc",
+      "value": 163
+    },
+    {
+      "id": "plat_min_vel",
+      "value": 2048
+    },
+    {
+      "id": "plat_dec",
+      "value": 204
+    },
+    {
+      "id": "plat_max_fall_vel",
+      "value": 11059
+    },
+    {
+      "id": "plat_grav",
+      "value": 2457
+    },
+    {
+      "id": "PLATFORM_KNOCKBACK_ANIM",
+      "value": "KnockBack"
+    },
+    {
+      "id": "plat_jump_hold_vel",
+      "value": 81
+    },
+    {
+      "id": "plat_jump_hold_frames",
+      "value": 2
+    },
+    {
+      "id": "FEAT_PLATFORM_KNOCKBACK",
+      "value": 1
+    },
+    {
+      "id": "INPUT_PLATFORM_JUMP",
+      "value": "INPUT_B"
+    },
+    {
+      "id": "plat_camera_block",
+      "value": "PLATFORM_CAMERA_LOCK_SCREEN_BOTH"
+    },
+    {
+      "id": "FEAT_PLATFORM_DASH",
+      "value": 0
+    },
+    {
+      "id": "PLATFORM_BLANK_ANIM",
+      "value": "Death"
+    },
+    {
+      "id": "plat_blank_grav",
+      "value": 409
+    },
+    {
+      "id": "plat_knockback_vel_x",
+      "value": 6144
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "e5a4b375-46d0-4914-a0c2-fe136740dd2f",
+  "name": "Player/FX_Slash",
+  "symbol": "sprite_player_fx_slash",
+  "states": [
+    {
+      "id": "e19b6e66-eaf5-4d5c-9271-a6cb7e62b045",
+      "name": "",
+      "animationType": "horizontal",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "0a2fd545-1ab9-47bb-b796-68618ebed2b7",
+          "frames": [
+            {
+              "id": "981ad433-9b7a-45fd-997c-55f1ee269d15",
+              "tiles": [
+                {
+                  "id": "a9d3ccb8-1a7a-4cf9-977b-e5e70ca4250c",
+                  "x": 0,
+                  "y": 8,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "046fee9f-c3d7-4cf8-b27b-016c3be8e7f3",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "0457c6c0-e1bc-4090-ae82-94c67579756d",
+          "frames": [
+            {
+              "id": "fa1ace97-bf80-42ea-8ca0-085abf93fb79",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "df72e25f-67e7-4dc5-b812-53a89209a2ea",
+          "frames": [
+            {
+              "id": "912d4a31-ee0b-4809-a977-d6d972be2d3e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ada44ab9-5238-4cb7-8da7-4155627c89c4",
+          "frames": [
+            {
+              "id": "c250591a-ce52-4108-af77-5ab625548b92",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5102d42b-b9cc-4f3f-a6ca-c949a73f8e89",
+          "frames": [
+            {
+              "id": "67a72187-e1c5-4e4e-8739-1dc817fb010e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2d605f38-f5bd-496f-be14-662db578269e",
+          "frames": [
+            {
+              "id": "a9a4e191-442e-4307-83c4-c6bd75925e92",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5e60e965-b395-42b0-8657-2e185c3a7dd4",
+          "frames": [
+            {
+              "id": "33dd25cf-60ba-4929-b3b1-1a624bf73ed7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "785c22f7-3354-4d96-8e23-70f72482c253",
+          "frames": [
+            {
+              "id": "dfec92c3-7103-4682-a917-964bd5be6bf4",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 8,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Player/FX_Slash.png",
+  "width": 8,
+  "height": 16,
+  "checksum": "5170acb0f707fa2d486d9be0cb72608f2004a97f"
+}

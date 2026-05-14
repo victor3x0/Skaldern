@@ -1,0 +1,45 @@
+{
+  "_resourceType": "scene",
+  "id": "77f6383a-e1b4-46ad-be17-071c43bb3954",
+  "_index": 4,
+  "name": "Menus/Main Menu",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 80,
+  "y": 360,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "2f8dfb71-e78d-4ca6-b7d7-3a37b3478dc2"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Best Score: \n$11$/ $10$ ",
+        "x": 1,
+        "y": 14,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "279d27f0-8223-4b56-8332-8338f7cb0c21"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+}

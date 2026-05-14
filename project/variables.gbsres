@@ -1,0 +1,116 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Thread 1",
+      "symbol": "var_thread_1"
+    },
+    {
+      "id": "1",
+      "name": "Thread 2",
+      "symbol": "var_thread_2"
+    },
+    {
+      "id": "2",
+      "name": "Thread 3",
+      "symbol": "var_thread_3"
+    },
+    {
+      "id": "3",
+      "name": "Thread 4",
+      "symbol": "var_thread_4"
+    },
+    {
+      "id": "4",
+      "name": "Thread 5",
+      "symbol": "var_thread_5"
+    },
+    {
+      "id": "5",
+      "name": "CurrentShamePoint",
+      "symbol": "var_currentshamepoint"
+    },
+    {
+      "id": "6",
+      "name": "MaxShamePoint",
+      "symbol": "var_maxshamepoint"
+    },
+    {
+      "id": "7",
+      "name": "Difficulty",
+      "symbol": "var_difficulty"
+    },
+    {
+      "id": "8",
+      "name": "TotalShamePoint",
+      "symbol": "var_totalshamepoint"
+    },
+    {
+      "id": "9",
+      "name": "RunCount",
+      "symbol": "var_runcount"
+    },
+    {
+      "id": "10",
+      "name": "BestRunCount",
+      "symbol": "var_bestruncount"
+    },
+    {
+      "id": "11",
+      "name": "BestScore",
+      "symbol": "var_bestscore"
+    },
+    {
+      "id": "91259149-89d5-42b9-91e3-7ae5fd261104__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate"
+    },
+    {
+      "id": "a2339863-8527-4a73-92b3-c7715f43bfc7__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "62b11fc0-744f-4fb8-b68d-8908388e8d01__L0",
+      "name": "isHit",
+      "symbol": "var_ishit"
+    },
+    {
+      "id": "dcac4029-4dbf-4cd5-aa0d-20118cb35e4e__L0",
+      "name": "isHit",
+      "symbol": "var_ishit_0"
+    },
+    {
+      "id": "5f4ba5d0-b12f-49a5-a3f2-e2ee766a740f__L0",
+      "name": "isHit",
+      "symbol": "var_ishit_1"
+    },
+    {
+      "id": "889db85d-09dc-40f4-8f49-212e3d23ee1b__L0",
+      "name": "isHit",
+      "symbol": "var_ishit_2"
+    },
+    {
+      "id": "99f323b3-c97f-4aa9-a359-cddeb4b20494__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "77497375-9519-4329-bfd0-d5f35c9acfea__L0",
+      "name": "hasShoot",
+      "symbol": "var_hasshoot"
+    },
+    {
+      "id": "86ee55f3-f94e-422e-9e31-5db19b356842__L0",
+      "name": "CursorPos",
+      "symbol": "var_cursorpos"
+    },
+    {
+      "id": "12",
+      "name": "PlayerHasShoot",
+      "symbol": "var_playerhasshoot"
+    }
+  ],
+  "constants": []
+}

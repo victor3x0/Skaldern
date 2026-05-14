@@ -1,0 +1,51 @@
+{
+  "_resourceType": "actor",
+  "id": "df4a129f-bf29-450b-9c51-d73c72d42555",
+  "name": "Player Life",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b831ad81-b690-48b3-a945-3d7b2c818a69",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_6",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255,
+        "__collapse": true
+      },
+      "id": "cb5d5a2b-75bb-4201-8f33-fd4b7dbc0bfa"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "eb85e5fc-70c8-47c6-b751-bd3441868c3f"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 17,
+  "_index": 1
+}

@@ -1,0 +1,42 @@
+{
+  "_resourceType": "scene",
+  "id": "824cd9b3-e2d1-489e-a985-26817835d34e",
+  "_index": 0,
+  "type": "PLATFORM",
+  "name": "Chapter 1 - Part 1 - 1",
+  "symbol": "scene_1",
+  "x": 60,
+  "y": 744,
+  "width": 40,
+  "height": 37,
+  "backgroundId": "4d9672ee-5c34-4d1c-8568-3d8735d80a93",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "49fd8c3c-0367-4a4b-bfd2-c7398cf386f0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00378+019+003f+014+0012+0f4+014+0020+0f4+00a+40!60!0f2+0016+0f4+008+40!60!0f4+0016+0f4+006+40!60!0f16e+"
+}

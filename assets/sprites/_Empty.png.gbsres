@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "name": "_Empty",
+  "symbol": "sprite_static",
+  "states": [
+    {
+      "id": "c37ce5b9-288c-45f6-8b07-926ae6f64d52",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "579f0778-6adf-431d-8e43-77a60a3356f6",
+          "frames": [
+            {
+              "id": "e85cad41-49db-48f6-94de-fd16fff3320b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "45f120c3-1c9a-4755-9cfd-4ea531ffda6e",
+          "frames": [
+            {
+              "id": "e3d7f178-913e-47f4-98ec-e63634853457",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3818edc8-4c19-49c3-abd0-e8e01fea78be",
+          "frames": [
+            {
+              "id": "8aaae761-5af1-4d56-9bf2-505d953a4913",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a09ce89c-99d8-4003-b698-ebf83b1f8fdb",
+          "frames": [
+            {
+              "id": "a136c759-35a5-4ac6-9377-434b2f90f9c1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3aded811-02a7-4945-b02c-cc78cdb1a90b",
+          "frames": [
+            {
+              "id": "caba1449-6311-4c80-9991-2f33ae7f0399",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "29ab4f99-cb13-41cc-a813-424e41fd0714",
+          "frames": [
+            {
+              "id": "219a10d7-aa41-478f-9323-3403368fe595",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0616b84b-9022-47bd-a7dc-f823be2f659f",
+          "frames": [
+            {
+              "id": "1530abc4-7a86-4c3c-a34b-b14b4019d85a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bc14ff7b-9d29-4afa-88ed-c681e488a49b",
+          "frames": [
+            {
+              "id": "991780d8-eef2-49bd-ac6e-65e24759b520",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "_Empty.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "228d1b4eab9534c670445e5b6c0a03cc411b6657"
+}

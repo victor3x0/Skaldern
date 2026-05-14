@@ -1,0 +1,131 @@
+{
+  "_resourceType": "actor",
+  "id": "dcac4029-4dbf-4cd5-aa0d-20118cb35e4e",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "75f6ab57-0053-416f-9596-3cd5faeff268",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 31,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "2",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_2",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "ec38617e-eb04-4adb-8a37-60a57b3aa2e2"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "PLAYER BOUNCE",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_PLAYER_BOUNCE",
+                  "args": {
+                    "height": "medium",
+                    "__collapse": true
+                  },
+                  "id": "abd4011a-2a65-4a9e-a114-f1141c9260cb"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true,
+                    "__comment": false
+                  },
+                  "id": "cf6db01f-2bc1-4c2e-b939-c7282fa18fe8"
+                }
+              ]
+            },
+            "id": "b1490ae6-ad2e-45a6-9e4b-4395db16650e"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Cloud Attack",
+              "__collapse": true
+            },
+            "children": {
+              "true": []
+            },
+            "id": "69b137df-b54a-40d2-9c49-eca9bb16270d"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "false"
+              },
+              "__collapse": true
+            },
+            "id": "ab842659-c4aa-43f6-a592-75c60766c7b4"
+          }
+        ],
+        "false": []
+      },
+      "id": "27e7a66c-9c7f-40a0-947c-8c08f5bf05cc"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": false
+      },
+      "id": "3e5019dd-4361-4944-9201-a412bf3f6608"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 26,
+  "y": 21,
+  "_index": 1
+}

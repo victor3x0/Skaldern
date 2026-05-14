@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4d9672ee-5c34-4d1c-8568-3d8735d80a93",
+  "name": "BCK_TEST_02",
+  "symbol": "bg_bck_test_02",
+  "tileColors": "",
+  "filename": "BCK_TEST_02.png",
+  "width": 40,
+  "height": 37,
+  "imageWidth": 320,
+  "imageHeight": 296
+}

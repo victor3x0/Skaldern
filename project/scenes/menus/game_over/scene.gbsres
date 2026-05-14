@@ -1,0 +1,107 @@
+{
+  "_resourceType": "scene",
+  "id": "a8bd9b18-0eee-4046-bf79-d63a2ce6802e",
+  "_index": 3,
+  "name": "Menus/Game Over",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 536,
+  "y": 264,
+  "script": [
+    {
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "fa4a879e-4c0d-4c06-b453-3a8017a4c9f9"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "white",
+        "x": 0,
+        "y": 0,
+        "__collapse": true
+      },
+      "id": "607703b1-d01d-4c38-b38d-7a23fbc48858"
+    },
+    {
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "cb2cdda2-5707-41ad-8e12-222f1520d271"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "GAME OVER",
+        "x": 5,
+        "y": 1,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "6f6429c8-8f44-4a36-ba77-fe9e61b61bef"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "8",
+        "value": {
+          "type": "expression",
+          "value": "$08$+$05$"
+        },
+        "__collapse": true
+      },
+      "id": "6975388a-9035-443a-8a75-59da59a684ce"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "ae2958ac-b697-437b-b54d-103cea9e4fe8"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Shame: $08$",
+        "x": 1,
+        "y": 5,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "c6ff1324-d4f9-44d2-9a2b-e6997cb6a4ee"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Death: $09$",
+        "x": 1,
+        "y": 7,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "8da25789-62be-485b-b954-7afb0ea10640"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+}

@@ -1,0 +1,45 @@
+{
+  "_resourceType": "scene",
+  "id": "a2dcec20-ad19-4e73-8987-691424066e31",
+  "_index": 5,
+  "name": "Menus/Difficulty Selection",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 336,
+  "y": 264,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "c91ff933-7d81-49af-915b-0ef91d428e65"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "DIFFICULTY",
+        "x": 5,
+        "y": 1,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "1e09fde9-2877-4675-ad8b-bd6e8e5cab0e"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+}
