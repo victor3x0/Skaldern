@@ -1,15 +1,15 @@
 {
   "_resourceType": "scene",
-  "id": "77497375-9519-4329-bfd0-d5f35c9acfea",
-  "_index": 2,
+  "id": "a2339863-8527-4a73-92b3-c7715f43bfc7",
+  "_index": 1,
   "type": "PLATFORM",
-  "name": "Test Morgana",
-  "symbol": "scene_3",
-  "x": 1064,
-  "y": 816,
-  "width": 20,
-  "height": 18,
-  "backgroundId": "56fa69df-e78f-4f82-8ffb-14380f818f65",
+  "name": "TestSword",
+  "symbol": "scene_2",
+  "x": 60,
+  "y": 1088,
+  "width": 40,
+  "height": 37,
+  "backgroundId": "14248ae2-dd51-408c-b86d-96c5dfbf4e18",
   "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
@@ -27,23 +27,12 @@
   "playerSpriteSheetId": "da98320b-b105-44a2-a49f-b8f5861bd856",
   "script": [
     {
-      "command": "EVENT_GROUP",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "__label": "Init Player",
+        "customEventId": "ac3f4533-05d5-4bc7-a786-620d1e45df1c",
         "__collapse": true
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "72c3f5ed-01bd-41bd-ac94-09fd9c339041"
-            },
-            "id": "8e621501-95e5-4527-904a-b909d5274e5b"
-          }
-        ]
-      },
-      "id": "514a2194-aa96-41ab-9eb6-5ae9ddd98771"
+      "id": "4f46bf06-3287-4f09-afb6-45cb616727fe"
     }
   ],
   "playerHit1Script": [
@@ -52,9 +41,9 @@
       "args": {
         "engineFieldKey": "plat_next_state",
         "value": "T0",
-        "__collapse": false
+        "__collapse": true
       },
-      "id": "a6942e8a-39b0-45c2-bdcd-bbc6bcc0082d"
+      "id": "05315639-0375-47d9-bad7-2994cc93fd8b"
     },
     {
       "command": "EVENT_IF",
@@ -71,8 +60,8 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false,
-        "__label": "// Si le personnage Cogne un ennemi"
+        "__collapse": true,
+        "__label": "// Si le personage tombe"
       },
       "children": {
         "true": [
@@ -80,9 +69,10 @@
             "command": "EVENT_PLATFORMER_STATE_SET",
             "args": {
               "state": "knockback",
-              "__collapse": true
+              "__collapse": true,
+              "__comment": false
             },
-            "id": "fe00597a-6e2f-4eca-aebf-a91780ff15ed"
+            "id": "087f8c74-61de-45ce-bd66-6e12fa9c0e8a"
           },
           {
             "command": "EVENT_WAIT",
@@ -97,7 +87,7 @@
               },
               "__collapse": true
             },
-            "id": "46b0d09a-3cc2-4377-85af-adc57c241d0e"
+            "id": "5b56c47b-f281-4881-a3ee-19119b5ee6d2"
           }
         ],
         "false": [
@@ -105,7 +95,7 @@
             "command": "EVENT_GROUP",
             "args": {
               "__label": "PLAYER BOUNCE ON ENNEMY",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -122,7 +112,7 @@
                   "children": {
                     "true": []
                   },
-                  "id": "7cf1e7d1-d611-4ffb-a2e9-59f9162930e7"
+                  "id": "3b257236-6240-4e88-8315-ba81030d878f"
                 },
                 {
                   "command": "EVENT_PLAYER_BOUNCE",
@@ -130,7 +120,7 @@
                     "height": "high",
                     "__collapse": true
                   },
-                  "id": "5a0942fe-16d1-4563-930c-224e2d5dd6ac"
+                  "id": "d3bba605-c25b-4363-adfe-d590110f91e8"
                 },
                 {
                   "command": "EVENT_WAIT",
@@ -146,7 +136,7 @@
                     "__collapse": true,
                     "__comment": false
                   },
-                  "id": "bd7c5d95-4756-4e4c-8a72-0ff1b84812ec"
+                  "id": "f5077a9a-7e17-435a-be17-5e5e924615b0"
                 },
                 {
                   "command": "EVENT_REMOVE_INPUT_SCRIPT",
@@ -156,18 +146,44 @@
                     ],
                     "__collapse": true
                   },
-                  "id": "166b4abe-46f3-43d9-a4bd-34c616ea4297"
+                  "id": "f64bb2f1-63ad-45d2-a995-a80a89d8447a"
                 }
               ]
             },
-            "id": "93bbd97d-3a0d-4dd7-b8d7-7855bbe36909"
+            "id": "0d16db84-456b-4d13-b481-101ae3d9aa83"
           }
         ]
       },
-      "id": "0342d24d-ffb0-4792-b764-eb8b453afa08"
+      "id": "b6164d8b-a8c2-423c-ad90-9002609d029b"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "RESET PLAYER",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b",
+                "left",
+                "up",
+                "down",
+                "right"
+              ],
+              "__collapse": true
+            },
+            "id": "e50d5ed9-9947-4329-bc9d-ddb0e3753e60"
+          }
+        ]
+      },
+      "id": "cd3c7194-7600-4d24-bcd4-0ea6e6b785d2"
     }
   ],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0012c+0f3c+"
+  "collisions": "003c0+014+009c+0f19+00e+0f141+"
 }

@@ -3,7 +3,7 @@
   "id": "824cd9b3-e2d1-489e-a985-26817835d34e",
   "_index": 0,
   "type": "PLATFORM",
-  "name": "Chapter 1 / Part 1 - 1",
+  "name": "Test",
   "symbol": "scene_1",
   "x": 60,
   "y": 744,
@@ -26,13 +26,12 @@
   "autoFadeEventCollapse": true,
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "actorId": "$self$",
-        "speed": 7,
+        "customEventId": "b1718a3d-3279-4842-bebb-c8b439e446dd",
         "__collapse": true
       },
-      "id": "49fd8c3c-0367-4a4b-bfd2-c7398cf386f0"
+      "id": "ff06a4a0-2fac-4058-8884-6d571d8f8e91"
     }
   ],
   "playerHit1Script": [],

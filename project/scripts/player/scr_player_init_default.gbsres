@@ -1,0 +1,20 @@
+{
+  "_resourceType": "script",
+  "id": "b1718a3d-3279-4842-bebb-c8b439e446dd",
+  "name": "Player/SCR_Player_Init_default",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "354b6f4e-01f8-4142-9217-0348d8616f65"
+    }
+  ]
+}
