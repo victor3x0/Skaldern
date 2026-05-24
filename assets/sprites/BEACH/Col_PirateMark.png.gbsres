@@ -1,0 +1,183 @@
+{
+  "_resourceType": "sprite",
+  "id": "0aea06e0-0264-48dd-9853-7742951912b4",
+  "name": "BEACH/Col_PirateMark",
+  "symbol": "sprite_beach_col_piratemark",
+  "states": [
+    {
+      "id": "e24095fa-208c-4c20-81dc-6a8bb64ade93",
+      "name": "",
+      "animationType": "multi",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "405e9f39-1d8d-4dde-967f-7a4abb90a98f",
+          "frames": [
+            {
+              "id": "2c2795ce-711f-404a-87f1-81192e9a17cb",
+              "tiles": [
+                {
+                  "id": "9bcf2338-ae07-4604-b143-d1588c8423bc",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "37e8f363-4488-4af1-8756-c8b8f210b74e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ccc9c877-b360-4c8f-a87c-f1438ac8a96f",
+          "frames": [
+            {
+              "id": "aad8dca6-62e8-466c-a087-9ff211ab8aa9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d7235afd-580e-4909-b5aa-57356da3e13c",
+          "frames": [
+            {
+              "id": "9b562a0c-d3c8-483b-ad73-5ca699b075c5",
+              "tiles": [
+                {
+                  "id": "01f6ab03-2580-43c7-a23c-63d6ff4d7593",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "89d4ffa9-1ed3-4ae7-9b0a-830ed13a4e56",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d0f1216c-1df4-4666-a24c-611073137f78",
+          "frames": [
+            {
+              "id": "4683ed21-a83f-41d9-a421-9a80bcf42369",
+              "tiles": [
+                {
+                  "id": "c8eeb690-9bc2-4200-9409-40ff335be0d5",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "59ba4c2a-d248-453c-9cf8-1bfcdb4a13df",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "250a7856-9dec-4278-8ee6-9db3190a5a29",
+          "frames": [
+            {
+              "id": "c3f4e0c7-d7db-4cb0-82a1-b6f0a11d626a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0bce7f21-615e-4996-ac4e-fe11f350e52c",
+          "frames": [
+            {
+              "id": "f91e174a-10a0-4b3c-9a95-dcc1a70b5f82",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dd64c67f-f4c1-4a20-9eb6-6a4947ad217d",
+          "frames": [
+            {
+              "id": "0c1a22e9-1583-494a-9f49-206f291dfd78",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5075f077-6313-47a3-a7ed-6c04ed240940",
+          "frames": [
+            {
+              "id": "7faf363d-6642-4ea8-99a9-6bd1d6309543",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "BEACH/Col_PirateMark.png",
+  "width": 48,
+  "height": 16,
+  "checksum": "0b47aef158dfafd972d6e5812ff149d62dde2bd4"
+}

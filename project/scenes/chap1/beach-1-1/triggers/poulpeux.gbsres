@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "ea759b7d-6d5c-4003-ab44-1c43cdb4ff22",
+  "name": "Poulpeux",
+  "prefabId": "",
+  "x": 32,
+  "y": 13,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 10,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "0ed1894b-57e9-4395-9194-f0e005c9b2b1",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        },
+        "__collapse": true
+      },
+      "id": "d9ce86ff-9a83-47ff-b224-445a48c8b18b"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "0ed1894b-57e9-4395-9194-f0e005c9b2b1",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        },
+        "__collapse": false
+      },
+      "id": "6e5e8f02-4aed-4ac1-b817-7079ade11d94"
+    }
+  ],
+  "_index": 0
+}

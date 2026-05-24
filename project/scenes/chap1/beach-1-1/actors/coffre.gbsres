@@ -1,0 +1,114 @@
+{
+  "_resourceType": "actor",
+  "id": "d4faf453-2128-4bff-9919-04984f6e59c6",
+  "name": "Coffre",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dd60b5ea-6434-4733-81e1-e26117b2e8b7",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_32",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "59216552-749d-44c3-a685-db019b585919"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "13",
+              "value": {
+                "type": "expression",
+                "value": "$13$ + 10"
+              },
+              "__collapse": true
+            },
+            "id": "a070f743-7583-4386-9990-8d8aba0bfb8d"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "850c5e1a-3424-4cf2-8c00-4bde749e2683"
+          }
+        ],
+        "false": []
+      },
+      "id": "ea7deb9c-19fe-4b81-b89b-459c683db6a3"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "97325d5c-d104-4abe-b7d8-cd27c408e033"
+          }
+        ],
+        "false": []
+      },
+      "id": "da3e3148-8767-4c7c-88a4-f31eb73f28a7"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 55,
+  "y": 4,
+  "_index": 3
+}

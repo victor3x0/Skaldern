@@ -1,0 +1,107 @@
+{
+  "_resourceType": "actor",
+  "id": "9917496f-a026-44d5-808a-b8d915ccb4f6",
+  "name": "Coin 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ac2ddbe9-3fac-4e17-b364-6830cf8ad9cf",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 31,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "3",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_35",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "13",
+              "value": {
+                "type": "expression",
+                "value": "$13$ + 1"
+              },
+              "__collapse": true
+            },
+            "id": "8e3196de-81e7-4ce1-a3e9-65c376f90755"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "caaf8e60-a742-4541-b053-3e79ae30340e"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "21961bd8-6af5-4606-8254-3d58876c48de"
+          }
+        ],
+        "false": []
+      },
+      "id": "c5cd4251-22f5-4e16-88a6-54eb1a180931"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "61e1c6e7-7b10-48fe-a3f1-3467fe57d712"
+          }
+        ],
+        "false": []
+      },
+      "id": "49efb2d7-0c12-40d9-b9f1-2bce05c085a8"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 75,
+  "y": 10,
+  "_index": 5
+}

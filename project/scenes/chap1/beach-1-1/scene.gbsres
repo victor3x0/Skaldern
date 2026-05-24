@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "b85d7017-7e4e-40fb-864b-e49a748f7c2d",
+  "_index": 7,
+  "name": "CHAP1/Beach-1-1",
+  "backgroundId": "631e1a4b-0143-4427-b74c-eb0ce8559dc9",
+  "tilesetId": "",
+  "width": 90,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001f7+016+0059+016+008f+016+0017+016+00c6+012+0084+016+0024+012+007a+40!0f45+0010+40!60!0f48+00c+40!60!0f4c+009+40!60!0f4f+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 520,
+  "y": 864,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "b1718a3d-3279-4842-bebb-c8b439e446dd"
+      },
+      "id": "3ed636f7-57d5-4453-b9d1-6e07bf389caf"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "parallax": [
+    {
+      "height": 2,
+      "speed": 2
+    },
+    {
+      "height": 3,
+      "speed": 1
+    },
+    {
+      "height": 0,
+      "speed": 0
+    }
+  ],
+  "autoFadeEventCollapse": true
+}
