@@ -71,7 +71,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__label": "ATTACK"
       },
       "children": {
@@ -86,7 +86,7 @@
                   "value": "12"
                 }
               },
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__collapse": false
             },
             "children": {
@@ -107,7 +107,7 @@
                   "args": {
                     "variable": "0",
                     "__scriptTabs": "true",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -260,7 +260,7 @@
                                   {
                                     "command": "EVENT_LAUNCH_PROJECTILE",
                                     "args": {
-                                      "__section": "source",
+                                      "__section": "projectile",
                                       "spriteSheetId": "aea27bbf-62db-435b-a45c-4b3136b8ed6f",
                                       "spriteStateId": "DIAGONAL",
                                       "actorId": "$self$",
@@ -280,7 +280,9 @@
                                       "destroyOnHit": true,
                                       "collisionGroup": "3",
                                       "collisionMask": [
-                                        "1"
+                                        "1",
+                                        "2",
+                                        "3"
                                       ],
                                       "__collapse": true
                                     },
@@ -417,7 +419,7 @@
                                   "up"
                                 ],
                                 "__collapseElse": false,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__label": "HORIZONTAL SHOOT"
                               },
                               "children": {
@@ -473,7 +475,7 @@
                                     "command": "EVENT_GROUP",
                                     "args": {
                                       "__label": "Action",
-                                      "__collapse": true
+                                      "__collapse": false
                                     },
                                     "children": {
                                       "true": [
@@ -492,7 +494,7 @@
                                         {
                                           "command": "EVENT_LAUNCH_PROJECTILE",
                                           "args": {
-                                            "__section": "source",
+                                            "__section": "projectile",
                                             "spriteSheetId": "aea27bbf-62db-435b-a45c-4b3136b8ed6f",
                                             "spriteStateId": "",
                                             "actorId": "$self$",
@@ -512,7 +514,9 @@
                                             "destroyOnHit": true,
                                             "collisionGroup": "3",
                                             "collisionMask": [
-                                              "1"
+                                              "1",
+                                              "2",
+                                              "3"
                                             ],
                                             "__collapse": false
                                           },
@@ -701,7 +705,7 @@
                                           "command": "EVENT_GROUP",
                                           "args": {
                                             "__label": "Action",
-                                            "__collapse": true
+                                            "__collapse": false
                                           },
                                           "children": {
                                             "true": [
@@ -740,7 +744,9 @@
                                                   "destroyOnHit": true,
                                                   "collisionGroup": "3",
                                                   "collisionMask": [
-                                                    "1"
+                                                    "1",
+                                                    "2",
+                                                    "3"
                                                   ],
                                                   "__collapse": false
                                                 },

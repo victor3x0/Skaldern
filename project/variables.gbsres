@@ -22,6 +22,81 @@
       "symbol": "var_003_thread_4"
     },
     {
+      "id": "4",
+      "name": "004_Thread 5",
+      "symbol": "var_004_thread_5"
+    },
+    {
+      "id": "5",
+      "name": "005_CurrentShamePoint",
+      "symbol": "var_005_currentshamepoint"
+    },
+    {
+      "id": "6",
+      "name": "006_MaxShamePoint",
+      "symbol": "var_006_maxshamepoint"
+    },
+    {
+      "id": "7",
+      "name": "007_Difficulty",
+      "symbol": "var_007_difficulty"
+    },
+    {
+      "id": "8",
+      "name": "008_TotalShamePoint",
+      "symbol": "var_008_totalshamepoint"
+    },
+    {
+      "id": "9",
+      "name": "009_RunCount",
+      "symbol": "var_009_runcount"
+    },
+    {
+      "id": "10",
+      "name": "010_BestRunCount",
+      "symbol": "var_010_bestruncount"
+    },
+    {
+      "id": "11",
+      "name": "011_BestScore",
+      "symbol": "var_011_bestscore"
+    },
+    {
+      "id": "12",
+      "name": "012_PlayerHasShoot",
+      "symbol": "var_012_playerhasshoot"
+    },
+    {
+      "id": "13",
+      "name": "013_CurrentGold",
+      "symbol": "var_013_currentgold"
+    },
+    {
+      "id": "75",
+      "name": "Variable 75_CHAP1",
+      "symbol": "var_variable_75_chap1"
+    },
+    {
+      "id": "175",
+      "name": "Variable 175_CHAP2",
+      "symbol": "var_variable_175_chap2"
+    },
+    {
+      "id": "275",
+      "name": "Variable 275_CHAP3",
+      "symbol": "var_variable_275_chap3"
+    },
+    {
+      "id": "375",
+      "name": "Variable 375_CHAP4",
+      "symbol": "var_variable_375_chap4"
+    },
+    {
+      "id": "475",
+      "name": "Variable 475 CHAP5",
+      "symbol": "var_variable_475_chap5"
+    },
+    {
       "id": "91259149-89d5-42b9-91e3-7ae5fd261104__L0",
       "name": "PlayerState",
       "symbol": "var_playerstate"
@@ -65,81 +140,6 @@
       "id": "86ee55f3-f94e-422e-9e31-5db19b356842__L0",
       "name": "CursorPos",
       "symbol": "var_cursorpos"
-    },
-    {
-      "id": "10",
-      "name": "010_BestRunCount",
-      "symbol": "var_010_bestruncount"
-    },
-    {
-      "id": "11",
-      "name": "011_BestScore",
-      "symbol": "var_011_bestscore"
-    },
-    {
-      "id": "7",
-      "name": "007_Difficulty",
-      "symbol": "var_007_difficulty"
-    },
-    {
-      "id": "6",
-      "name": "006_MaxShamePoint",
-      "symbol": "var_006_maxshamepoint"
-    },
-    {
-      "id": "12",
-      "name": "012_PlayerHasShoot",
-      "symbol": "var_012_playerhasshoot"
-    },
-    {
-      "id": "9",
-      "name": "009_RunCount",
-      "symbol": "var_009_runcount"
-    },
-    {
-      "id": "8",
-      "name": "008_TotalShamePoint",
-      "symbol": "var_008_totalshamepoint"
-    },
-    {
-      "id": "75",
-      "name": "Variable 75_CHAP1",
-      "symbol": "var_variable_75_chap1"
-    },
-    {
-      "id": "175",
-      "name": "Variable 175_CHAP2",
-      "symbol": "var_variable_175_chap2"
-    },
-    {
-      "id": "275",
-      "name": "Variable 275_CHAP3",
-      "symbol": "var_variable_275_chap3"
-    },
-    {
-      "id": "375",
-      "name": "Variable 375_CHAP4",
-      "symbol": "var_variable_375_chap4"
-    },
-    {
-      "id": "475",
-      "name": "Variable 475 CHAP5",
-      "symbol": "var_variable_475_chap5"
-    },
-    {
-      "id": "5",
-      "name": "005_CurrentShamePoint",
-      "symbol": "var_005_currentshamepoint"
-    },
-    {
-      "id": "4",
-      "name": "004_Thread 5",
-      "symbol": "var_004_thread_5"
-    },
-    {
-      "id": "13",
-      "name": "013_CurrentGold",
-      "symbol": "var_013_currentgold"
     }
   ],
   "constants": []

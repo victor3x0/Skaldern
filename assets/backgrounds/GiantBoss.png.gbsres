@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c5b804e9-b2d9-4281-9457-59c8735917ec",
+  "name": "GiantBoss",
+  "symbol": "bg_giantboss",
+  "tileColors": "",
+  "filename": "GiantBoss.png",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144
+}
