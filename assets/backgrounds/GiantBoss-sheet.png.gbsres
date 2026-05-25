@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d937ea91-43ec-46d0-bbe1-c0e9bd809d41",
+  "name": "GiantBoss-sheet",
+  "symbol": "bg_giantboss_sheet",
+  "tileColors": "",
+  "filename": "GiantBoss-sheet.png",
+  "width": 22,
+  "height": 22,
+  "imageWidth": 176,
+  "imageHeight": 176
+}

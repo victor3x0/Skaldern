@@ -2,25 +2,26 @@
   "_resourceType": "scene",
   "id": "30c8cbdc-8431-48ab-a8e8-f4a30410a5d7",
   "_index": 7,
-  "name": "Scene 8",
+  "name": "Morgana Phase 1.5",
   "backgroundId": "c5b804e9-b2d9-4281-9457-59c8735917ec",
   "tilesetId": "",
   "width": 22,
-  "height": 18,
+  "height": 22,
   "type": "PLATFORM",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0010b+013+00a+013+004a+0fc+001b+",
+  "collisions": "001a7+0fc+00a+0fc+001b+",
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
   "x": 424,
-  "y": 920,
+  "y": 928,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "72c3f5ed-01bd-41bd-ac94-09fd9c339041"
+        "customEventId": "72c3f5ed-01bd-41bd-ac94-09fd9c339041",
+        "__collapse": true
       },
       "id": "694b2d4d-2d50-4a3f-836f-f579fdd26589"
     }

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "d2d20a0f-ba3d-4174-bb8a-cdab892d9e5b",
+  "name": "Morgana_Breast",
+  "symbol": "tileset_morgana_breast",
+  "width": 6,
+  "height": 4,
+  "imageWidth": 48,
+  "imageHeight": 32,
+  "filename": "Morgana_Breast.png"
+}

@@ -1,0 +1,84 @@
+{
+  "_resourceType": "actor",
+  "id": "81be0f0e-1c57-46be-a92d-fa5a2ddfb067",
+  "name": "Hand",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "8b45ad4c-e323-43f6-8244-411f309590c6",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [
+    "platform"
+  ],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_31",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.0625,
+        "__collapse": true
+      },
+      "id": "77299eca-51e9-4a4f-b803-c6ed0656d4c6"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "options",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "__collapse": true,
+        "units": "pixels"
+      },
+      "id": "093b91fc-e248-43cf-a017-8ee6ce204599"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "options",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": -2
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "__collapse": true,
+        "units": "pixels"
+      },
+      "id": "2f01b690-41ea-4a8a-be01-3e1685b6f5f6"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 18,
+  "y": 15,
+  "_index": 7
+}

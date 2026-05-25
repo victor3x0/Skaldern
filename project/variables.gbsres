@@ -140,6 +140,16 @@
       "id": "86ee55f3-f94e-422e-9e31-5db19b356842__L0",
       "name": "CursorPos",
       "symbol": "var_cursorpos"
+    },
+    {
+      "id": "8e2ad2fc-7c8e-41b0-a97c-7cede66cc64c__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_0"
+    },
+    {
+      "id": "88883ffd-f826-461c-a27f-b9cd895c19c5__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_1"
     }
   ],
   "constants": []
