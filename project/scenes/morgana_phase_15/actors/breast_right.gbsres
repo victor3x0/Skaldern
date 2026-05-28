@@ -152,11 +152,12 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 2,
-        "duration": 0.15,
-        "frames": 30,
+        "duration": 0.1,
+        "frames": 16,
         "__scriptTabs": "end",
-        "__collapse": false,
-        "__label": "//TAKEHIT"
+        "__collapse": true,
+        "__label": "//TAKEHIT",
+        "units": "frames"
       },
       "children": {
         "script": [
@@ -265,6 +266,16 @@
       "id": "e0b7500a-49db-4e9a-b1fc-e755866119be"
     },
     {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": [
+          "Take damage"
+        ],
+        "__collapse": true
+      },
+      "id": "2ab165be-57a6-45a6-afbf-3f81d9faa0af"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": {
@@ -287,7 +298,7 @@
         "frames": 30,
         "__scriptTabs": "end",
         "__collapse": true,
-        "__label": "LOOP"
+        "__label": "RESET LOOP"
       },
       "children": {
         "script": [

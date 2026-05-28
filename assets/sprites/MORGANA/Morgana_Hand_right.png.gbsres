@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "8b45ad4c-e323-43f6-8244-411f309590c6",
   "name": "MORGANA/Morgana_Hand_right",
-  "symbol": "sprite_morgana_morgana_hand",
+  "symbol": "sprite_morgana_morgana_hand_0",
   "states": [
     {
       "id": "4b1db364-ba1a-4ef7-b239-da91e6b85b0e",
@@ -162,20 +162,218 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ba94839a-a252-4a86-98c3-3a78f5afc336",
+      "name": "Attack",
+      "animations": [
+        {
+          "id": "49e0ee85-447f-4335-af61-dabc55636757",
+          "frames": [
+            {
+              "id": "d40fe35d-244f-4e71-a75d-dae4db2c3650",
+              "tiles": [
+                {
+                  "id": "a4b49a34-be7d-4f8e-af6a-13829b62ad0e",
+                  "x": -4,
+                  "y": 16,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "7c7bb788-72a2-40d5-80d0-38e2bcfc83d2",
+                  "x": -4,
+                  "y": 8,
+                  "sliceX": 24,
+                  "sliceY": 8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "c400faeb-ca84-418c-9edf-f3438bd4e8cb",
+                  "x": -4,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "951cb6cb-e6a0-405a-9ac0-b9026ffc2375",
+                  "x": 4,
+                  "y": 16,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "f62774a0-0474-4bf6-9fa8-05f72e04340e",
+                  "x": 4,
+                  "y": 8,
+                  "sliceX": 32,
+                  "sliceY": 8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "85c76c52-07a2-4dc6-ab62-c6569f34d35b",
+                  "x": 4,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "445f2649-07fe-485a-b518-dcbfd57e92a4",
+                  "x": 12,
+                  "y": 16,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "2e8fd93e-9eb4-4534-869e-0378cc6fedbb",
+                  "x": 12,
+                  "y": 8,
+                  "sliceX": 40,
+                  "sliceY": 8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "3cb5af9f-7250-4aa0-a8a7-0a915059f979",
+                  "x": 12,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dbc46845-8fbf-4484-b7e1-34b5a89356ce",
+          "frames": [
+            {
+              "id": "475aba7e-b0c4-43df-8ef3-679e8df21672",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1ad961ca-6d04-4a0b-a561-6c49f5e6b760",
+          "frames": [
+            {
+              "id": "d4f733a9-9aa9-491f-933d-6e1650e0e5b6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b219a647-2beb-4e5c-a37b-21599057dfa2",
+          "frames": [
+            {
+              "id": "8c0d33d2-069e-476f-93a0-52bb0322a147",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c6246a41-a1d8-4297-80cd-76472f4dae7c",
+          "frames": [
+            {
+              "id": "8e291ce7-f63b-4f5a-9216-dde1461b7449",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "05119329-03c4-4a6d-acf9-ffcd459aa245",
+          "frames": [
+            {
+              "id": "943b64ed-0f60-4159-9516-93b52b57745a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "366a7b1c-5287-4bc5-b8be-04ce656d500b",
+          "frames": [
+            {
+              "id": "58bbb0f5-3b07-4391-8a1c-9d2662d2ac7e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "55fade2b-bd79-481e-aef9-cb751a90034f",
+          "frames": [
+            {
+              "id": "e2665234-de90-4c1b-ab69-c8026b9b281e",
+              "tiles": []
+            }
+          ]
+        }
+      ],
+      "animationType": "fixed",
+      "flipLeft": true
     }
   ],
-  "numTiles": 6,
+  "numTiles": 13,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 24,
-  "canvasHeight": 16,
+  "canvasHeight": 24,
   "boundsX": -4,
   "boundsY": 0,
   "boundsWidth": 24,
   "boundsHeight": 8,
   "animSpeed": 15,
   "filename": "MORGANA/Morgana_Hand_right.png",
-  "width": 24,
+  "width": 48,
   "height": 24,
-  "checksum": "36b1021ba2c065b99d0d5e84248bb5e88bd386b5"
+  "checksum": "c9d4c1d8f2f435276a406605bf38404f49fcd75b"
 }

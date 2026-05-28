@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "f455c9c3-371d-404a-803e-38c0b5bbbfc5",
-  "name": "Hand",
+  "name": "Hand Left",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "3271a2eb-486d-4378-a64b-2fb9344db9f9",
@@ -34,15 +34,15 @@
     {
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
       "args": {
-        "__section": "movement",
+        "__section": "options",
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 2
         },
         "y": {
           "type": "number",
-          "value": 4
+          "value": 0
         },
         "collideWith": [],
         "lockDirection": [],
@@ -50,12 +50,12 @@
         "__collapse": true,
         "units": "pixels"
       },
-      "id": "a4fd46e8-f14f-4057-92bb-86d6bafb79ec"
+      "id": "3a7e2d1b-967f-40ab-9538-15fbb506913f"
     },
     {
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
       "args": {
-        "__section": "movement",
+        "__section": "options",
         "actorId": "$self$",
         "x": {
           "type": "number",
@@ -63,7 +63,7 @@
         },
         "y": {
           "type": "number",
-          "value": -4
+          "value": -2
         },
         "collideWith": [],
         "lockDirection": [],
@@ -71,14 +71,56 @@
         "__collapse": true,
         "units": "pixels"
       },
-      "id": "b865a3f4-5992-4edf-a1a1-341341af6f2c"
+      "id": "01f38958-3303-4928-93fa-439c12965f41"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "options",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": -2
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "__collapse": true,
+        "units": "pixels"
+      },
+      "id": "eb7214ed-83e5-4bd5-bd59-e72811e9c1a0"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "options",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "__collapse": true,
+        "units": "pixels"
+      },
+      "id": "a72050b5-e9f1-4fdf-a44b-7f76900a836c"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 2,
+  "x": 3,
   "y": 15,
   "_index": 8
 }

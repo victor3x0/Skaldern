@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "3271a2eb-486d-4378-a64b-2fb9344db9f9",
   "name": "MORGANA/Morgana_Hand_left",
-  "symbol": "sprite_morgana_morgana_hand_0",
+  "symbol": "sprite_morgana_morgana_hand",
   "states": [
     {
       "id": "18cadfaa-08ac-4576-af49-4a26fa5438eb",

@@ -152,10 +152,11 @@
       "args": {
         "timer": 1,
         "duration": 0.15,
-        "frames": 30,
+        "frames": 16,
         "__scriptTabs": "end",
         "__collapse": true,
-        "__label": "//TAKEHIT"
+        "__label": "//TAKEHIT",
+        "units": "frames"
       },
       "children": {
         "script": [

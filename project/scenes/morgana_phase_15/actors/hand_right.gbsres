@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "81be0f0e-1c57-46be-a92d-fa5a2ddfb067",
-  "name": "Hand",
+  "name": "Hand Right",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "8b45ad4c-e323-43f6-8244-411f309590c6",
@@ -59,6 +59,27 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "__collapse": true,
+        "units": "pixels"
+      },
+      "id": "6fa17934-5faa-4a54-b451-72f6c0fd765f"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "options",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
           "value": 0
         },
         "y": {
@@ -72,13 +93,34 @@
         "units": "pixels"
       },
       "id": "2f01b690-41ea-4a8a-be01-3e1685b6f5f6"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "options",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": -2
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "__collapse": true,
+        "units": "pixels"
+      },
+      "id": "5b7894db-5be0-479f-829f-e490ab1b5952"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 18,
+  "x": 17,
   "y": 15,
   "_index": 7
 }
