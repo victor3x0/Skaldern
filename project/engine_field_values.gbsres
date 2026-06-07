@@ -43,7 +43,7 @@
     },
     {
       "id": "FEAT_PLATFORM_LADDERS",
-      "value": 0
+      "value": 1
     },
     {
       "id": "plat_jump_vel",
@@ -95,7 +95,7 @@
     },
     {
       "id": "plat_camera_block",
-      "value": "PLATFORM_CAMERA_LOCK_SCREEN_BOTH"
+      "value": "PLATFORM_CAMERA_LOCK_SCREEN_LEFT"
     },
     {
       "id": "FEAT_PLATFORM_DASH",

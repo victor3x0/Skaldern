@@ -60,7 +60,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__label": "// Si le personage tombe"
       },
       "children": {
@@ -95,7 +95,7 @@
             "command": "EVENT_GROUP",
             "args": {
               "__label": "PLAYER BOUNCE ON ENNEMY",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -174,7 +174,7 @@
                 "down",
                 "right"
               ],
-              "__collapse": true
+              "__collapse": false
             },
             "id": "e50d5ed9-9947-4329-bc9d-ddb0e3753e60"
           }

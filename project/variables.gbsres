@@ -72,6 +72,11 @@
       "symbol": "var_013_currentgold"
     },
     {
+      "id": "30",
+      "name": "SeashellCompteur",
+      "symbol": "var_seashellcompteur"
+    },
+    {
       "id": "75",
       "name": "Variable 75_CHAP1",
       "symbol": "var_variable_75_chap1"
@@ -175,6 +180,236 @@
       "id": "fef7bc39-4d67-480a-bee5-ba3cbf28b418__L0",
       "name": "PlayerState",
       "symbol": "var_playerstate_0"
+    },
+    {
+      "id": "c4a0f7c2-fec5-4d4d-96a3-1baf5f2a9a81__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_4"
+    },
+    {
+      "id": "970babd6-78d7-4b2d-ac75-0ec79af5ece4__L0",
+      "name": "isOpened",
+      "symbol": "var_isopened_0"
+    },
+    {
+      "id": "b87899ef-3751-4c0e-a4be-f4ee9122f8f0__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_5"
+    },
+    {
+      "id": "404cdbdc-b6ec-4956-903c-d36f9a98fb7a__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_6"
+    },
+    {
+      "id": "af0e1756-ce83-4f3e-ade5-fd9770943923__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_1"
+    },
+    {
+      "id": "71e70bfc-3cd4-438f-8218-1f5ee9b8d4f2__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_2"
+    },
+    {
+      "id": "abc6626e-f00b-436a-91db-2313a8922f88__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_3"
+    },
+    {
+      "id": "b801e739-1c77-458b-98d5-53c63443e2e4__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_4"
+    },
+    {
+      "id": "3fe2a698-5150-4989-8bc4-a9e1e9f2e4b6__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_5"
+    },
+    {
+      "id": "ce2a04b7-8bf0-4e45-9d77-ae96b5ab729d__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_6"
+    },
+    {
+      "id": "b0a18a28-e58a-4776-a45d-49b31afff8ce__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_7"
+    },
+    {
+      "id": "71e70bfc-3cd4-438f-8218-1f5ee9b8d4f2__L1",
+      "name": "isHit",
+      "symbol": "var_ishit_3"
+    },
+    {
+      "id": "ec0fabf8-48e8-4bd5-a6dd-5f06ad2fabdb__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_8"
+    },
+    {
+      "id": "ec0fabf8-48e8-4bd5-a6dd-5f06ad2fabdb__L1",
+      "name": "isHit",
+      "symbol": "var_ishit_4"
+    },
+    {
+      "id": "ba9ecaec-f8b2-4492-974e-97914096b4a2__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_9"
+    },
+    {
+      "id": "ba9ecaec-f8b2-4492-974e-97914096b4a2__L1",
+      "name": "isHit",
+      "symbol": "var_ishit_5"
+    },
+    {
+      "id": "fec16ff2-07dc-4522-8779-23c0d110d460__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_10"
+    },
+    {
+      "id": "fec16ff2-07dc-4522-8779-23c0d110d460__L1",
+      "name": "isHit",
+      "symbol": "var_ishit_6"
+    },
+    {
+      "id": "d5d8d581-f486-4dc3-a141-286a0cec32ea__L0",
+      "name": "Dialogue",
+      "symbol": "var_dialogue"
+    },
+    {
+      "id": "96e6627f-8923-46f9-b99e-bae740eac905__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_7"
+    },
+    {
+      "id": "92fe344d-9e7c-4add-a37e-028c199a03f9__L0",
+      "name": "isOpened",
+      "symbol": "var_isopened_1"
+    },
+    {
+      "id": "57a2c794-f04b-4fbc-b420-bbe3a45cf313__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_8"
+    },
+    {
+      "id": "70f1118f-f255-452e-a1be-181609a6fcd1__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_9"
+    },
+    {
+      "id": "7c17bf73-574a-4e7f-be8e-60cfffda71e0__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_11"
+    },
+    {
+      "id": "7c17bf73-574a-4e7f-be8e-60cfffda71e0__L1",
+      "name": "isHit",
+      "symbol": "var_ishit_7"
+    },
+    {
+      "id": "820c5e35-48ce-4d17-b65d-3a4ddc22cb6e__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_12"
+    },
+    {
+      "id": "820c5e35-48ce-4d17-b65d-3a4ddc22cb6e__L1",
+      "name": "isHit",
+      "symbol": "var_ishit_8"
+    },
+    {
+      "id": "32a61ce4-90b3-4b41-8534-4609486c5491__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_13"
+    },
+    {
+      "id": "32a61ce4-90b3-4b41-8534-4609486c5491__L1",
+      "name": "isHit",
+      "symbol": "var_ishit_9"
+    },
+    {
+      "id": "63cddce9-e18c-4715-a3f9-a46ba0b40102__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_10"
+    },
+    {
+      "id": "28090df4-7e8b-43ac-ae85-9c90667d2200__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_11"
+    },
+    {
+      "id": "47cc901c-0cbe-4260-8922-8e52cf0f0e6f__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_12"
+    },
+    {
+      "id": "dfb4055f-fb48-4a09-a35e-349b4d501e63__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_13"
+    },
+    {
+      "id": "9c737e57-12a7-4b76-bf9b-fb173c0b0e74__L0",
+      "name": "isOpened",
+      "symbol": "var_isopened_2"
+    },
+    {
+      "id": "7aa5f9ad-fe0a-422c-a3dc-4cfa87d4ee67__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_14"
+    },
+    {
+      "id": "d040e2e0-4ca0-4ab9-b66e-eabf1c39de21__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_15"
+    },
+    {
+      "id": "173f2f1f-76b7-4665-86bd-d42840eedd6e__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_14"
+    },
+    {
+      "id": "173f2f1f-76b7-4665-86bd-d42840eedd6e__L1",
+      "name": "isHit",
+      "symbol": "var_ishit_10"
+    },
+    {
+      "id": "79fd9c83-b786-4649-959d-7237794426a8__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_15"
+    },
+    {
+      "id": "79fd9c83-b786-4649-959d-7237794426a8__L1",
+      "name": "isHit",
+      "symbol": "var_ishit_11"
+    },
+    {
+      "id": "9cc8bc88-df82-4e9b-8e66-49991dfea4ad__L0",
+      "name": "PlayerState",
+      "symbol": "var_playerstate_16"
+    },
+    {
+      "id": "9cc8bc88-df82-4e9b-8e66-49991dfea4ad__L1",
+      "name": "isHit",
+      "symbol": "var_ishit_12"
+    },
+    {
+      "id": "97b7591a-89cd-4df4-8cd0-5acb9095d151__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_16"
+    },
+    {
+      "id": "3d598576-39b7-4231-a6f5-54856b025837__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_17"
+    },
+    {
+      "id": "63e55538-42da-48c7-8280-87ef31dd68d0__L0",
+      "name": "isTaken",
+      "symbol": "var_istaken_18"
+    },
+    {
+      "id": "24e8ed8b-b897-43cd-b461-9a36483ecd6a__L0",
+      "name": "Dialogue",
+      "symbol": "var_dialogue_0"
     }
   ],
   "constants": []

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2300b8da-1471-43c9-8156-b70836c4e627",
+  "name": "OctopusDialogue",
+  "symbol": "bg_octopusdialogue",
+  "tileColors": "",
+  "filename": "OctopusDialogue.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

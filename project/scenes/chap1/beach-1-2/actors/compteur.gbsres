@@ -1,0 +1,42 @@
+{
+  "_resourceType": "actor",
+  "id": "6b19bb57-cc79-4e35-8d3e-2a96bae15e8a",
+  "name": "Compteur",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "7c198b1c-38c7-46de-8100-1c32de9de55f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 0.25,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": true,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_47",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "variable",
+          "value": "30"
+        },
+        "__collapse": true
+      },
+      "id": "16ec33d1-c74a-4dcc-beed-a39f4d0de181"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 16,
+  "y": 1,
+  "_index": 1
+}

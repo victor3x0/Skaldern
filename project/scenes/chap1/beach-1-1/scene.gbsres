@@ -11,21 +11,96 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "001f7+016+0059+016+008f+016+0017+016+00c6+012+0084+016+0024+012+007a+40!0f45+0010+40!60!0f48+00c+40!60!0f4c+009+40!60!0f4f+",
+  "collisions": "00204+016+004c+016+008f+016+005e+40!60!0fb+70!50!004b+0ff+004+016+002a+40!60!0f5+70!50!00e+0ff+0034+0f9+00e+0ff+0034+0f9+00e+0ff+012+0016+013+0019+0f9+00e+0ff+0026+0f10e+",
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
-  "x": 520,
-  "y": 864,
+  "x": 1248,
+  "y": 664,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "b1718a3d-3279-4842-bebb-c8b439e446dd"
+        "customEventId": "b1718a3d-3279-4842-bebb-c8b439e446dd",
+        "__collapse": true
       },
       "id": "3ed636f7-57d5-4453-b9d1-6e07bf389caf"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "3bb52ae5-0bad-4a8b-acee-955d0346b607",
+        "frame": {
+          "type": "variable",
+          "value": "30"
+        },
+        "__collapse": true
+      },
+      "id": "dfc98656-6fc7-444f-97c9-b710ed60a90b"
     }
   ],
-  "playerHit1Script": [],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "PLAYER BOUNCE ON ENNEMY",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": true
+            },
+            "children": {
+              "true": []
+            },
+            "id": "fd3dc862-b60f-4651-9200-85d90dc23fd7"
+          },
+          {
+            "command": "EVENT_PLAYER_BOUNCE",
+            "args": {
+              "height": "high",
+              "__collapse": true
+            },
+            "id": "fa663acf-681c-4146-8915-4db692133f6b"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "8de629b9-5756-4aa3-8140-59fee2c3e054"
+          },
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b"
+              ],
+              "__collapse": true
+            },
+            "id": "5667fd6b-54a6-4972-99b3-783fbeeee840"
+          }
+        ]
+      },
+      "id": "aa63d5f7-2389-41d2-aff1-97bfc6204325"
+    }
+  ],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "parallax": [

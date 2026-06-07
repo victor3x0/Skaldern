@@ -1,0 +1,84 @@
+{
+  "_resourceType": "actor",
+  "id": "d5d8d581-f486-4dc3-a141-286a0cec32ea",
+  "name": "Poulpeux",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0091f8c6-fa5b-45c2-9234-daae3f420aed",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_38",
+  "script": [
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "36f3fb01-5be3-47bc-ab67-541f9c421b95"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "3bb52ae5-0bad-4a8b-acee-955d0346b607",
+              "__collapse": true
+            },
+            "id": "4252782d-a3f4-47bc-8f4c-cafe3c3a5f9d"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "5db08632-934e-4ec1-87ab-dc8dec5bb110",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "05a5304b-f63d-48cb-bbf6-46301a4f6c41"
+          }
+        ],
+        "false": []
+      },
+      "id": "2d18bf4a-e758-4ff3-b257-29237cd14049"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 30,
+  "y": 14,
+  "_index": 1
+}

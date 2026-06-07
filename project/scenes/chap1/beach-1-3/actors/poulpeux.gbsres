@@ -1,0 +1,84 @@
+{
+  "_resourceType": "actor",
+  "id": "24e8ed8b-b897-43cd-b461-9a36483ecd6a",
+  "name": "Poulpeux",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0091f8c6-fa5b-45c2-9234-daae3f420aed",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_67",
+  "script": [
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "eb9e95aa-be7f-4683-a4f1-c56bdb07999c"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "3bb52ae5-0bad-4a8b-acee-955d0346b607",
+              "__collapse": true
+            },
+            "id": "1ce03a70-1892-4e6f-bb61-5d04c7d8fb85"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "124a5738-53e8-402f-91e5-af0f7163f3e0",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "40b41e2f-20c1-43eb-b83e-22f543ec38c9"
+          }
+        ],
+        "false": []
+      },
+      "id": "0493877b-7c5f-4a1a-9c45-bbab535efd23"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 15,
+  "y": 12,
+  "_index": 10
+}

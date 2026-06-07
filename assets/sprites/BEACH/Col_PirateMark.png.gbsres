@@ -7,7 +7,7 @@
     {
       "id": "e24095fa-208c-4c20-81dc-6a8bb64ade93",
       "name": "",
-      "animationType": "multi",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {
@@ -15,34 +15,7 @@
           "frames": [
             {
               "id": "2c2795ce-711f-404a-87f1-81192e9a17cb",
-              "tiles": [
-                {
-                  "id": "9bcf2338-ae07-4604-b143-d1588c8423bc",
-                  "x": 0,
-                  "y": 0,
-                  "sliceX": 32,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                },
-                {
-                  "id": "37e8f363-4488-4af1-8756-c8b8f210b74e",
-                  "x": 8,
-                  "y": 0,
-                  "sliceX": 40,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                }
-              ]
+              "tiles": []
             }
           ]
         },
@@ -166,7 +139,7 @@
       ]
     }
   ],
-  "numTiles": 4,
+  "numTiles": 2,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 16,

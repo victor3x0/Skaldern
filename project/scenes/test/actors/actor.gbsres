@@ -41,7 +41,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -74,7 +74,7 @@
             "command": "EVENT_PLAYER_BOUNCE",
             "args": {
               "height": "medium",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "54965a08-adfe-48d2-b157-3905f8c9a058"
           }

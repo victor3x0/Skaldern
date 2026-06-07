@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "45aef6ae-a27f-4e85-96b1-b0b7bc3cd6d6",
+  "name": "BeachTest_000",
+  "symbol": "bg_beachtest_000",
+  "tileColors": "00500+",
+  "filename": "BeachTest_000.png",
+  "width": 64,
+  "height": 20,
+  "imageWidth": 512,
+  "imageHeight": 160
+}

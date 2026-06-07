@@ -1,0 +1,95 @@
+{
+  "_resourceType": "scene",
+  "id": "bd849c45-be97-4274-8315-6811280de73a",
+  "_index": 8,
+  "name": "CHAP1/Beach-INTRO",
+  "backgroundId": "45aef6ae-a27f-4e85-96b1-b0b7bc3cd6d6",
+  "tilesetId": "",
+  "width": 64,
+  "height": 20,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0ff+0031+0ff+0031+0ff+0031+0ff+0031+0ff+0031+0ff+0031+0ff+005+016+0026+0ff+0031+0ff+00d+016+004+016+0014+0ff+0031+0ff+001f+016+00c+0ff+0031+0ff+0031+0ff+001e+012+0011+0ff+0031+0f18+70!50!00a+40!60!0f11a+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 704,
+  "y": 664,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "b1718a3d-3279-4842-bebb-c8b439e446dd",
+        "__collapse": true
+      },
+      "id": "e964fece-5699-433e-90a6-f5a598a7f307"
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "PLAYER BOUNCE ON ENNEMY",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": true
+            },
+            "children": {
+              "true": []
+            },
+            "id": "c177cf96-808a-4d5d-bc35-43c27af2b74c"
+          },
+          {
+            "command": "EVENT_PLAYER_BOUNCE",
+            "args": {
+              "height": "high",
+              "__collapse": true
+            },
+            "id": "f135c853-c6a3-4cd6-a9b2-edf999403417"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "403e53c4-6d8a-4f11-ba3c-686ae71f4332"
+          },
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b"
+              ],
+              "__collapse": true
+            },
+            "id": "e9eeab08-89ca-45b2-823e-e1f62404d2b1"
+          }
+        ]
+      },
+      "id": "4203e049-5a33-46fa-a7e0-f61914031a9d"
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

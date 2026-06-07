@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8a2c3b8f-20b9-4895-81cb-2b9faaefc307",
+  "name": "VieillardDialogue",
+  "symbol": "bg_vieillarddialogue",
+  "tileColors": "",
+  "filename": "VieillardDialogue.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
