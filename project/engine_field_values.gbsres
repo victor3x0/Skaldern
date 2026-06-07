@@ -112,6 +112,22 @@
     {
       "id": "plat_knockback_vel_x",
       "value": 6144
+    },
+    {
+      "id": "FEAT_PLATFORM_DOUBLE_JUMP",
+      "value": 0
+    },
+    {
+      "id": "FEAT_PLATFORM_LADDERS_WALK_OFF",
+      "value": 0
+    },
+    {
+      "id": "FEAT_PLATFORM_LADDERS_JUMP",
+      "value": 1
+    },
+    {
+      "id": "plat_climb_vel",
+      "value": 2662
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "a89774c2-9f6e-4562-be12-e9194eedd1b7",
-  "name": "Gold",
+  "id": "42763d0c-041c-40c4-9741-6edcdb925c5c",
+  "name": "Collectible Gem",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "spriteSheetId": "f5a45ac5-27ec-43a5-b28e-576515f16ae9",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,23 +15,27 @@
   "collisionGroup": "2",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_29",
+  "symbol": "actor_25",
   "script": [
-    {
-      "command": "EVENT_INC_VALUE",
-      "args": {
-        "variable": "13",
-        "__collapse": true
-      },
-      "id": "e617166d-0fdb-4153-99ef-37554fe8f7cc"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "7eee8c72-8539-43e8-8a97-201761c7f7eb"
+      "id": "12a6d551-6739-4fde-8c4a-e6396fe7d156"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "13",
+        "value": {
+          "type": "expression",
+          "value": "$13$ + 2"
+        },
+        "__collapse": true
+      },
+      "id": "d7cce673-8318-40f2-aeef-3c4ffded28e8"
     }
   ],
   "startScript": [],
@@ -40,7 +44,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 10,
-  "y": 18,
-  "_index": 5
+  "x": 22,
+  "y": 17,
+  "_index": 2
 }

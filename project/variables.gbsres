@@ -72,11 +72,14 @@
       "symbol": "var_013_currentgold"
     },
     {
+<<<<<<< HEAD
       "id": "30",
       "name": "SeashellCompteur",
       "symbol": "var_seashellcompteur"
     },
     {
+=======
+>>>>>>> master
       "id": "75",
       "name": "Variable 75_CHAP1",
       "symbol": "var_variable_75_chap1"
@@ -145,6 +148,7 @@
       "id": "86ee55f3-f94e-422e-9e31-5db19b356842__L0",
       "name": "CursorPos",
       "symbol": "var_cursorpos"
+<<<<<<< HEAD
     },
     {
       "id": "d4faf453-2128-4bff-9919-04984f6e59c6__L0",
@@ -410,6 +414,8 @@
       "id": "24e8ed8b-b897-43cd-b461-9a36483ecd6a__L0",
       "name": "Dialogue",
       "symbol": "var_dialogue_0"
+=======
+>>>>>>> master
     }
   ],
   "constants": []

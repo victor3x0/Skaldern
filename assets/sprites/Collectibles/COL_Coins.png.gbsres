@@ -1,0 +1,170 @@
+{
+  "_resourceType": "sprite",
+  "id": "2dac4fd0-01e8-45c6-93d6-757b332ca8e2",
+  "name": "Collectibles/COL_Coins",
+  "symbol": "sprite_collectibles_col_coi",
+  "states": [
+    {
+      "id": "2df2e6d5-4af6-4439-bddc-31ec98dfc327",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "3a5a3f5c-4159-4202-b628-db79b9d0cb89",
+          "frames": [
+            {
+              "id": "d2744660-1b3f-4e0b-8c80-d36f788aa31e",
+              "tiles": [
+                {
+                  "id": "b8d02330-7a54-429a-9e89-ec37c8a3062c",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "d7f016dc-075b-4150-a815-03591d50385d",
+              "tiles": [
+                {
+                  "id": "9eb64f87-bf29-4e45-973c-f3be31e52163",
+                  "x": 0,
+                  "y": 1,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "d48d8fb8-1aaa-496a-8f63-8e65cfa21bb9",
+              "tiles": [
+                {
+                  "id": "da1985cc-1b97-4339-9a2a-aade5aedb72d",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "82d2ba73-2b4a-40d8-a42f-73ac0eec0486",
+              "tiles": [
+                {
+                  "id": "f0af85ff-3f0d-4676-88ba-ef79e0915300",
+                  "x": 0,
+                  "y": -1,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ad289048-860b-4719-a9d0-9335ef96c6ff",
+          "frames": [
+            {
+              "id": "6aaa2d9b-f2a0-4b56-9fbc-b07abf679eeb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "16b1587d-b82c-4e38-a81d-0c6ca6514feb",
+          "frames": [
+            {
+              "id": "9fdddc49-a7ff-4d2c-acd6-367aa6462d97",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "67bf220a-72d5-4c11-86e3-2d5c6f6adb31",
+          "frames": [
+            {
+              "id": "c9a41a97-6e9d-46dd-bdb1-7ffef724345d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d3c5de26-01cc-48b4-92c4-9536215bcee3",
+          "frames": [
+            {
+              "id": "73790e84-52b9-4e88-875b-15f8b2762e66",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1fa4e734-6a74-4b80-9bb9-4c1326c2abba",
+          "frames": [
+            {
+              "id": "e4208dda-332b-4aed-b398-f6cc6e8a1810",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7fe9efc7-5366-47e9-9956-02a6148519b7",
+          "frames": [
+            {
+              "id": "206261ab-10f7-4bbc-8a74-6180c295d5c2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d9915834-b4db-4a1d-8939-da35f1ad3922",
+          "frames": [
+            {
+              "id": "0b0a72e5-0957-464f-8d34-84f206cb6f82",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 3,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 8,
+  "canvasHeight": 8,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 8,
+  "boundsHeight": 8,
+  "animSpeed": 15,
+  "filename": "Collectibles/COL_Coins.png",
+  "width": 24,
+  "height": 8,
+  "checksum": "346e7f83bb1020d8c0f1e395063b789e43682a99"
+}

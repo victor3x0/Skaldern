@@ -17,6 +17,62 @@
       "id": "2120de1a-a334-4da5-ad2e-e516cb1ec80e"
     },
     {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Initialize Climbing",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_PLATFORMER_CALLBACK_SCRIPT",
+            "args": {
+              "event": "ladderStart",
+              "__scriptTabs": "scriptinput",
+              "__collapse": false
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 15,
+                    "__collapse": true
+                  },
+                  "id": "104a4419-0ecf-49f8-b8be-379f3feb7b7a"
+                }
+              ]
+            },
+            "id": "b3aea0e9-2f6c-4582-9589-199b491f8135"
+          },
+          {
+            "command": "EVENT_SET_PLATFORMER_CALLBACK_SCRIPT",
+            "args": {
+              "event": "ladderEnd",
+              "__scriptTabs": "scriptinput",
+              "__collapse": false
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 7,
+                    "__collapse": false
+                  },
+                  "id": "8a451cb7-2c61-4765-9466-79ccb241e3ee"
+                }
+              ]
+            },
+            "id": "8d299f47-7fd2-422f-969c-f9c05d3c65de"
+          }
+        ]
+      },
+      "id": "ab282217-a970-4f91-9966-ce36d718fd1d"
+    },
+    {
       "command": "EVENT_SET_PLATFORMER_CALLBACK_SCRIPT",
       "args": {
         "event": "knockbackStart",
