@@ -1,11 +1,11 @@
 {
   "_resourceType": "actor",
-  "id": "32798c0d-3aa1-433d-b688-0c4e44914df1",
+  "id": "0510d551-5634-4bb2-b1f3-29473c06f7fe",
   "name": "Gold",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-  "prefabId": "",
+  "spriteSheetId": "2dac4fd0-01e8-45c6-93d6-757b332ca8e2",
+  "prefabId": "899cbe3e-5bd1-4ac9-b2fb-03e12d7fa533",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -15,7 +15,7 @@
   "collisionGroup": "2",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_26",
+  "symbol": "actor_27",
   "script": [
     {
       "command": "EVENT_INC_VALUE",
@@ -23,7 +23,7 @@
         "variable": "13",
         "__collapse": true
       },
-      "id": "c55a27d1-27d4-41f6-bb17-31533149a371"
+      "id": "ba0f26b6-f211-4599-a62b-1db94bccf585"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -31,7 +31,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "e66f336b-39d4-463b-b305-fb38d8bf37ff"
+      "id": "a6b508a8-0335-4bfc-af3e-974d8538762b"
     }
   ],
   "startScript": [],
@@ -40,7 +40,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 12,
-  "y": 20,
-  "_index": 2
+  "x": 19,
+  "y": 19,
+  "_index": 3
 }

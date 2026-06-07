@@ -29,7 +29,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "b1718a3d-3279-4842-bebb-c8b439e446dd",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "ff06a4a0-2fac-4058-8884-6d571d8f8e91"
     }
@@ -37,6 +37,10 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
+<<<<<<< HEAD
   "collisions": "00378+019+003f+014+0012+0f4+014+0020+0f4+00a+40!60!0f2+0016+0f4+008+40!60!0f4+0016+0f4+006+40!60!0f16e+",
   "playerSpriteSheetId": "60cccff9-a06c-4d1e-a0aa-760452755fe1"
+=======
+  "collisions": "002b5+102+0026+102+0026+102+0021+015+112+012+0024+102+0026+102+0026+102+0019+014+009+102+007+0f4+014+0017+102+007+0f4+00a+40!60!0f2+00d+102+007+0f4+008+40!60!0f4+00d+102+007+0f4+006+40!60!0f16e+"
+>>>>>>> master
 }

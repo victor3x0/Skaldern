@@ -17,6 +17,62 @@
       "id": "c80f34c7-0e79-4fdf-96f9-6a401a11e7d9"
     },
     {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Initialize Climbing",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_PLATFORMER_CALLBACK_SCRIPT",
+            "args": {
+              "event": "ladderStart",
+              "__scriptTabs": "scriptinput",
+              "__collapse": false
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 15,
+                    "__collapse": true
+                  },
+                  "id": "ec685ca6-2880-4141-a408-10e1df04435f"
+                }
+              ]
+            },
+            "id": "1481dc8f-160f-4ba5-a993-1e1c3c549858"
+          },
+          {
+            "command": "EVENT_SET_PLATFORMER_CALLBACK_SCRIPT",
+            "args": {
+              "event": "ladderEnd",
+              "__scriptTabs": "scriptinput",
+              "__collapse": false
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 7,
+                    "__collapse": false
+                  },
+                  "id": "416d41c7-1e1f-462e-bba5-d404e01886be"
+                }
+              ]
+            },
+            "id": "9b8ac480-f3b2-403b-afa7-72022d0e62ee"
+          }
+        ]
+      },
+      "id": "16f08ff3-f821-4501-bb65-4fe0fbd5ddd2"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "12",

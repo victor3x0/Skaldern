@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "ee1b82bf-4581-49c8-b8fa-acfbcc93100d",
+  "name": "Collectibles/COL_LifePoints",
+  "symbol": "sprite_collectibles_col_lif",
+  "states": [
+    {
+      "id": "67de2014-39ae-4a78-8f45-60830d6b52b2",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "f1067af3-7011-4f55-a828-864c15d12417",
+          "frames": [
+            {
+              "id": "37861014-aaf5-486d-aa02-2e5bd5294cf7",
+              "tiles": [
+                {
+                  "id": "294bfca3-1653-48fe-a73d-6839ecc53260",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "9f278cb4-df20-4253-a9ba-f449a3b71e15",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "b3e45045-d7fe-4479-84ca-b031e7d77d12",
+              "tiles": [
+                {
+                  "id": "254693ed-0904-4b48-abe4-a04a3238f604",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "36c1e968-db8d-4cf8-829b-dc057fb4a9f6",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7477fccd-17c5-42d7-b37a-1c805c3aa91c",
+          "frames": [
+            {
+              "id": "f6afbfc9-08e5-416b-bdd3-c3c0ba2e5e09",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "eeb2712a-60e6-4f19-b604-896ca0e90e84",
+          "frames": [
+            {
+              "id": "e4365ed7-b25c-46f3-828f-6fd6ecba0419",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d98990dd-f1ea-4547-bd2b-7da5cf687d57",
+          "frames": [
+            {
+              "id": "69bc9fe3-9db8-4f77-96b7-8993b9d8344c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6c2afb8a-3156-4e04-a0d9-c7ab4de0574f",
+          "frames": [
+            {
+              "id": "92315806-b133-4e94-bc64-d80a2ab3fd58",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a18dc756-d089-4979-a748-f1cbe473d69e",
+          "frames": [
+            {
+              "id": "50a1e42d-9c27-4e9e-b372-ecf3ba18b420",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8af2661e-bf1a-4bfa-b783-9dd66b7fc731",
+          "frames": [
+            {
+              "id": "46d61e91-8e3d-4d33-8a02-7bfc748b30c3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f4b0fdf4-d163-4d31-acb3-7a1145f1d856",
+          "frames": [
+            {
+              "id": "2c1e0a8a-6c49-40c1-b642-5ce465cb7a17",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Collectibles/COL_LifePoints.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "8d81e927c078951f03089424056e1aad72e95bf7"
+}
