@@ -259,7 +259,7 @@
       ]
     }
   ],
-  "numTiles": 4,
+  "numTiles": 8,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 16,
@@ -272,5 +272,5 @@
   "filename": "BEACH/TouchInputs.png",
   "width": 32,
   "height": 16,
-  "checksum": "946051ca5e7fb092d26bf99279da3d78181d09f6"
+  "checksum": "012ea4c18f93ff6ee6fbbe5e43963709ea254871"
 }

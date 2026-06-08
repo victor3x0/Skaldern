@@ -14,15 +14,15 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 2824,
+  "x": 2872,
   "y": 736,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Heyo moussaillon\nheureux de te voir \ndebout",
-          "Bienvenue sur \nl'île, mon cher \nSkaldern !"
+          "Ho hey !",
+          "Tu l'a fait,\n9 coquillages !\nC'est tout bon."
         ],
         "__section": "text",
         "avatarId": "",
@@ -48,10 +48,13 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Morgana m'a prévenu \nde ton arrivée.\n",
-          "C'est elle qui t'a\nremis sur pied, si\nl'on peut dire"
+          "La caverne est \njuste derrière.\n",
+          "Fait attention\ncependant.",
+          "Une bête semble\nrôder dans la\ngrotte.",
+          "Un cochon, \nparaît-il..",
+          "Très attaché à \nson maître."
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -72,33 +75,6 @@
       "id": "b2208098-9338-4a4c-a18d-6ef031b16e37"
     },
     {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Tu lui dois \nbeaucoup.Beaucoup,",
-          "Beaucoup d'argent\nsurtout."
-        ],
-        "__section": "behavior",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 0,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": false,
-        "speedIn": -3,
-        "speedOut": -3,
-        "closeWhen": "key",
-        "closeButton": "any",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
-      },
-      "id": "b0d6d481-4172-4afa-9f41-215f4664198b"
-    },
-    {
       "command": "EVENT_WAIT",
       "args": {
         "time": {
@@ -117,9 +93,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Mais passons ! \n",
-          "Tu veux retrouver \nBarbe Noir, non ?",
-          "Il faut commencer \nquelque part."
+          "Je fini de fermer \nle kiosque\n",
+          "On se retrouve\nde l'autre côté."
         ],
         "__section": "text",
         "avatarId": "",
@@ -131,98 +106,15 @@
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": false,
-        "speedIn": -1,
-        "speedOut": -1,
+        "speedIn": -3,
+        "speedOut": -3,
         "closeWhen": "key",
         "closeButton": "any",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
         "__collapse": true
       },
-      "id": "987035cd-b6a9-4033-9995-3a7c35f600d4"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Cette plage est \ncouverte de\ncoquillages.",
-          "Ces petites bêtes \nsont inutiles, et \ntrès désagréable",
-          "pour ma voûte\nplantaire délicate."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 0,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": false,
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "any",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
-      },
-      "id": "f3784b8a-32e6-4b25-b980-2fd98f21efce"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Débarrasse-m'en, \net je t'ouvre \nla caverne.",
-          "Elle est plus loin\nsur la plage",
-          "Dix suffiront.\nCompte bien."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 0,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": false,
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "any",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
-      },
-      "id": "bcb96e13-a498-4329-9922-907b413636d2"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Tu risque de tomber\nsur un vieux\ngeignard sur la \nroute.",
-          "Ignore-le, c'est\nun idiot."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 0,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": false,
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "any",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
-      },
-      "id": "622aca8e-76fc-44c7-ad3d-1b5de7120471"
+      "id": "86ecc046-83d6-439c-9b82-429d0342f16e"
     },
     {
       "command": "EVENT_WAIT",

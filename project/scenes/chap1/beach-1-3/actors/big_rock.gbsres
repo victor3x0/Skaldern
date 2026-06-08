@@ -1,0 +1,31 @@
+{
+  "_resourceType": "actor",
+  "id": "6164fee2-8a96-430a-8342-23f92b9ab80e",
+  "name": "Big Rock",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dd284244-211b-4adc-95c2-bb9774c16761",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [
+    "solid"
+  ],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_55",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 62,
+  "y": 25,
+  "_index": 12
+}

@@ -202,7 +202,8 @@
       "args": {
         "text": [
           "Tu risque de tomber\nsur un vieux\ngeignard sur la \nroute.",
-          "Ignore-le, c'est\nun idiot."
+          "si d'aventure il \nn'est plus là à \nvotre retour, ",
+          "j'aurais quelque \nchose pour vous. "
         ],
         "__section": "text",
         "avatarId": "",
@@ -223,6 +224,59 @@
         "__collapse": true
       },
       "id": "62a1673f-ee06-4efc-9be1-9a495d58eb21"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Un petit rien...",
+          "Une attention. "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 0,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "974cc566-5ce7-43cb-b43d-5494a1a9bcc9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Bon. \nÀ tout de suite."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 0,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "05fcbcf6-e6a7-496a-9d05-c2b57ce64ce1"
     },
     {
       "command": "EVENT_WAIT",

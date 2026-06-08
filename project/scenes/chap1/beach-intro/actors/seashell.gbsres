@@ -28,7 +28,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false,
+        "__collapse": true,
         "__disableElse": true
       },
       "children": {
@@ -76,7 +76,7 @@
                 }
               },
               "__collapseElse": false,
-              "__collapse": false,
+              "__collapse": true,
               "__label": "SEASHELL TAKE DAMAGE",
               "__disableElse": true
             },
@@ -86,7 +86,7 @@
                   "command": "EVENT_GROUP",
                   "args": {
                     "__label": "Take Damage Anim",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -136,7 +136,7 @@
                   "command": "EVENT_GROUP",
                   "args": {
                     "__label": "DEACTIVATE SELF",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -234,5 +234,5 @@
   "coordinateType": "tiles",
   "x": 53,
   "y": 14,
-  "_index": 5
+  "_index": 2
 }

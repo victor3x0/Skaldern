@@ -1,0 +1,155 @@
+{
+  "_resourceType": "sprite",
+  "id": "dd284244-211b-4adc-95c2-bb9774c16761",
+  "name": "BEACH/Beach_Rock",
+  "symbol": "sprite_beach_beach_rock",
+  "states": [
+    {
+      "id": "7ece448b-8e81-4824-9d48-8c86156472cd",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "b4f42256-1675-46d0-98ae-18013effdc2c",
+          "frames": [
+            {
+              "id": "67682dde-e845-4348-a6ef-75c4d3369889",
+              "tiles": [
+                {
+                  "id": "41eed930-9708-4cee-9996-7086e97aec3b",
+                  "x": 0,
+                  "y": 8,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "c21c869b-f2fd-4c05-a0be-d69bbf421566",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "084b616b-3ce8-4b07-b5c9-9c9b253332bc",
+                  "x": 8,
+                  "y": 8,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "cea3c7d4-6615-4579-8a7f-20f60ce5543a",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2e786013-8c7a-4fb8-8024-f4102bf37d82",
+          "frames": [
+            {
+              "id": "86c2d998-f2d6-4237-8cef-fc281a2547cf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a491c7fa-fb37-471b-95c4-623be4d050fd",
+          "frames": [
+            {
+              "id": "40f66058-2f2e-4e6d-86c7-01748a846822",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "20d6eb33-f50d-4253-a848-bf64b5b9b05b",
+          "frames": [
+            {
+              "id": "7c3970b1-a1c7-4b9d-a8c9-029fb29a926f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4ce0c2b2-84e4-4846-9b41-edaef14a6ee1",
+          "frames": [
+            {
+              "id": "cff32c5e-f372-4084-86ac-c62de057c810",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "26223f51-222b-4bc3-841e-9970a87d50f6",
+          "frames": [
+            {
+              "id": "bb650ca8-23b0-4a64-80b2-3cdf3c21e248",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "856a9ae7-17a2-43ae-a9fc-396920c2d1f4",
+          "frames": [
+            {
+              "id": "628b464e-c342-4d8f-851e-66172b53839d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1ee7dbda-9825-4326-9661-083294e53f9d",
+          "frames": [
+            {
+              "id": "3daa5053-9754-448c-bd5a-4af4b8253137",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "BEACH/Beach_Rock.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "5c17df9295ec448b19d6e24569bb28e84d70c8e3"
+}

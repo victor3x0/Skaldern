@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "24e8ed8b-b897-43cd-b461-9a36483ecd6a",
-  "name": "Poulpeux",
+  "id": "673eef99-7491-45ec-80db-5c56f1fed423",
+  "name": "Vieillard",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "0091f8c6-fa5b-45c2-9234-daae3f420aed",
+  "spriteSheetId": "8cf93010-953c-48dc-9e0f-87750f7e1d70",
   "prefabId": "",
-  "direction": "right",
+  "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,14 +15,14 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_67",
+  "symbol": "actor_54",
   "script": [
     {
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
         "__collapse": true
       },
-      "id": "eb9e95aa-be7f-4683-a4f1-c56bdb07999c"
+      "id": "f339738c-7ee7-4b74-a5fb-6540b478f80d"
     },
     {
       "command": "EVENT_IF",
@@ -43,23 +43,15 @@
           {
             "command": "EVENT_ACTOR_SHOW",
             "args": {
-              "actorId": "3bb52ae5-0bad-4a8b-acee-955d0346b607",
+              "actorId": "133b8ebb-2bee-418b-946c-8745e89aefdf",
               "__collapse": true
             },
-            "id": "1ce03a70-1892-4e6f-bb61-5d04c7d8fb85"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "6164fee2-8a96-430a-8342-23f92b9ab80e",
-              "__collapse": true
-            },
-            "id": "da203ccb-49e5-4556-9d3a-b06da570ddc3"
+            "id": "93ee640c-4566-440b-925e-571a80aeecdb"
           },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "124a5738-53e8-402f-91e5-af0f7163f3e0",
+              "sceneId": "126d286f-8d3f-48c1-b7b6-93eff3fdf95f",
               "x": {
                 "type": "number",
                 "value": 0
@@ -72,12 +64,12 @@
               "fadeSpeed": "2",
               "__collapse": true
             },
-            "id": "40b41e2f-20c1-43eb-b83e-22f543ec38c9"
+            "id": "39763f55-97e4-441a-8b33-bdca939cd844"
           }
         ],
         "false": []
       },
-      "id": "0493877b-7c5f-4a1a-9c45-bbab535efd23"
+      "id": "042906e2-950b-4d1d-a3a5-69c18230a0f7"
     }
   ],
   "startScript": [],
@@ -86,7 +78,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 14,
-  "y": 12,
-  "_index": 4
+  "x": 58,
+  "y": 18,
+  "_index": 10
 }

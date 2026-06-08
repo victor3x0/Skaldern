@@ -159,7 +159,7 @@
                 {
                   "id": "5a8019bb-466d-454f-aaa5-a7a68d5e7f62",
                   "x": 1,
-                  "y": 1,
+                  "y": 0,
                   "sliceX": 16,
                   "sliceY": 0,
                   "palette": 0,
@@ -664,5 +664,5 @@
   "filename": "BEACH/Compteur.png",
   "width": 32,
   "height": 24,
-  "checksum": "253895bd390bf3ac7218b0b2bec2a04e80a1b86f"
+  "checksum": "4d91529e652fea7e77fb2bb38c03d1c0a2e2bc3b"
 }

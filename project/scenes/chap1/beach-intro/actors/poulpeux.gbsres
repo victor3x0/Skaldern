@@ -36,18 +36,10 @@
         },
         "__collapseElse": true,
         "__disableElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
-          {
-            "command": "EVENT_ACTOR_SHOW",
-            "args": {
-              "actorId": "3bb52ae5-0bad-4a8b-acee-955d0346b607",
-              "__collapse": true
-            },
-            "id": "4252782d-a3f4-47bc-8f4c-cafe3c3a5f9d"
-          },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
@@ -80,5 +72,5 @@
   "coordinateType": "tiles",
   "x": 30,
   "y": 14,
-  "_index": 1
+  "_index": 0
 }

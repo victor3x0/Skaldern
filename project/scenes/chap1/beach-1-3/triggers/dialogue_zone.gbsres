@@ -3,8 +3,8 @@
   "id": "90225737-e94f-4837-a3f2-efe6a3731b9f",
   "name": "Dialogue Zone",
   "prefabId": "",
-  "x": 12,
-  "y": 9,
+  "x": 11,
+  "y": 8,
   "symbol": "trigger_3",
   "prefabScriptOverrides": {},
   "width": 8,
@@ -40,7 +40,7 @@
           "type": "direction",
           "value": "right"
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "26f5460d-82d8-4ea2-a71d-209a089f9322"
     },

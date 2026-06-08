@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "126d286f-8d3f-48c1-b7b6-93eff3fdf95f",
   "_index": 13,
-  "name": "Dialogue Poulpeux 2",
+  "name": "Dialogue Vieillard",
   "backgroundId": "8a2c3b8f-20b9-4895-81cb-2b9faaefc307",
   "tilesetId": "",
   "width": 20,
@@ -21,8 +21,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Heyo moussaillon\nheureux de te voir \ndebout",
-          "Bienvenue sur \nl'île, mon cher \nSkaldern !"
+          "Oh ! Un squelette !"
         ],
         "__section": "text",
         "avatarId": "",
@@ -48,10 +47,11 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Morgana m'a prévenu \nde ton arrivée.\n",
-          "C'est elle qui t'a\nremis sur pied, si\nl'on peut dire"
+          "J'en ai vu des \nchoses depuis qu'je \nsuis à la retraite,\n",
+          "mais un squelette \npirate, sur ma \nplage,\n",
+          "c'est une première!"
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -72,13 +72,30 @@
       "id": "1b852383-948b-4ac7-8324-bbae05ecd9f1"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "1af2a630-f32f-42c6-97f6-ad9daaa6f769"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Tu lui dois \nbeaucoup.Beaucoup,",
-          "Beaucoup d'argent\nsurtout."
+          "Enfin bon.",
+          "Si vous cherchez des\ncoquillages, \nsachez qu'ils sont \nprotégés ici.",
+          "Espèce classée \nzone B depuis 1987.",
+          "J'ai les papiers,\nsi vous voulez."
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -99,27 +116,13 @@
       "id": "6afacf96-f5ba-4bd0-90b0-4b18826aa68a"
     },
     {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 0.2
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapse": true
-      },
-      "id": "1af2a630-f32f-42c6-97f6-ad9daaa6f769"
-    },
-    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Mais passons ! \n",
-          "Tu veux retrouver \nBarbe Noir, non ?",
-          "Il faut commencer \nquelque part."
+          "Et la plage \nelle-même est \nnon-constructible.\n",
+          "Morgana Resort \nou pas !",
+          "personne ne \nconstruit ici.",
+          "J'ai déjà gagné \ntrois procès \nlà-dessus."
         ],
         "__section": "text",
         "avatarId": "",
@@ -145,9 +148,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Cette plage est \ncouverte de\ncoquillages.",
-          "Ces petites bêtes \nsont inutiles, et \ntrès désagréable",
-          "pour ma voûte\nplantaire délicate."
+          "Bonne journée\nà vous !",
+          "Profitez du soleil"
         ],
         "__section": "text",
         "avatarId": "",
@@ -170,39 +172,26 @@
       "id": "6c74dcf2-0810-4f58-95a2-2e64071316d6"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_WAIT",
       "args": {
-        "text": [
-          "Débarrasse-m'en, \net je t'ouvre \nla caverne.",
-          "Elle est plus loin\nsur la plage",
-          "Dix suffiront.\nCompte bien."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 0,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": false,
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "any",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
+        "time": {
+          "type": "number",
+          "value": 0.2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
         "__collapse": true
       },
-      "id": "ece68ebb-1074-41bf-8676-70778c0d1b7f"
+      "id": "5a3c9fc8-c18f-472a-a725-9e1aa428e618"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Tu risque de tomber\nsur un vieux\ngeignard sur la \nroute.",
-          "Ignore-le, c'est\nun idiot."
+          "enfin... ",
+          "façon de parler\ndans votre cas."
         ],
         "__section": "text",
         "avatarId": "",
@@ -222,7 +211,7 @@
         "closeDelayFrames": 30,
         "__collapse": true
       },
-      "id": "dc5045e8-72f4-4bef-8943-f64cee3e83a6"
+      "id": "051af4c4-04c8-4401-888b-db004bfc1c88"
     },
     {
       "command": "EVENT_WAIT",
